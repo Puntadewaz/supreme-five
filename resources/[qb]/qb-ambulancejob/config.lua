@@ -4,7 +4,7 @@ Config.MinimalDoctors = 2                                    -- How many players
 Config.DocCooldown = 1                                       -- Cooldown between doctor calls allowed, in minutes
 Config.WipeInventoryOnRespawn = true                         -- Enable or disable removing all the players items when they respawn at the hospital
 Config.Helicopter = 'polmav'                                 -- Helicopter model that players with the ambulance job can use
-Config.BillCost = 2000                                       -- Price that players are charged for using the hospital check-in system
+Config.BillCost = 20000                                      -- Price that players are charged for using the hospital check-in system
 Config.DeathTime = 300                                       -- How long the timer is for players to bleed out completely and respawn at the hospital
 Config.ReviveInterval = 360                                  -- How long the timer is for players to revive a player in laststand
 Config.MinimumRevive = 300                                   -- How long the timer is for players to revive a player in laststand
@@ -96,15 +96,15 @@ Config.Locations = {                -- Edit the various interaction points for p
                 { coords = vector4(326.98, -576.17, 43.02, 152.08), taken = false, model = -1091386327 },
             },
         },
-        {
-            ['name'] = Lang:t('info.paleto_hospital'),
-            ['location'] = vector3(-254.54, 6331.78, 32.43),
-            ['beds'] = {
-                { coords = vector4(-252.43, 6312.25, 32.34, 313.48), taken = false, model = 2117668672 },
-                { coords = vector4(-247.04, 6317.95, 32.34, 134.64), taken = false, model = 2117668672 },
-                { coords = vector4(-255.98, 6315.67, 32.34, 313.91), taken = false, model = 2117668672 },
-            },
-        },
+        -- {
+        --     ['name'] = Lang:t('info.paleto_hospital'),
+        --     ['location'] = vector3(-254.54, 6331.78, 32.43),
+        --     ['beds'] = {
+        --         { coords = vector4(-252.43, 6312.25, 32.34, 313.48), taken = false, model = 2117668672 },
+        --         { coords = vector4(-247.04, 6317.95, 32.34, 134.64), taken = false, model = 2117668672 },
+        --         { coords = vector4(-255.98, 6315.67, 32.34, 313.91), taken = false, model = 2117668672 },
+        --     },
+        -- },
     },
     ['stations'] = {
         { label = Lang:t('info.pb_hospital'), coords = vector3(304.27, -600.33, 43.28) }

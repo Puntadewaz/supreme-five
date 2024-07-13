@@ -2,7 +2,7 @@ local PlayerInjuries = {}
 local PlayerWeaponWounds = {}
 local QBCore = exports['qb-core']:GetCoreObject()
 local doctorCount = 0
-local doctorCalled = false
+local doctorCalled = true
 local Doctors = {}
 
 -- Events

@@ -1,5 +1,5 @@
 local PlayerJob = {}
-local onDuty = false
+local onDuty = true
 local currentGarage = 0
 local currentHospital
 
