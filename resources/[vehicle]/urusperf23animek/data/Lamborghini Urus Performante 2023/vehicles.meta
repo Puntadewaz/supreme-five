@@ -5,10 +5,10 @@
   <InitDatas>
     
     <Item>
-      <modelName>urusperf23</modelName>
-      <txdName>urusperf23</txdName>
-      <handlingId>urusperf23</handlingId>
-      <gameName>urusperf23</gameName>
+      <modelName>urusperf23animek</modelName>
+      <txdName>urusperf23animek</txdName>
+      <handlingId>urusperf23animek</handlingId>
+      <gameName>urusperf23animek</gameName>
       <vehicleMakeName>Lamborghini</vehicleMakeName>
       <expressionDictName>null</expressionDictName>
       <expressionName>null</expressionName>
