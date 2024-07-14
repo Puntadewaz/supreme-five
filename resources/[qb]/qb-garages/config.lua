@@ -4,7 +4,7 @@ Config.VisuallyDamageCars = true   -- true == damage car on spawn | false == no 
 Config.SharedGarages = false       -- true == take any car from any garage | false == only take car from garage stored in
 Config.ClassSystem = false         -- true == restrict vehicles by class | false == any vehicle class in any garage
 Config.FuelResource = 'LegacyFuel' -- supports any that has a GetFuel() and SetFuel() export
-Config.Warp = true                 -- true == warp player into vehicle | false == vehicle spawns without warping
+Config.Warp = false                 -- true == warp player into vehicle | false == vehicle spawns without warping
 
 -- https://docs.fivem.net/natives/?_0x29439776AAA00A62
 Config.VehicleClass = {
@@ -200,7 +200,7 @@ Config.Garages = {
     },
     emsgarage = {
         label = 'EMS Garage Parking',
-        takeVehicle = vector3(295.86, -607.49, 43.33),
+        takeVehicle = vector3(293.45, -611.8, 43.38),
         spawnPoint = {
             vector4(297.13, -604.93, 43.32, 55.31),
             vector4(296.04, -607.27, 43.33, 56.61),
@@ -210,7 +210,7 @@ Config.Garages = {
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
-        type = 'public',
+        type = 'ems',
         category = Config.VehicleClass['car']
     },
     policegarage = {
@@ -225,7 +225,7 @@ Config.Garages = {
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
-        type = 'public',
+        type = 'police',
         category = Config.VehicleClass['car']
     },
     pillboxgarage = {

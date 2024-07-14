@@ -136,9 +136,9 @@ Config.Products = {
     },
     ['ambulance'] = {
         -- { name = 'radio',                   price = 0, amount = 50 },
-        { name = 'bandage',                 price = 0, amount = 1 },
-        { name = 'painkillers',             price = 0, amount = 1 },
-        { name = 'firstaid',                price = 0, amount = 1 },
+        { name = 'bandage',                 price = 0, amount = 999999 },
+        { name = 'painkillers',             price = 0, amount = 999999 },
+        { name = 'firstaid',                price = 0, amount = 999999 },
         -- { name = 'weapon_flashlight',       price = 0, amount = 50 },
         -- { name = 'weapon_fireextinguisher', price = 0, amount = 50 },
     },

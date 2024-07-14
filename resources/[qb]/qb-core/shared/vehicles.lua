@@ -484,7 +484,7 @@ local Vehicles = {
     { model = 'bfinjection',     name = 'Bf Injection',                  brand = 'Annis',           price = 9000,    category = 'offroad',        type = 'automobile', shop = 'pdm' },
     { model = 'bifta',           name = 'Bifta',                         brand = 'Annis',           price = 15500,   category = 'offroad',        type = 'automobile', shop = 'pdm' },
     { model = 'blazer',          name = 'Blazer',                        brand = 'Annis',           price = 7500,    category = 'offroad',        type = 'automobile', shop = 'pdm' },
-    { model = 'blazer2',         name = 'Blazer Lifeguard',              brand = 'Nagasaki',        price = 7000,    category = 'offroad',        type = 'automobile', shop = 'pdm' },
+    
     { model = 'blazer3',         name = 'Blazer Hot Rod',                brand = 'Nagasaki',        price = 7000,    category = 'offroad',        type = 'automobile', shop = 'pdm' },
     { model = 'blazer4',         name = 'Blazer Sport',                  brand = 'Annis',           price = 9250,    category = 'offroad',        type = 'automobile', shop = 'pdm' },
     { model = 'blazer5',         name = 'Blazer Aqua',                   brand = 'Nagasaki',        price = 40000,   category = 'offroad',        type = 'automobile', shop = 'pdm' },
@@ -720,10 +720,7 @@ local Vehicles = {
     { model = 'policet',         name = 'Police Transporter',            brand = 'Vapid',           price = 110000,  category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'policeb',         name = 'Police Bike',                   brand = 'Vapid',           price = 110000,  category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'polmav',          name = 'Police Maverick',               brand = 'Buckingham',      price = 110000,  category = 'emergency',      type = 'automobile', shop = 'none' },
-    { model = 'ambulance',       name = 'Ambulance',                     brand = 'Brute',           price = 110000,  category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'firetruk',        name = 'Fire Truck',                    brand = 'MTL',             price = 110000,  category = 'emergency',      type = 'automobile', shop = 'none' },
-    { model = 'lguard',          name = 'Lifeguard',                     brand = 'Declasse',        price = 110000,  category = 'emergency',      type = 'automobile', shop = 'none' },
-    { model = 'seashark2',       name = 'Seashark Lifeguard',            brand = 'Speedophile',     price = 40000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'pranger',         name = 'Park Ranger',                   brand = 'Declasse',        price = 40000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'fbi',             name = 'FIB Buffalo',                   brand = 'Bravado',         price = 40000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'fbi2',            name = 'FIB Granger',                   brand = 'Declasse',        price = 40000,   category = 'emergency',      type = 'automobile', shop = 'none' },
@@ -736,6 +733,11 @@ local Vehicles = {
     { model = 'policet3',        name = 'Burrito (Bail Enforcement)',    brand = 'Declasse',        price = 60000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'polgreenwood',    name = 'Greenwood Cruiser',             brand = 'Bravado',         price = 80000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'poldorado',       name = 'Dorado Cruiser',                brand = 'Vapid',           price = 80000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    --- EMS (1)
+    { model = 'ambulance',       name = 'Ambulance',                     brand = 'Brute',           price = 0,  category = 'ems',      type = 'automobile', shop = 'none' },
+    { model = 'blazer2',         name = 'Blazer Lifeguard',              brand = 'Nagasaki',        price = 0,    category = 'ems',        type = 'automobile', shop = 'none' },
+    { model = 'lguard',          name = 'Lifeguard',                     brand = 'Declasse',        price = 0,  category = 'ems',      type = 'automobile', shop = 'none' },
+    { model = 'seashark2',       name = 'Seashark Lifeguard',            brand = 'Speedophile',     price = 0,   category = 'ems',      type = 'automobile', shop = 'none' },
     --- Military (19)
     { model = 'vetir',           name = 'Vetir',                         brand = 'Unknown',         price = 100000,  category = 'military',       type = 'automobile', shop = 'none' },
     { model = 'kosatka',         name = 'Kosatka',                       brand = 'Rune',            price = 100000,  category = 'military',       type = 'automobile', shop = 'none' },
