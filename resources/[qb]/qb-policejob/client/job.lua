@@ -1,14 +1,14 @@
 -- Variables
 local currentGarage = 0
-local inFingerprint = false
+local inFingerprint = true
 local FingerPrintSessionId = nil
-local inStash = false
-local inTrash = false
-local inArmoury = false
-local inHelicopter = false
-local inImpound = false
-local inGarage = false
-local inEvidence = false
+local inStash = true
+local inTrash = true
+local inArmoury = true
+local inHelicopter = true
+local inImpound = true
+local inGarage = true
+local inEvidence = true
 
 local function loadAnimDict(dict) -- interactions, job,
     while (not HasAnimDictLoaded(dict)) do

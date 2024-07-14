@@ -15,7 +15,7 @@ QBShared.Jobs = {
 	police = {
 		label = 'Police',
 		type = 'police',
-		defaultDuty = true,
+		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
 			['0'] = { name = 'Recruit', payment = 5000 },
@@ -28,7 +28,7 @@ QBShared.Jobs = {
 	ambulance = {
 		label = 'EMS',
 		type = 'ems',
-		defaultDuty = true,
+		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
 			['0'] = { name = 'Recruit', payment = 5000 },
@@ -64,7 +64,8 @@ QBShared.Jobs = {
 	-- },
 	cardealer = {
 		label = 'Dealer',
-		defaultDuty = true,
+		type = 'dealer',
+		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
 			['0'] = { name = 'Recruit', payment = 5000 },
@@ -77,7 +78,7 @@ QBShared.Jobs = {
 	mechanic = {
 		label = 'Mekanik',
 		type = 'mechanic',
-		defaultDuty = true,
+		defaultDuty = false,
 		offDutyPay = false,
 		grades = {
 			['0'] = { name = 'Recruit', payment = 5000 },
