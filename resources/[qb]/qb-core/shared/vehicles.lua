@@ -423,7 +423,7 @@ local Vehicles = {
     { model = 'bmwm8',      name = 'M8 Coupe',            brand = 'BMW',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'urusperf23',      name = 'Urus',            brand = 'Lamborghini',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'huayrar',      name = 'Huayra',            brand = 'Pagani',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
-    { model = 'Globbing Mode',      name = 'Ambulance',            brand = 'Ford',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
+    { model = 'globbingmode',      name = 'Ambulance',            brand = 'Ford',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     --- Motorcycles (8)
     { model = 'akuma',           name = 'Akuma',                         brand = 'Dinka',           price = 55000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'avarus',          name = 'Avarus',                        brand = 'LCC',             price = 20000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
