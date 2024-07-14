@@ -145,7 +145,7 @@ end
 -- Events
 
 RegisterNetEvent('consumables:client:Eat', function(itemName)
-    QBCore.Functions.Progressbar('eat_something', Lang:t('consumables.eat_progress'), 5000, false, true, {
+    QBCore.Functions.Progressbar('eat_something', Lang:t('consumables.eat_progress'), 3000, false, true, {
         disableMovement = false,
         disableCarMovement = false,
         disableMouse = false,
@@ -167,7 +167,7 @@ RegisterNetEvent('consumables:client:Eat', function(itemName)
 end)
 
 RegisterNetEvent('consumables:client:Drink', function(itemName)
-    QBCore.Functions.Progressbar('drink_something', Lang:t('consumables.drink_progress'), 5000, false, true, {
+    QBCore.Functions.Progressbar('drink_something', Lang:t('consumables.drink_progress'), 3000, false, true, {
         disableMovement = false,
         disableCarMovement = false,
         disableMouse = false,
@@ -188,7 +188,7 @@ RegisterNetEvent('consumables:client:Drink', function(itemName)
 end)
 
 RegisterNetEvent('consumables:client:DrinkAlcohol', function(itemName)
-    QBCore.Functions.Progressbar('drink_alcohol', Lang:t('consumables.liqour_progress'), math.random(3000, 6000), false, true, {
+    QBCore.Functions.Progressbar('drink_alcohol', Lang:t('consumables.liqour_progress'), 5000, false, true, {
         disableMovement = false,
         disableCarMovement = false,
         disableMouse = false,

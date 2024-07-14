@@ -419,6 +419,7 @@ local Vehicles = {
     { model = 'redeye',      name = 'Challenger',            brand = 'Dodge',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     -- { model = 'fordvoodoo',      name = 'Fordvoodoo',            brand = 'Fordvoodoo',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'chiron_kpym',      name = 'Chiron_kpym',            brand = 'Chiron_kpym',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
+    { model = '19Raptor',      name = 'Raptor',            brand = 'Ford',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     --- Motorcycles (8)
     { model = 'akuma',           name = 'Akuma',                         brand = 'Dinka',           price = 55000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'avarus',          name = 'Avarus',                        brand = 'LCC',             price = 20000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },

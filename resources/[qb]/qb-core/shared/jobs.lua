@@ -3,14 +3,14 @@ QBShared.ForceJobDefaultDutyAtLogin = true -- true: Force duty state to jobdefau
 QBShared.Jobs = {
 	unemployed = { label = 'Civilian', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Freelancer', payment = 2000 } } },
 	bus = { label = 'Bus', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 5000 } } },
-	judge = { label = 'Honorary', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Judge', payment = 10000 } } },
-	lawyer = { label = 'Law Firm', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Associate', payment = 5000 } } },
-	reporter = { label = 'Reporter', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Journalist', payment = 5000 } } },
-	trucker = { label = 'Trucker', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 5000 } } },
-	tow = { label = 'Towing', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 5000 } } },
+	-- judge = { label = 'Honorary', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Judge', payment = 10000 } } },
+	-- lawyer = { label = 'Law Firm', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Associate', payment = 5000 } } },
+	-- reporter = { label = 'Reporter', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Journalist', payment = 5000 } } },
+	-- trucker = { label = 'Trucker', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 5000 } } },
+	-- tow = { label = 'Towing', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 5000 } } },
 	garbage = { label = 'Garbage', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Collector', payment = 5000 } } },
 	-- vineyard = { label = 'Vineyard', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Picker', payment = 5000 } } },
-	hotdog = { label = 'Hotdog', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Sales', payment = 5000 } } },
+	-- hotdog = { label = 'Hotdog', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Sales', payment = 5000 } } },
 
 	police = {
 		label = 'Police',
@@ -63,7 +63,7 @@ QBShared.Jobs = {
 	-- 	},
 	-- },
 	cardealer = {
-		label = 'Vehicle Dealer',
+		label = 'Dealer',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -75,7 +75,7 @@ QBShared.Jobs = {
 		},
 	},
 	mechanic = {
-		label = 'LS Customs',
+		label = 'Mekanik',
 		type = 'mechanic',
 		defaultDuty = true,
 		offDutyPay = false,

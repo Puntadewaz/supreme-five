@@ -1,38 +1,16 @@
-# qb-ambulancejob
-EMS Job and Death/Wound Logic for QB-Core Framework :ambulance:
+# Mythic Hostpial
+This is a lightweight hosptial & limb damage resource. This was largely done as an experiment so some of it is rough around the edges.
 
-## Dependencies
-- [qb-core](https://github.com/qbcore-framework/qb-core) (Required)
-- [qb-phone](https://github.com/qbcore-framework/qb-phone) (Required)
-- [qb-target](https://github.com/BerkieBb/qb-target) (Optional)
-- [PolyZone](https://github.com/mkafrin/PolyZone) (Required)
+![Mythic Hospital Resource Usage](https://i.imgur.com/kZhUzw8.png)
+![Mythic Hospital Check-In](https://i.imgur.com/y8VSWkQ.jpg)
+![Mythic Hospital Lay In Bed](https://i.imgur.com/Hh5OvTz.jpg)
 
-# Server.cfg Convar Update
-- Global DrawTextUi Option
-```
-setr UseTarget false
-``` 
-
-- Global Target Option
-```
-setr UseTarget true
-```
+Dependencies :
+- [Mythic Notify](https://github.com/mythicrp/mythic_notify)
+- [Mythic Progress Bar](https://github.com/mythicrp/mythic_progbar)
+- [Pillbox Interior](https://forum.fivem.net/t/release-pillbox-hospital-by-jobscraft/209288)
 
 
-# License
+> NOTE: While I have removed my framework base as a dependency, there are some aspects of this that due not work because of that. As such it'd be on you to implement. Need to add things like billing taking money from the player, syncing injuries in database to they're persistent, adding usable items for the various effects, etc.
 
-    QBCore Framework
-    Copyright (C) 2021 Joshua Eger
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>
+> EXTRA NOTE: This has functions for using /bed for RP purposes, but does require you to add your own command for it (As I'm using my chat resource). Just simply register a command that has TriggerClientEvent('mythic_hospital:client:RPCheckPos', source)
