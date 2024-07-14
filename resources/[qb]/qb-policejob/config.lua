@@ -18,11 +18,11 @@ Config.AmmoLabels = {
 }
 
 Config.Objects = {
-    cone = { model = `prop_roadcone02a`, freeze = false },
-    barrier = { model = `prop_barrier_work06a`, freeze = true },
-    roadsign = { model = `prop_snow_sign_road_06g`, freeze = true },
-    tent = { model = `prop_gazebo_03`, freeze = true },
-    light = { model = `prop_worklight_03b`, freeze = true },
+    cone = { model = 'prop_roadcone02a', freeze = false },
+    barrier = { model = 'prop_barrier_work06a', freeze = true },
+    roadsign = { model = 'prop_snow_sign_road_06g', freeze = true },
+    tent = { model = 'prop_gazebo_03', freeze = true },
+    light = { model = 'prop_worklight_03b', freeze = true },
 }
 
 Config.Locations = {
@@ -31,7 +31,7 @@ Config.Locations = {
         -- vector3(-449.811, 6012.909, 31.815),
     },
     vehicle = {
-        vector4(449.04, -1019.44, 28.5, 106.39),
+        vector4(448.21, -1021.21, 28.44, 91.46),
         -- vector4(471.13, -1024.05, 28.17, 274.5),
         -- vector4(-455.39, 6002.02, 31.34, 87.93),
     },
