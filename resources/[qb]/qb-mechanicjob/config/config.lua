@@ -38,9 +38,12 @@ Config.Shops = {
         blipSprite = 72,
         blipColor = 46,
         blipCoords = vector3(-346.02, -130.68, 39.02),
-        duty = vector3(-348.18, -134.55, 39.59),
-        stash = vector3(-346.02, -130.68, 39.02),
-        paint = vector3(-324.11, -147.11, 39.10),
+        duty = vector3(-346.1, -113.53, 39.01),
+        stash = vector3(-318.53, -123.13, 39.01),
+        paint = {
+            vector3(-324.11, -147.11, 39.10),
+            vector3(-328.17, -146.52, 39.01)
+        },
         vehicles = {
             withdraw = vector3(-369.30, -104.75, 38.38),
             spawn = vector4(-369.65, -107.8, 38.65, 70.52),

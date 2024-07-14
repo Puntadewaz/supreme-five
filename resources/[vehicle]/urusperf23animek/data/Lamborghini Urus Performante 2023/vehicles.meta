@@ -129,7 +129,7 @@
   <txdRelationships>
     <Item>
       <parent>vehicles_fmj_interior</parent>
-      <child>urusperf23</child>
+      <child>urusperf23animek</child>
     </Item>
   </txdRelationships>
 </CVehicleModelInfo__InitDataList>

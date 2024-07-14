@@ -3,7 +3,7 @@
 <CHandlingDataMgr>
   <HandlingData>
     <Item type="CHandlingData">
-      <handlingName>urusperf23</handlingName>
+      <handlingName>urusperf23animek</handlingName>
       <fMass value="2200.000000" />
       <fInitialDragCoeff value="9.000000" />
       <fPercentSubmerged value="85.000000" />

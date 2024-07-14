@@ -3,12 +3,12 @@
 
   <Kits>
     <Item>
-      <kitName>1257_urusperf23_modkit</kitName>
+      <kitName>1257_urusperf23animek_modkit</kitName>
       <id value="1257" />
       <kitType>MKT_SPECIAL</kitType>
       <visibleMods>
         <Item>
-          <modelName>urusperf23_bonnet_a</modelName>
+          <modelName>urusperf23animek_bonnet_a</modelName>
           <modShopLabel>Custom Bonnet</modShopLabel>
           <linkedModels />
           <turnOffBones>
@@ -25,7 +25,7 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>urusperf23_bump_f_a</modelName>
+          <modelName>urusperf23animek_bump_f_a</modelName>
           <modShopLabel>Custom Bonnet</modShopLabel>
           <linkedModels />
           <turnOffBones>
@@ -42,7 +42,7 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>urusperf23_exhaust_a</modelName>
+          <modelName>urusperf23animek_exhaust_a</modelName>
           <modShopLabel>Custom Exhausts</modShopLabel>
           <linkedModels />
           <turnOffBones>
@@ -59,7 +59,7 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>urusperf23_exhaust_b</modelName>
+          <modelName>urusperf23animek_exhaust_b</modelName>
           <modShopLabel>Custom Exhausts</modShopLabel>
           <linkedModels />
           <turnOffBones>
@@ -76,7 +76,7 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>urusperf23_exhaust_c</modelName>
+          <modelName>urusperf23animek_exhaust_c</modelName>
           <modShopLabel>Custom Exhausts</modShopLabel>
           <linkedModels />
           <turnOffBones>
@@ -93,7 +93,7 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>urusperf23_splitter_a</modelName>
+          <modelName>urusperf23animek_splitter_a</modelName>
           <modShopLabel>Custom Splitter</modShopLabel>
           <turnOffBones />
           <type>VMT_WING_L</type>
@@ -107,7 +107,7 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>urusperf23_spoiler_a</modelName>
+          <modelName>urusperf23animek_spoiler_a</modelName>
           <modShopLabel>Custom Spoiler</modShopLabel>
           <turnOffBones />
           <type>VMT_SPOILER</type>
@@ -121,7 +121,7 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>urusperf23_spoiler_b</modelName>
+          <modelName>urusperf23animek_spoiler_b</modelName>
           <modShopLabel>Custom Spoiler</modShopLabel>
           <turnOffBones />
           <type>VMT_SPOILER</type>
@@ -135,7 +135,7 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>urusperf23_roof_a</modelName>
+          <modelName>urusperf23animek_roof_a</modelName>
           <modShopLabel>Painted Roof</modShopLabel>
           <turnOffBones>
             <Item>misc_j</Item>

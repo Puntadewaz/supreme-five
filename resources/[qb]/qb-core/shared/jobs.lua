@@ -64,7 +64,6 @@ QBShared.Jobs = {
 	-- },
 	cardealer = {
 		label = 'Dealer',
-		type = 'dealer',
 		defaultDuty = false,
 		offDutyPay = false,
 		grades = {

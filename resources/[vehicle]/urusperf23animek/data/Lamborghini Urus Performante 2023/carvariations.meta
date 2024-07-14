@@ -3,7 +3,7 @@
 <CVehicleModelInfoVariation>
   <variationData> 
     <Item>
-      <modelName>urusperf23</modelName>
+      <modelName>urusperf23animek</modelName>
       <colors>
         <Item>
           <indices content="char_array">
@@ -217,7 +217,7 @@
         </Item>
       </colors>
       <kits>
-        <Item>1257_urusperf23_modkit</Item>
+        <Item>1257_urusperf23animek_modkit</Item>
       </kits>
       <windowsWithExposedEdges/>
       <plateProbabilities>
