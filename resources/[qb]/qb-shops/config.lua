@@ -163,6 +163,19 @@ Config.Products = {
         { name = 'advancedrepairkit', price = 150, amount = 1 },
         { name = 'tirerepairkit',     price = 150, amount = 1 },
     }
+    ['cafe'] = {
+        { name = 'milk',              price = 150, amount = 1 },
+        { name = 'water',             price = 150, amount = 1 },
+        { name = 'tea',               price = 150, amount = 1 },
+        { name = 'fish',              price = 150, amount = 1 },
+        { name = 'chicken',           price = 150, amount = 1 },
+        { name = 'salt',              price = 150, amount = 1 },
+        { name = 'sugar',             price = 150, amount = 1 },
+        { name = 'ketchup',           price = 150, amount = 1 },
+        { name = 'kecap',             price = 150, amount = 1 },
+        { name = 'udang',             price = 150, amount = 1 },
+        { name = 'lemon',             price = 150, amount = 1 },
+    }
 }
 
 Config.Locations = {
@@ -759,7 +772,7 @@ Config.Locations = {
         ['scenario'] = 'WORLD_HUMAN_COP_IDLES',
         ['radius'] = 1.5,
         ['targetIcon'] = 'fas fa-gun',
-        ['targetLabel'] = 'Open Armory',
+        ['targetLabel'] = 'Open Shop',
         ['products'] = Config.Products['police'],
         ['delivery'] = vector4(459.0441, -1008.0366, 28.2627, 271.4695),
         ['requiredJob'] = 'police',
@@ -772,19 +785,32 @@ Config.Locations = {
         ['scenario'] = 'WORLD_HUMAN_STAND_MOBILE',
         ['radius'] = 1.5,
         ['targetIcon'] = 'fas fa-hand',
-        ['targetLabel'] = 'Open Armory',
+        ['targetLabel'] = 'Open Shop',
         ['products'] = Config.Products['ambulance'],
         ['delivery'] = vector4(283.5821, -614.8570, 43.3792, 159.2903),
-        ['requiredJob'] = 'ambulance'
+        ['requiredJob'] = 'ems'
     },
 
     ['mechanic'] = {
         ['label'] = 'Mechanic Shop',
+        ['radius'] = 1.5,
+        ['targetIcon'] = 'fas fa-wrench',
+        ['targetLabel'] = 'Open Shop',
         ['coords'] = vector4(509.07, -2992.52, 6.04, 90.91),
         ['products'] = Config.Products['mechanic'],
         ['delivery'] = vector4(509.07, -2992.52, 6.04, 90.91),
-        ['targetIcon'] = 'fas fa-wrench',
         ['requiredJob'] = 'mechanic',
+    },
+
+    ['cafe'] = {
+        ['label'] = 'Cafe Shop',
+        ['radius'] = 1.5,
+        ['targetIcon'] = 'fas fa-wrench',
+        ['targetLabel'] = 'Open Shop',
+        ['coords'] = vector4(51.28, -2480.03, 6.01, 229.68),
+        ['products'] = Config.Products['cafe'],
+        ['delivery'] = vector4(-593.71, -1068.79, 23.48, 201.17),
+        ['requiredJob'] = 'cafe',
     },
 
     -- ['mechanic2'] = {

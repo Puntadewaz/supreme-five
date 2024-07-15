@@ -51,19 +51,19 @@ QBShared.Jobs = {
 			['4'] = { name = 'Manager', isboss = true, payment = 15000 },
 		},
 	},
-	-- cafe = {
-	-- 	label = 'Cafe',
-	-- 	type = 'cafe',
-	-- 	defaultDuty = true,
-	-- 	offDutyPay = false,
-	-- 	grades = {
-	-- 		['0'] = { name = 'Recruit', payment = 5000 },
-	-- 		['1'] = { name = 'Waiter', payment = 7500 },
-	-- 		['2'] = { name = 'Server', payment = 10000 },
-	-- 		['3'] = { name = 'Chef', payment = 12500 },
-	-- 		['4'] = { name = 'Manager', isboss = true, payment = 15000 },
-	-- 	},
-	-- },
+	cafe = {
+		label = 'Cafe',
+		type = 'cafe',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Recruit', payment = 5000 },
+			['1'] = { name = 'Waiter', payment = 7500 },
+			['2'] = { name = 'Server', payment = 10000 },
+			['3'] = { name = 'Chef', payment = 12500 },
+			['4'] = { name = 'Manager', isboss = true, payment = 15000 },
+		},
+	},
 	cardealer = {
 		label = 'Dealer',
 		defaultDuty = true,
