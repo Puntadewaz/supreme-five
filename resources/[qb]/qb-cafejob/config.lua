@@ -16,6 +16,7 @@ Config.Locations = {                -- Edit the various interaction points for p
 
 Config.AuthorizedVehicles = { -- Grade is key, don't add same vehicle in multiple grades. Higher rank can see lower
     [0] = {
-        ['ambulance'] = 'Ambulance'
+        -- ['pizzaboy'] = 'Cafe Motor',
+        ['taco'] = 'Foodtruck'
     }
 }

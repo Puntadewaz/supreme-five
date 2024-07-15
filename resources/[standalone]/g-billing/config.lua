@@ -14,6 +14,7 @@ Config.PermittedJobs = {
     'realestate',
     'taxi',
     'cardealer',
+    'cafe',
     'police'
 }
 

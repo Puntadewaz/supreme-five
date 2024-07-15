@@ -105,4 +105,7 @@ QBShared.Locations = {
     digitalden = vector4(-656.28, -849.92, 24.51, 167.42),
     ifruitstore1 = vector4(-646.78, -288.17, 35.49, 297.73),
     ifruitstore2 = vector4(-778.7451, -598.2717, 30.2772, 181.0197)
+
+    -- Custom
+    cafe = vector4(-593.71, -1068.79, 23.48, 201.17),
 }

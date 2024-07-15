@@ -867,6 +867,13 @@ Config.JobInteractions = {
             event = 'police:client:SendPoliceEmergencyAlert',
             shouldClose = true
         }, {
+            id = 'billingpolice',
+            title = 'Billing',
+            icon = 'money-bill',
+            type = 'client',
+            event = 'g-billing:client:engageChooseBillViewMenu',
+            shouldClose = true
+        }, {
             id = 'checkvehstatus',
             title = 'Check Tune Status',
             icon = 'info-circle',
@@ -1003,6 +1010,13 @@ Config.JobInteractions = {
             event = 'hospital:client:CheckStatus',
             shouldClose = true
         },{
+            id = 'billingems',
+            title = 'Billing',
+            icon = 'money-bill',
+            type = 'client',
+            event = 'g-billing:client:engageChooseBillViewMenu',
+            shouldClose = true
+        },{
             id = 'revivep',
             title = 'Revive',
             icon = 'user-md',
@@ -1069,13 +1083,13 @@ Config.JobInteractions = {
             event = 'qb-taxi:client:enableMeter',
             shouldClose = true
         }, {
-            id = 'npc_mission',
-            title = 'NPC Mission',
-            icon = 'taxi',
+            id = 'billingtaxi',
+            title = 'Billing',
+            icon = 'money-bill',
             type = 'client',
-            event = 'qb-taxi:client:DoTaxiNpc',
+            event = 'g-billing:client:engageChooseBillViewMenu',
             shouldClose = true
-        }
+        },
     },
     ["tow"] = {
         {
@@ -1102,7 +1116,25 @@ Config.JobInteractions = {
             type = 'client',
             event = 'qb-tow:client:TowVehicle',
             shouldClose = true
-        }
+        },
+        {
+            id = 'billingmechanic',
+            title = 'Billing',
+            icon = 'money-bill',
+            type = 'client',
+            event = 'g-billing:client:engageChooseBillViewMenu',
+            shouldClose = true
+        },
+    },
+    ["cafe"] = {
+        {
+            id = 'billingcafe',
+            title = 'Billing',
+            icon = 'money-bill',
+            type = 'client',
+            event = 'g-billing:client:engageChooseBillViewMenu',
+            shouldClose = true
+        },
     },
     ["hotdog"] = {
         {

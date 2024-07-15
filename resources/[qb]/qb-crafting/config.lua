@@ -127,6 +127,74 @@ Config = {
             -- },
         }
     },
+    item_bench = {
+        object = `prop_kitch_pot_fry`,
+        xpType = 'cookingrep',
+        recipes = {
+            {
+                item = 'grilledchicken',
+                xpRequired = 0,
+                xpGain = 0,
+                requiredItems = {
+                    { item = 'chicken', amount = 1 },
+                    { item = 'salt',    amount = 2 },
+                    { item = 'lemon',    amount = 1 },
+                }
+            },
+            {
+                item = 'grilledfish',
+                xpRequired = 0,
+                xpGain = 0,
+                requiredItems = {
+                    { item = 'fish', amount = 1 },
+                    { item = 'salt',    amount = 2 },
+                    { item = 'kecap',    amount = 1 },
+                    { item = 'lemon',    amount = 1 },
+                }
+            },
+            {
+                item = 'seafoodsoup',
+                xpRequired = 0,
+                xpGain = 0,
+                requiredItems = {
+                    { item = 'fish', amount = 1 },
+                    { item = 'udang', amount = 5 },
+                    { item = 'salt',    amount = 2 },
+                    { item = 'sugar',    amount = 1 },
+                }
+            },
+            {
+                item = 'chickensoup',
+                xpRequired = 0,
+                xpGain = 0,
+                requiredItems = {
+                    { item = 'chicken', amount = 2 },
+                    { item = 'salt',    amount = 2 },
+                    { item = 'sugar',    amount = 1 },
+                }
+            },
+            {
+                item = 'lemontea',
+                xpRequired = 0,
+                xpGain = 0,
+                requiredItems = {
+                    { item = 'lemon', amount = 1 },
+                    { item = 'tea',    amount = 2 },
+                    { item = 'sugar',    amount = 1 },
+                }
+            },
+            {
+                item = 'milktea',
+                xpRequired = 0,
+                xpGain = 0,
+                requiredItems = {
+                    { item = 'milk', amount = 1 },
+                    { item = 'tea',    amount = 2 },
+                    { item = 'sugar',    amount = 1 },
+                }
+            },
+        }
+    },
     attachment_bench = {
         object = `prop_tool_bench02_ld`,
         xpType = 'attachmentcraftingrep',

@@ -162,7 +162,7 @@ local Cafe = {}
 -- 	end
 -- end)
 
-RegisterNetEvent('cafe:server:AddDoctor', function(job)
+RegisterNetEvent('cafe:server:AddCafe', function(job)
 	if job == 'cafe' then
 		local src = source
 		cafeCount = cafeCount + 1
@@ -171,7 +171,7 @@ RegisterNetEvent('cafe:server:AddDoctor', function(job)
 	end
 end)
 
-RegisterNetEvent('cafe:server:RemoveDoctor', function(job)
+RegisterNetEvent('cafe:server:RemoveCafe', function(job)
 	if job == 'cafe' then
 		local src = source
 		cafeCount = cafeCount - 1

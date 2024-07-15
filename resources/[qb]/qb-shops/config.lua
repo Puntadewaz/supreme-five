@@ -2,7 +2,7 @@ Config = {}
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
 -- Deliveries
-Config.ShopsInvJsonFile = './json/shops-inventory.json'
+Config.ShopsInvJsonFile = './json/shoqb-inventory.json'
 Config.TruckDeposit = 125
 Config.MaxDeliveries = 20
 Config.DeliveryPrice = 500
@@ -162,7 +162,7 @@ Config.Products = {
         -- { name = 'repairkit',         price = 5000, amount = 50 },
         { name = 'advancedrepairkit', price = 150, amount = 1 },
         { name = 'tirerepairkit',     price = 150, amount = 1 },
-    }
+    },
     ['cafe'] = {
         { name = 'milk',              price = 150, amount = 1 },
         { name = 'water',             price = 150, amount = 1 },
@@ -323,6 +323,38 @@ Config.Locations = {
         ['blipscale'] = 0.6,
         ['blipcolor'] = 0,
         ['delivery'] = vector4(379.97, 357.3, 102.56, 26.42)
+    },
+
+    ['home1'] = {
+        ['label'] = 'Home',
+        ['coords'] = vector4(-3209.17, 789.84, 8.93, 298.53),
+        -- ['ped'] = 'mp_m_shopkeep_01',
+        -- ['scenario'] = 'WORLD_HUMAN_STAND_MOBILE',
+        ['radius'] = 1.5,
+        -- ['targetIcon'] = 'fas fa-shopping-basket',
+        ['targetLabel'] = 'Open Shop',
+        ['products'] = Config.Products['normal'],
+        -- ['showblip'] = true,
+        -- ['blipsprite'] = 52,
+        -- ['blipscale'] = 0.6,
+        -- ['blipcolor'] = 0,
+        -- ['delivery'] = vector4(379.97, 357.3, 102.56, 26.42)
+    },
+
+    ['home2'] = {
+        ['label'] = 'Home',
+        ['coords'] = vector4(-3205.31, 790.87, 8.93, 34.43),
+        -- ['ped'] = 'mp_m_shopkeep_01',
+        -- ['scenario'] = 'WORLD_HUMAN_STAND_MOBILE',
+        ['radius'] = 1.5,
+        -- ['targetIcon'] = 'fas fa-shopping-basket',
+        ['targetLabel'] = 'Open Shop',
+        ['products'] = Config.Products['normal'],
+        -- ['showblip'] = true,
+        -- ['blipsprite'] = 52,
+        -- ['blipscale'] = 0.6,
+        -- ['blipcolor'] = 0,
+        -- ['delivery'] = vector4(379.97, 357.3, 102.56, 26.42)
     },
 
     -- LTD Gasoline Locations
@@ -773,7 +805,11 @@ Config.Locations = {
         ['radius'] = 1.5,
         ['targetIcon'] = 'fas fa-gun',
         ['targetLabel'] = 'Open Shop',
+        ['showblip'] = true,
         ['products'] = Config.Products['police'],
+        ['blipsprite'] = 402,
+        ['blipscale'] = 0.8,
+        ['blipcolor'] = 0,
         ['delivery'] = vector4(459.0441, -1008.0366, 28.2627, 271.4695),
         ['requiredJob'] = 'police',
     },
@@ -786,29 +822,45 @@ Config.Locations = {
         ['radius'] = 1.5,
         ['targetIcon'] = 'fas fa-hand',
         ['targetLabel'] = 'Open Shop',
+        ['showblip'] = true,
         ['products'] = Config.Products['ambulance'],
+        ['blipsprite'] = 402,
+        ['blipscale'] = 0.8,
+        ['blipcolor'] = 0,
         ['delivery'] = vector4(283.5821, -614.8570, 43.3792, 159.2903),
-        ['requiredJob'] = 'ems'
+        ['requiredJob'] = 'ambulance'
     },
 
     ['mechanic'] = {
         ['label'] = 'Mechanic Shop',
+        ['coords'] = vector4(509.07, -2992.52, 6.04, 90.91),
+        ['ped'] = 'mp_m_waremech_01',
+        ['scenario'] = 'WORLD_HUMAN_CLIPBOARD',
         ['radius'] = 1.5,
         ['targetIcon'] = 'fas fa-wrench',
         ['targetLabel'] = 'Open Shop',
-        ['coords'] = vector4(509.07, -2992.52, 6.04, 90.91),
+        ['showblip'] = true,
         ['products'] = Config.Products['mechanic'],
+        ['blipsprite'] = 402,
+        ['blipscale'] = 0.8,
+        ['blipcolor'] = 0,
         ['delivery'] = vector4(509.07, -2992.52, 6.04, 90.91),
         ['requiredJob'] = 'mechanic',
     },
 
     ['cafe'] = {
         ['label'] = 'Cafe Shop',
+        ['coords'] = vector4(51.28, -2480.03, 6.01, 229.68),
+        ['ped'] = 'mp_m_waremech_01',
+        ['scenario'] = 'WORLD_HUMAN_CLIPBOARD',
         ['radius'] = 1.5,
         ['targetIcon'] = 'fas fa-wrench',
         ['targetLabel'] = 'Open Shop',
-        ['coords'] = vector4(51.28, -2480.03, 6.01, 229.68),
+        ['showblip'] = true,
         ['products'] = Config.Products['cafe'],
+        ['blipsprite'] = 402,
+        ['blipscale'] = 0.8,
+        ['blipcolor'] = 0,
         ['delivery'] = vector4(-593.71, -1068.79, 23.48, 201.17),
         ['requiredJob'] = 'cafe',
     },

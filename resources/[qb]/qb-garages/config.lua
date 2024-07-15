@@ -245,6 +245,19 @@ Config.Garages = {
         type = 'public',
         category = Config.VehicleClass['car']
     },
+    homegarage = {
+        label = 'Home Garage Parking',
+        takeVehicle = vector3(-3199.94, 836.74, 8.93),
+        spawnPoint = {
+            vector4(-3204.0, 843.74, 8.93, 125.37)
+        },
+        showBlip = false,
+        blipName = 'Home Parking',
+        blipNumber = 357,
+        blipColor = 3,
+        type = 'public',
+        category = Config.VehicleClass['car']
+    },
     grapeseedgarage = {
         label = 'Grapeseed Parking',
         takeVehicle = vector3(2552.68, 4671.8, 33.95),
