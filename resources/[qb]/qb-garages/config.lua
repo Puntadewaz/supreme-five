@@ -4,7 +4,7 @@ Config.VisuallyDamageCars = true   -- true == damage car on spawn | false == no 
 Config.SharedGarages = false       -- true == take any car from any garage | false == only take car from garage stored in
 Config.ClassSystem = false         -- true == restrict vehicles by class | false == any vehicle class in any garage
 Config.FuelResource = 'LegacyFuel' -- supports any that has a GetFuel() and SetFuel() export
-Config.Warp = false                 -- true == warp player into vehicle | false == vehicle spawns without warping
+Config.Warp = true                 -- true == warp player into vehicle | false == vehicle spawns without warping
 
 -- https://docs.fivem.net/natives/?_0x29439776AAA00A62
 Config.VehicleClass = {
@@ -247,9 +247,9 @@ Config.Garages = {
     },
     homegarage = {
         label = 'Home Garage Parking',
-        takeVehicle = vector3(-3199.94, 836.74, 8.93),
+        takeVehicle = vector3(-3213.03, 831.36, 8.93),
         spawnPoint = {
-            vector4(-3204.0, 843.74, 8.93, 125.37)
+            vector4(-3204.15, 817.64, 8.93, 212.94)
         },
         showBlip = false,
         blipName = 'Home Parking',

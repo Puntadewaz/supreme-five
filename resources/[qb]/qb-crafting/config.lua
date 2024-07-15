@@ -1,5 +1,5 @@
 Config = {
-    EnableSkillCheck = true,
+    EnableSkillCheck = false,
     ImageBasePath = "nui://qb-inventory/html/images/",
     item_bench = {
         object = `prop_tool_bench02`,
@@ -129,7 +129,7 @@ Config = {
     },
     item_bench = {
         object = `prop_kitch_pot_fry`,
-        xpType = 'cookingrep',
+        xpType = 'craftingrep',
         recipes = {
             {
                 item = 'grilledchicken',

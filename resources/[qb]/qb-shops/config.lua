@@ -357,6 +357,22 @@ Config.Locations = {
         -- ['delivery'] = vector4(379.97, 357.3, 102.56, 26.42)
     },
 
+    ['cafeplace'] = {
+        ['label'] = 'Cafe',
+        ['coords'] = vector4(-581.25, -1064.88, 22.35, 2.09),
+        -- ['ped'] = 'mp_m_shopkeep_01',
+        -- ['scenario'] = 'WORLD_HUMAN_STAND_MOBILE',
+        ['radius'] = 1.5,
+        ['targetIcon'] = 'fas fa-coffee',
+        ['targetLabel'] = 'Open Shop',
+        -- ['products'] = Config.Products['liquor'],
+        ['showblip'] = true,
+        ['blipsprite'] = 52,
+        ['blipscale'] = 0.6,
+        ['blipcolor'] = 0,
+        ['delivery'] = vector4(-582.93, -1072.86, 22.33, 1.22)
+    },
+
     -- LTD Gasoline Locations
     ['ltdgasoline'] = {
         ['label'] = 'LTD Gasoline',
@@ -439,21 +455,7 @@ Config.Locations = {
     },
 
     -- Rob's Liquor Locations
-    -- ['robsliquor'] = {
-    --     ['label'] = 'Rob\'s Liqour',
-    --     ['coords'] = vector4(-1221.58, -908.15, 12.33, 35.49),
-    --     ['ped'] = 'mp_m_shopkeep_01',
-    --     ['scenario'] = 'WORLD_HUMAN_STAND_MOBILE',
-    --     ['radius'] = 1.5,
-    --     ['targetIcon'] = 'fas fa-shopping-basket',
-    --     ['targetLabel'] = 'Open Shop',
-    --     ['products'] = Config.Products['liquor'],
-    --     ['showblip'] = true,
-    --     ['blipsprite'] = 52,
-    --     ['blipscale'] = 0.6,
-    --     ['blipcolor'] = 0,
-    --     ['delivery'] = vector4(-1226.92, -901.82, 12.28, 213.26)
-    -- },
+    
 
     -- ['robsliquor2'] = {
     --     ['label'] = 'Rob\'s Liqour',
