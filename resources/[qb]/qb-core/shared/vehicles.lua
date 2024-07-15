@@ -425,6 +425,7 @@ local Vehicles = {
     { model = 'huayrar',      name = 'Huayra',            brand = 'Pagani',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'nkscout',      name = 'Ambulance',            brand = 'Ford',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'bmwems',      name = 'Ambulance2',            brand = 'bmw',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
+    { model = 'mclarenf1',      name = 'mclarenf1',            brand = 'mclaren',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     --- Motorcycles (8)
     { model = 'akuma',           name = 'Akuma',                         brand = 'Dinka',           price = 55000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'avarus',          name = 'Avarus',                        brand = 'LCC',             price = 20000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
