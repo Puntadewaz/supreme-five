@@ -486,6 +486,7 @@ local Vehicles = {
     { model = 'powersurge',      name = 'Powersurge',                    brand = 'Western',         price = 7000,    category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'pizzaboy',        name = 'Pizza Boy',                     brand = 'Pegassi',         price = 50000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'yzfr1',        name = 'Yamaha R1',                     brand = 'Yamaha',         price = 50000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' }
+    { model = 'yzfr6',        name = 'Yamaha R6',                     brand = 'Yamaha',         price = 50000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' }
     --- Off-Road (9)
     { model = 'bfinjection',     name = 'Bf Injection',                  brand = 'Annis',           price = 9000,    category = 'offroad',        type = 'automobile', shop = 'pdm' },
     { model = 'bifta',           name = 'Bifta',                         brand = 'Annis',           price = 15500,   category = 'offroad',        type = 'automobile', shop = 'pdm' },
