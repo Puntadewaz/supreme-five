@@ -486,7 +486,7 @@ local Vehicles = {
     { model = 'manchez3',        name = 'Manchez Scout Classic',         brand = 'Maibatsu',        price = 15000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'powersurge',      name = 'Powersurge',                    brand = 'Western',         price = 7000,    category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'pizzaboy',        name = 'Pizza Boy',                     brand = 'Pegassi',         price = 50000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
-    { model = '20yzfr1',        name = 'Yamaha R1',                     brand = 'Yamaha',         price = 50000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
+    { model = '20R1',        name = 'Yamaha R1',                     brand = 'Yamaha',         price = 50000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'yzfr6',        name = 'Yamaha R6',                     brand = 'Yamaha',         price = 50000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'CBR1000RRR',        name = 'CBR FIREBLADE',                     brand = 'HONDA',         price = 50000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     --- Off-Road (9)
@@ -714,6 +714,7 @@ local Vehicles = {
     { model = 'coach',           name = 'Dashound',                      brand = 'Brute',           price = 100000,  category = 'service',        type = 'automobile', shop = 'none' },
     { model = 'bus',             name = 'Bus',                           brand = 'Brute',           price = 100000,  category = 'service',        type = 'automobile', shop = 'none' },
     { model = 'airbus',          name = 'Airport Bus',                   brand = 'Brute',           price = 100000,  category = 'service',        type = 'automobile', shop = 'none' },
+    { model = 'polamggtr',          name = 'HSR police 1',                   brand = 'Mercy',           price = 100000,  category = 'service',        type = 'automobile', shop = 'none' },
     --- Emergency (18)
     { model = 'riot',            name = 'Police Riot',                   brand = 'Brute',           price = 100000,  category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'riot2',           name = 'RCV',                           brand = 'Unknown',         price = 100000,  category = 'emergency',      type = 'automobile', shop = 'none' },
