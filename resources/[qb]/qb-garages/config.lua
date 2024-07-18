@@ -344,21 +344,21 @@ Config.Garages = {
         job = 'cartel',
         jobType = 'cartel'
     },
-    police = {
-        label = 'Police',
-        takeVehicle = vector3(462.83, -1019.52, 28.1),
-        spawnPoint = {
-            vector4(446.16, -1025.79, 28.23, 6.59)
-        },
-        showBlip = false,
-        blipName = 'Police',
-        blipNumber = 357,
-        blipColor = 3,
-        type = 'job',
-        category = Config.VehicleClass['car'], --car, air, sea, rig
-        job = 'police',
-        jobType = 'leo'
-    },
+    -- police = {
+    --     label = 'Police',
+    --     takeVehicle = vector3(462.83, -1019.52, 28.1),
+    --     spawnPoint = {
+    --         vector4(446.16, -1025.79, 28.23, 6.59)
+    --     },
+    --     showBlip = false,
+    --     blipName = 'Police',
+    --     blipNumber = 357,
+    --     blipColor = 3,
+    --     type = 'job',
+    --     category = Config.VehicleClass['car'], --car, air, sea, rig
+    --     job = 'police',
+    --     jobType = 'police'
+    -- },
     -- intairport = {
     --     label = 'Airport Hangar',
     --     takeVehicle = vector3(-979.06, -2995.48, 13.95),

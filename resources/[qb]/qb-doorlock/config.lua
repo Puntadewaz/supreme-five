@@ -1,7 +1,7 @@
 Config = {}
 
 Config.CommandPermission = 'god' -- permission level for creating new doors
-Config.AdminAccess = true -- Enable admins to unlock any door
+Config.AdminAccess = false -- Enable admins to unlock any door
 Config.AdminPermission = 'god' -- The permission needed to get AdminAccess if it is enabled
 Config.Warnings = false -- if true it will show warnings in the console when certain requirements aren't met
 Config.FallbackDistance = 3.0 -- Distance to fall back on when it is not set
@@ -15,7 +15,7 @@ Config.ChangeColor = false -- Change the color of the box of the popup text base
 Config.DefaultColor = 'rgb(19, 28, 74)' -- The default color of the box of the popup text if Config.ChangeColor is false
 Config.LockedColor = 'rgb(219 58 58)' -- The color of the box of the popup text if Config.ChangeColor is true and the door is locked
 Config.UnlockedColor = 'rgb(27 195 63)' -- The color of the box of the popup text if Config.ChangeColor is true and the door is unlocked
-Config.UseDoorLabelText = true -- Will use the LABEL field as the nui text instead of locked/unlocked
+Config.UseDoorLabelText = false -- Will use the LABEL field as the nui text instead of locked/unlocked
 Config.DoorDebug = false -- Enable DRAWTEXT in the world at the coords where the door 'center' is
 Config.RemoteTriggerDistance = 15.0 -- This is how far from your camera the raycast will go to try to hit something solid
 Config.RemoteTriggerMinDistance = 5.0 -- This is the minimum distance required for the raycast hit to count near a door. It will take the larger two between this and 'distance' option

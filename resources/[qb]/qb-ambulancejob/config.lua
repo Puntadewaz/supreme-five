@@ -41,7 +41,7 @@ Config.Locations = {                -- Edit the various interaction points for p
         -- vector3(-254.54, 6331.78, 32.43), -- paleto
     },
     ['duty'] = {
-        vector3(311.18, -599.25, 43.29),
+        vector3(309.94, -602.91, 43.29),
         -- vector3(-254.88, 6324.5, 32.58), -- paleto
     },
     ['vehicle'] = {
@@ -58,9 +58,9 @@ Config.Locations = {                -- Edit the various interaction points for p
     ['main'] = {
         vector3(298.74, -599.33, 43.29),
     },
-    ['stash'] = {
-        vector3(309.78, -596.6, 43.29),
-    },
+    -- ['stash'] = {
+    --     vector3(309.78, -596.6, 43.29),
+    -- },
     ['beds'] = {
         { coords = vector4(353.1, -584.6, 43.11, 152.08),    taken = false, model = 1631638868 },
         { coords = vector4(356.79, -585.86, 43.11, 152.08),  taken = false, model = 1631638868 },

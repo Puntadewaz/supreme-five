@@ -43,22 +43,22 @@ Config.Cityhalls = {
 }
 
 Config.DrivingSchools = {
-    -- { -- Driving School 1
-    --     coords = vec3(240.3, -1379.89, 33.74),
-    --     showBlip = true,
-    --     blipData = {
-    --         sprite = 225,
-    --         display = 4,
-    --         scale = 0.65,
-    --         colour = 3,
-    --         title = 'Driving School'
-    --     },
-    --     instructors = {
-    --         'DJD56142',
-    --         'DXT09752',
-    --         'SRI85140',
-    --     }
-    -- },
+    { -- Driving School 1
+        coords = vec3(240.3, -1379.89, 33.74),
+        showBlip = true,
+        blipData = {
+            sprite = 225,
+            display = 4,
+            scale = 0.65,
+            colour = 3,
+            title = 'Driving School'
+        },
+        instructors = {
+            'DJD56142',
+            'DXT09752',
+            'SRI85140',
+        }
+    },
 }
 
 Config.Peds = {

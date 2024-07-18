@@ -3,7 +3,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 local PlayerData = QBCore.Functions.GetPlayerData()
 local route = 1
 local max = #Config.NPCLocations.Locations
-local busBlip = nil
+local busBlip = 513
 
 local NpcData = {
     Active = false,
@@ -40,19 +40,29 @@ local function resetNpcTask()
 end
 
 local function updateBlip()
-    if PlayerData.job.name == "bus" then
-        busBlip = AddBlipForCoord(Config.Location)
-        SetBlipSprite(busBlip, 513)
-        SetBlipDisplay(busBlip, 4)
-        SetBlipScale(busBlip, 0.6)
-        SetBlipAsShortRange(busBlip, true)
-        SetBlipColour(busBlip, 49)
-        BeginTextCommandSetBlipName("STRING")
-        AddTextComponentSubstringPlayerName(Lang:t('info.bus_depot'))
-        EndTextCommandSetBlipName(busBlip)
-    elseif busBlip ~= nil then
-        RemoveBlip(busBlip)
-    end
+    -- if PlayerData.job.name == "bus" then
+        
+    --     EndTextCommandSetBlipName(busBlip)
+    -- elseif busBlip ~= nil then
+    --     -- RemoveBlip(busBlip)
+    --     busBlip = AddBlipForCoord(Config.Location)
+    --     SetBlipSprite(busBlip, 513)
+    --     SetBlipDisplay(busBlip, 4)
+    --     SetBlipScale(busBlip, 0.6)
+    --     SetBlipAsShortRange(busBlip, true)
+    --     SetBlipColour(busBlip, 49)
+    --     BeginTextCommandSetBlipName("STRING")
+    --     AddTextComponentSubstringPlayerName(Lang:t('info.bus_depot'))
+    --     EndTextCommandSetBlipName(busBlip)
+    -- end
+    busBlip = AddBlipForCoord(Config.Location)
+    SetBlipSprite(busBlip, 513)
+    SetBlipDisplay(busBlip, 4)
+    SetBlipScale(busBlip, 0.6)
+    SetBlipAsShortRange(busBlip, true)
+    SetBlipColour(busBlip, 49)
+    BeginTextCommandSetBlipName("STRING")
+    AddTextComponentSubstringPlayerName(Lang:t('info.bus_depot'))
 end
 
 local function whitelistedVehicle()

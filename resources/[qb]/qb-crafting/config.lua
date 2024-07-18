@@ -1,5 +1,5 @@
 Config = {
-    EnableSkillCheck = false,
+    EnableSkillCheck = true,
     ImageBasePath = "nui://qb-inventory/html/images/",
     item_bench = {
         object = `prop_tool_bench02`,
@@ -14,47 +14,47 @@ Config = {
                     { item = 'plastic',    amount = 32 }
                 }
             },
-            -- {
-            --     item = 'screwdriverset',
-            --     xpRequired = 0,
-            --     xpGain = 2,
-            --     requiredItems = {
-            --         { item = 'metalscrap', amount = 30 },
-            --         { item = 'plastic',    amount = 42 }
-            --     }
-            -- },
-            -- {
-            --     item = 'electronickit',
-            --     xpRequired = 0,
-            --     xpGain = 3,
-            --     requiredItems = {
-            --         { item = 'metalscrap', amount = 30 },
-            --         { item = 'plastic',    amount = 45 },
-            --         { item = 'aluminum',   amount = 28 }
-            --     }
-            -- },
-            -- {
-            --     item = 'radioscanner',
-            --     xpRequired = 0,
-            --     xpGain = 4,
-            --     requiredItems = {
-            --         { item = 'electronickit', amount = 2 },
-            --         { item = 'plastic',       amount = 52 },
-            --         { item = 'steel',         amount = 40 }
-            --     }
-            -- },
-            -- {
-            --     item = 'gatecrack',
-            --     xpRequired = 110,
-            --     xpGain = 5,
-            --     requiredItems = {
-            --         { item = 'metalscrap',    amount = 10 },
-            --         { item = 'plastic',       amount = 50 },
-            --         { item = 'aluminum',      amount = 30 },
-            --         { item = 'iron',          amount = 17 },
-            --         { item = 'electronickit', amount = 2 }
-            --     }
-            -- },
+            {
+                item = 'screwdriverset',
+                xpRequired = 0,
+                xpGain = 2,
+                requiredItems = {
+                    { item = 'metalscrap', amount = 30 },
+                    { item = 'plastic',    amount = 42 }
+                }
+            },
+            {
+                item = 'electronickit',
+                xpRequired = 0,
+                xpGain = 3,
+                requiredItems = {
+                    { item = 'metalscrap', amount = 30 },
+                    { item = 'plastic',    amount = 45 },
+                    { item = 'aluminum',   amount = 28 }
+                }
+            },
+            {
+                item = 'radioscanner',
+                xpRequired = 0,
+                xpGain = 4,
+                requiredItems = {
+                    { item = 'electronickit', amount = 2 },
+                    { item = 'plastic',       amount = 52 },
+                    { item = 'steel',         amount = 40 }
+                }
+            },
+            {
+                item = 'gatecrack',
+                xpRequired = 110,
+                xpGain = 5,
+                requiredItems = {
+                    { item = 'metalscrap',    amount = 10 },
+                    { item = 'plastic',       amount = 50 },
+                    { item = 'aluminum',      amount = 30 },
+                    { item = 'iron',          amount = 17 },
+                    { item = 'electronickit', amount = 2 }
+                }
+            },
             {
                 item = 'handcuffs',
                 xpRequired = 160,
@@ -85,24 +85,24 @@ Config = {
                     { item = 'copper',     amount = 26 }
                 }
             },
-            -- {
-            --     item = 'ironoxide',
-            --     xpRequired = 300,
-            --     xpGain = 9,
-            --     requiredItems = {
-            --         { item = 'iron',  amount = 60 },
-            --         { item = 'glass', amount = 30 }
-            --     }
-            -- },
-            -- {
-            --     item = 'aluminumoxide',
-            --     xpRequired = 300,
-            --     xpGain = 10,
-            --     requiredItems = {
-            --         { item = 'aluminum', amount = 60 },
-            --         { item = 'glass',    amount = 30 }
-            --     }
-            -- },
+            {
+                item = 'ironoxide',
+                xpRequired = 300,
+                xpGain = 9,
+                requiredItems = {
+                    { item = 'iron',  amount = 60 },
+                    { item = 'glass', amount = 30 }
+                }
+            },
+            {
+                item = 'aluminumoxide',
+                xpRequired = 300,
+                xpGain = 10,
+                requiredItems = {
+                    { item = 'aluminum', amount = 60 },
+                    { item = 'glass',    amount = 30 }
+                }
+            },
             {
                 item = 'armor',
                 xpRequired = 350,
@@ -114,83 +114,15 @@ Config = {
                     { item = 'aluminum', amount = 22 }
                 }
             },
-            -- {
-            --     item = 'drill',
-            --     xpRequired = 1750,
-            --     xpGain = 12,
-            --     requiredItems = {
-            --         { item = 'iron',             amount = 50 },
-            --         { item = 'steel',            amount = 50 },
-            --         { item = 'screwdriverset',   amount = 3 },
-            --         { item = 'advancedlockpick', amount = 2 }
-            --     }
-            -- },
-        }
-    },
-    item_bench = {
-        object = `prop_kitch_pot_fry`,
-        xpType = 'craftingrep',
-        recipes = {
             {
-                item = 'grilledchicken',
-                xpRequired = 0,
-                xpGain = 0,
+                item = 'drill',
+                xpRequired = 1750,
+                xpGain = 12,
                 requiredItems = {
-                    { item = 'chicken', amount = 1 },
-                    { item = 'salt',    amount = 2 },
-                    { item = 'lemon',    amount = 1 },
-                }
-            },
-            {
-                item = 'grilledfish',
-                xpRequired = 0,
-                xpGain = 0,
-                requiredItems = {
-                    { item = 'fish', amount = 1 },
-                    { item = 'salt',    amount = 2 },
-                    { item = 'kecap',    amount = 1 },
-                    { item = 'lemon',    amount = 1 },
-                }
-            },
-            {
-                item = 'seafoodsoup',
-                xpRequired = 0,
-                xpGain = 0,
-                requiredItems = {
-                    { item = 'fish', amount = 1 },
-                    { item = 'udang', amount = 5 },
-                    { item = 'salt',    amount = 2 },
-                    { item = 'sugar',    amount = 1 },
-                }
-            },
-            {
-                item = 'chickensoup',
-                xpRequired = 0,
-                xpGain = 0,
-                requiredItems = {
-                    { item = 'chicken', amount = 2 },
-                    { item = 'salt',    amount = 2 },
-                    { item = 'sugar',    amount = 1 },
-                }
-            },
-            {
-                item = 'lemontea',
-                xpRequired = 0,
-                xpGain = 0,
-                requiredItems = {
-                    { item = 'lemon', amount = 1 },
-                    { item = 'tea',    amount = 2 },
-                    { item = 'sugar',    amount = 1 },
-                }
-            },
-            {
-                item = 'milktea',
-                xpRequired = 0,
-                xpGain = 0,
-                requiredItems = {
-                    { item = 'milk', amount = 1 },
-                    { item = 'tea',    amount = 2 },
-                    { item = 'sugar',    amount = 1 },
+                    { item = 'iron',             amount = 50 },
+                    { item = 'steel',            amount = 50 },
+                    { item = 'screwdriverset',   amount = 3 },
+                    { item = 'advancedlockpick', amount = 2 }
                 }
             },
         }

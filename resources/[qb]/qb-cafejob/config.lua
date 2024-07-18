@@ -8,10 +8,10 @@ Config.Locations = {                -- Edit the various interaction points for p
     ['vehicle'] = {
         vector4(-607.94, -1059.36, 21.79, 86.17),
     },
-    ['stash'] = {
-        vector3(-590.36, -1067.36, 21.45),
-        vector3(-590.43, -1058.66, 21.52)
-    },
+    -- ['stash'] = {
+    --     vector3(-590.36, -1067.36, 21.45),
+    --     vector3(-590.43, -1058.66, 21.52)
+    -- },
 }
 
 Config.AuthorizedVehicles = { -- Grade is key, don't add same vehicle in multiple grades. Higher rank can see lower

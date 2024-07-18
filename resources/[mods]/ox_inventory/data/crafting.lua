@@ -31,4 +31,82 @@ return {
 		},
 		blip = { id = 566, colour = 31, scale = 0.8 },
 	},
+	{
+		items = {
+			{
+				name = 'grilledchicken',
+				ingredients = {
+					chicken = 1,
+					salt = 2,
+					lemon = 1,
+				},
+				duration = 5000,
+				count = 20,
+			},
+			{
+				name = 'grilledfish',
+				ingredients = {
+					fish = 1,
+					salt = 2,
+					kecap = 2,
+					lemon = 1,
+				},
+				duration = 5000,
+				count = 20,
+			},
+			{
+				name = 'seafoodsoup',
+				ingredients = {
+					fish = 1,
+					udang = 5,
+					salt = 2,
+					sugar = 1,
+				},
+				duration = 5000,
+				count = 20,
+			},
+			{
+				name = 'chickensoup',
+				ingredients = {
+					chicken = 2,
+					salt = 2,
+					sugar = 1,
+				},
+				duration = 5000,
+				count = 20,
+			},
+			{
+				name = 'lemontea',
+				ingredients = {
+					lemon = 1,
+					tea = 2,
+					sugar = 1,
+				},
+				duration = 5000,
+				count = 20,
+			},
+			{
+				name = 'milktea',
+				ingredients = {
+					milk = 1,
+					tea = 2,
+					sugar = 1,
+				},
+				duration = 5000,
+				count = 20,
+			},
+		},
+		points = {
+			vector3(-590.44, -1056.47, 22.36),
+		},
+		zones = {
+			{
+				coords = vector3(-590.44, -1056.47, 22.36),
+				size = vec3(3.8, 1.05, 0.15),
+				distance = 1.5,
+				rotation = 315.0,
+			},
+		},
+		-- blip = { id = 566, colour = 31, scale = 0.8 },
+	},
 }

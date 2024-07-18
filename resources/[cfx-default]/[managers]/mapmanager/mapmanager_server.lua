@@ -1,4 +1,4 @@
--- loosely based on MTA's https://code.google.com/p/mtasa-resources/source/browse/trunk/%5Bmanagers%5D/mapmanager/mapmanager_main.lua
+
 
 local maps = {}
 local gametypes = {}
