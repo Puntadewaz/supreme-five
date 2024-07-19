@@ -428,6 +428,7 @@ local Vehicles = {
     { model = 'mclarenf1',      name = 'mclarenf1',            brand = 'mclaren',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'fdnyambo',      name = 'EMS',            brand = 'AMBULU',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'wraith',      name = 'RR WRAITH',            brand = 'RR',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
+    { model = 'BMWi422spe',      name = 'BMWi4',            brand = 'BMW',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     --- Motorcycles (8)
     { model = 'akuma',           name = 'Akuma',                         brand = 'Dinka',           price = 55000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'avarus',          name = 'Avarus',                        brand = 'LCC',             price = 20000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
