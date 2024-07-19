@@ -19,7 +19,7 @@ return {
 	},
 
 	{
-		coords = vector3(309.86, -599.51, 43.29)
+		coords = vector3(309.86, -599.51, 43.29),
 		target = {
 			loc = vector3(309.86, -599.51, 43.29),
 			length = 0.6,
