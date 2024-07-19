@@ -418,7 +418,7 @@ local Vehicles = {
     { model = 'vsgran',      name = 'Vsgran',            brand = 'Vsgran',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'redeye',      name = 'Challenger',            brand = 'Dodge',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     -- { model = 'fordvoodoo',      name = 'Fordvoodoo',            brand = 'Fordvoodoo',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
-    { model = 'chiron_kpym',      name = 'Chiron_kpym',            brand = 'Chiron_kpym',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
+    { model = 'chiron',      name = 'Chiron',            brand = 'Buggati',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = '19Raptor',      name = 'Raptor',            brand = 'Ford',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'bmwm8',      name = 'M8 Coupe',            brand = 'BMW',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
     { model = 'urusperf23',      name = 'Urus',            brand = 'Lamborghini',          price = 2845000,  category = 'super',          type = 'automobile', shop = 'luxury' },
