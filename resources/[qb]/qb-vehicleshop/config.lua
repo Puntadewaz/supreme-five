@@ -89,10 +89,20 @@ Config.Shops = {
         ['Type'] = 'managed', -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
-                vector2(263.01, -262.86),
+                vector2(265.75180053711, -261.88882446289),
+                vector2(255.68733215332, -289.2214050293),
+                vector2(235.65531921387, -282.04296875),
+                vector2(235.40103149414, -259.87121582031),
+                vector2(237.10316467285, -257.24993896484),
+                vector2(238.64837646484, -255.6194152832),
+                vector2(240.61259460449, -254.39166259766),
+                vector2(242.81800842285, -253.71733093262),
+                vector2(245.15008544922, -253.51358032227),
+                vector2(247.85768127441, -253.85546875)
+
             },
-            ['minZ'] = 54.01,
-            ['maxZ'] = 56.01,
+            ['minZ'] = 53.975597381592,
+            ['maxZ'] = 53.977657318115,
             ['size'] = 2.75    -- size of the vehicles zones
         },
         ['Job'] = 'cardealer', -- Name of job or none
@@ -107,11 +117,11 @@ Config.Shops = {
         ['TestDriveSpawn'] = vector4(269.43, -322.08, 44.92, 237.85), -- Spawn location for test drive
         ['FinanceZone'] = vector3(250.15, -284.61, 53.98),
         ['ShowroomVehicles'] = {
-            -- [1] = {
-            --     coords = vector4(263.01, -262.86, 54.01, 41.41),
-            --     defaultVehicle = '765lt',
-            --     chosenVehicle = '765lt'
-            -- },
+            [1] = {
+                coords = vector4(250.32, -270.14, 53.58, 299.6),
+                defaultVehicle = 'ocnlamtmc',
+                chosenVehicle = 'ocnlamtmc'
+            },
         }
     },                         -- Add your next table under this comma
     -- ['boats'] = {

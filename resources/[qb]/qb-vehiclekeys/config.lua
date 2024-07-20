@@ -67,7 +67,20 @@ Config.SharedKeys = { -- Share keys amongst employees. Employees can lock/unlock
 
 -- These vehicles cannot be jacked
 Config.ImmuneVehicles = {
-    'stockade'
+    'stockade',
+    '765lt',
+    'bmws19',
+    'bolide',
+    'chiron',
+    'bmwm8',
+    'huayrar',
+    'mclarenf1',
+    'ocni422spe',
+    'ocnlamtmc',
+    'R1Yamaha',
+    'yzfr6',
+    'CBR1000RRR'
+
 }
 
 -- These vehicles will never lock

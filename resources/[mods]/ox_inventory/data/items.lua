@@ -121,6 +121,13 @@ return {
 		}
 	},
 
+	['contract'] = {
+		label = 'Contract',
+		client = {
+			image = 'contract.png'
+		}
+	},
+
 	['panties'] = {
 		label = 'Knickers',
 		weight = 10,
