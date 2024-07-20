@@ -9,7 +9,7 @@ Config.Progressbar = 'ox' -- 'qb' or 'ox'
 Config.Inventory = 'ox' -- 'qb' or 'ox'
 Config.Skillcheck = 'ox' -- 'ps' or 'ox'
 
-Config.FuelResource = 'LegacyFuel' -- Set to '' to use statebag fuel (ox_fuel/Renewed-Fuel)
+Config.FuelResource = 'cdn-fuel' -- Set to '' to use statebag fuel (ox_fuel/Renewed-Fuel)
 
 -- Looking for GiveKeys config?
 -- Check: config_cl.lua
@@ -82,7 +82,7 @@ Config.OrganizerGuyCoords = vector4(4.39, -656.41, 33.45, 165.4)
 
 Config.OrganizerPed = {
     Coords = vector4(4.39, -656.41, 32.45, 165.4),
-    Label = "Kyle From Gruppe 6",
+    Label = "Organizer",
     Model = 'mp_s_m_armoured_01',
     Icon = 'fas fa-briefcase',
 }

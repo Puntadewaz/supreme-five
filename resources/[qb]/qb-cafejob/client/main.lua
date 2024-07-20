@@ -6,7 +6,7 @@ local canLeaveBed = true
 local bedOccupying = nil
 local bedObject = nil
 local bedOccupyingData = nil
-local doctorCount = 0
+local cafeCount = 0
 local CurrentDamageList = {}
 local cam = nil
 local playerArmor = nil
@@ -662,7 +662,7 @@ BodyParts = {
 -- end)
 
 RegisterNetEvent('cafe:client:SetCafeCount', function(amount)
-    doctorCount = amount
+    cafeCount = amount
 end)
 
 -- RegisterNetEvent('hospital:client:adminHeal', function()
@@ -830,7 +830,7 @@ end)
 --         local cafe = vector3(Config.Locations['cafe'][i]['location'].x, Config.Locations['cafe'][i]['location'].y, Config.Locations['cafe'][i]['location'].z)
 --         local distance = #(coords - cafe)
 --         if distance < 3 then
---             if doctorCount >= Config.MinimalDoctors then
+--             if cafeCount >= Config.MinimalDoctors then
 --                 TriggerServerEvent('cafe:server:SendDoctorAlert', Config.Locations['cafe'][i]['name'])
 --                 QBCore.Functions.Notify('Called a Doctor', 'primary')
 --             else
@@ -941,7 +941,7 @@ end)
 --             local checkingCombo = ComboZone:Create(checkingPoly, { name = 'checkingCombo', debugPoly = false })
 --             checkingCombo:onPlayerInOut(function(isPointInside)
 --                 if isPointInside then
---                     if doctorCount >= Config.MinimalDoctors then
+--                     if cafeCount >= Config.MinimalDoctors then
 --                         exports['qb-core']:DrawText(Lang:t('text.call_doc'), 'left')
 --                         CheckInControls('checkin')
 --                     else

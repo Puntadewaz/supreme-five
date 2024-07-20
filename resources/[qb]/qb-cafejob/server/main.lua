@@ -166,7 +166,7 @@ RegisterNetEvent('cafe:server:AddCafe', function(job)
 	if job == 'cafe' then
 		local src = source
 		cafeCount = cafeCount + 1
-		TriggerClientEvent('hospital:client:SetCafeCount', -1, cafeCount)
+		TriggerClientEvent('cafe:client:SetCafeCount', -1, cafeCount)
 		Cafe[src] = true
 	end
 end)
@@ -175,7 +175,7 @@ RegisterNetEvent('cafe:server:RemoveCafe', function(job)
 	if job == 'cafe' then
 		local src = source
 		cafeCount = cafeCount - 1
-		TriggerClientEvent('hospital:client:SetCafeCount', -1, cafeCount)
+		TriggerClientEvent('cafe:client:SetCafeCount', -1, cafeCount)
 		Cafe[src] = nil
 	end
 end)
@@ -295,7 +295,7 @@ RegisterNetEvent('qb-cafejob:server:stash', function()
 	if not Player then return end
 	local citizenId = Player.PlayerData.citizenid
 	local stashName = 'cafestash_' .. citizenId
-	exports['qb-inventory']:OpenInventory(src, stashName)
+	exports.ox_inventory:OpenInventory(src, stashName)
 end)
 
 -- Callbacks
@@ -480,4 +480,4 @@ end)
 -- 	end
 -- end)
 
-exports('GetDoctorCount', function() return doctorCount end)
+exports('GetCafeCount', function() return cafeCount end)

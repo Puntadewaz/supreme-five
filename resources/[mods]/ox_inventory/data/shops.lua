@@ -6,8 +6,6 @@ return {
 		}, inventory = {
 			{ name = 'burger', price = 10 },
 			{ name = 'water', price = 10 },
-			{ name = 'cola', price = 10 },
-			{ name = 'contract', price = 10 },
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
 			vec3(-3038.71, 585.9, 7.9),
@@ -42,13 +40,13 @@ return {
 			{ name = 'cola', price = 10 },
 			{ name = 'burger', price = 15 },
 		}, locations = {
-			vec3(1135.808, -982.281, 46.415),
-			vec3(-1222.915, -906.983, 12.326),
-			vec3(-1487.553, -379.107, 40.163),
-			vec3(-2968.243, 390.910, 15.043),
-			vec3(1166.024, 2708.930, 38.157),
-			vec3(1392.562, 3604.684, 34.980),
-			vec3(-1393.409, -606.624, 30.319)
+			-- vec3(1135.808, -982.281, 46.415),
+			-- vec3(-1222.915, -906.983, 12.326),
+			-- vec3(-1487.553, -379.107, 40.163),
+			-- vec3(-2968.243, 390.910, 15.043),
+			-- vec3(1166.024, 2708.930, 38.157),
+			-- vec3(1392.562, 3604.684, 34.980),
+			-- vec3(-1393.409, -606.624, 30.319)
 		}, targets = {
 			{ loc = vec3(1134.9, -982.34, 46.41), length = 0.5, width = 0.5, heading = 96.0, minZ = 46.4, maxZ = 46.8, distance = 1.5 },
 			{ loc = vec3(-1222.33, -907.82, 12.43), length = 0.6, width = 0.5, heading = 32.7, minZ = 12.3, maxZ = 12.7, distance = 1.5 },
@@ -66,8 +64,8 @@ return {
 		}, inventory = {
 			{ name = 'lockpick', price = 10 }
 		}, locations = {
-			vec3(2748.0, 3473.0, 55.67),
-			vec3(342.99, -1298.26, 32.51)
+			-- vec3(2748.0, 3473.0, 55.67),
+			-- vec3(342.99, -1298.26, 32.51)
 		}, targets = {
 			{ loc = vec3(2746.8, 3473.13, 55.67), length = 0.6, width = 3.0, heading = 65.0, minZ = 55.0, maxZ = 56.8, distance = 3.0 }
 		}
@@ -111,17 +109,31 @@ return {
 		blip = {
 			id = 110, colour = 84, scale = 0.8
 		}, inventory = {
-			{ name = 'ammo-9', price = 5, },
-			{ name = 'ammo-rifle', price = 5, },
-			{ name = 'WEAPON_FLASHLIGHT', price = 200 },
-			{ name = 'WEAPON_NIGHTSTICK', price = 100 },
-			{ name = 'WEAPON_PISTOL', price = 500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
-			{ name = 'WEAPON_CARBINERIFLE', price = 1000, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
-			{ name = 'WEAPON_STUNGUN', price = 500, metadata = { registered = true, serial = 'POL'} }
+			{ name = 'ammo-9', price = 0, },
+			{ name = 'ammo-rifle', price = 0, },
+			{ name = 'WEAPON_FLASHLIGHT', price = 0 },
+			{ name = 'WEAPON_NIGHTSTICK', price = 0 },
+			{ name = 'WEAPON_PISTOL', price = 0, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
+			{ name = 'WEAPON_CARBINERIFLE', price = 0, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
+			{ name = 'WEAPON_STUNGUN', price = 0, metadata = { registered = true, serial = 'POL'} }
 		}, locations = {
 			vector3(450.3, -988.05, 26.67)
 		}, targets = {
 			{ loc = vector3(450.3, -988.05, 26.67), length = 0.5, width = 3.0, heading = 270.0, minZ = 30.5, maxZ = 32.0, distance = 6 }
+		}
+	},
+
+	PoliceDocument = {
+		name = 'Police Document',
+		groups = shared.police,
+		blip = {
+			id = 110, colour = 84, scale = 0.8
+		}, inventory = {
+			{ name = 'contract', price = 0, },
+		}, locations = {
+			vector3(441.93, -978.86, 30.69)
+		}, targets = {
+			{ loc = vector3(441.93, -978.86, 30.69), length = 0.5, width = 3.0, heading = 270.0, minZ = 30.5, maxZ = 32.0, distance = 6 }
 		}
 	},
 
@@ -203,6 +215,7 @@ return {
 			{ name = 'kecap',             price = 150 },
 			{ name = 'udang',             price = 150 },
 			{ name = 'lemon',             price = 150 },
+			{ name = 'boombox',             price = 15000 },
 		}, locations = {
 			vector3(51.58, -2479.73, 6.01)
 		}, targets = {
@@ -224,6 +237,20 @@ return {
 		}, locations = {
 			vector3(-581.73, -1062.59, 22.35)
 		}, 
+		
+	},
+
+	MiningShop = {
+		name = 'Mining',
+		blip = {
+			id = 566, colour = 0, scale = 0.8
+		}, locations = {
+			vector3(2707.42, 2776.76, 37.88)
+		}, inventory = {
+			{ name = 'pickaxe',              price = 5000 },
+		}, targets = {
+			{ loc = vector3(2707.42, 2776.76, 37.88), length = 0.5, width = 3.0, heading = 96.98, minZ = 30.5, maxZ = 32.0, distance = 6 },
+		},
 		
 	},
 

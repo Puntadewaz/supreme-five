@@ -13,11 +13,11 @@ Config.axe = {
 }
 
 Config.rocks = { -- Items obtained from mining
-    { item = 'emerald', label = 'Emerald', price = {190, 220}, difficulty = {'medium', 'medium', 'easy'} },
-    { item = 'diamond', label = 'Diamond', price = {150, 180}, difficulty = {'medium', 'easy', 'easy'} },
-    { item = 'copper', label = 'Copper', price = {110, 140}, difficulty = {'medium', 'easy'} },
-    { item = 'iron', label = 'Iron', price = {70, 100}, difficulty = {'easy', 'easy'} },
-    { item = 'steel', label = 'Steel', price = {40, 60}, difficulty = {'easy', 'easy'} },
+    { item = 'emerald', label = 'Emerald', price = {19000, 22000}, difficulty = {'medium', 'medium', 'easy'} },
+    { item = 'diamond', label = 'Diamond', price = {15000, 18000}, difficulty = {'medium', 'easy', 'easy'} },
+    { item = 'copper', label = 'Copper', price = {11000, 14000}, difficulty = {'medium', 'easy'} },
+    { item = 'iron', label = 'Iron', price = {7000, 10000}, difficulty = {'easy', 'easy'} },
+    { item = 'steel', label = 'Steel', price = {4000, 6000}, difficulty = {'easy', 'easy'} },
 }
 
 
@@ -33,8 +33,8 @@ Config.miningAreas = {
 
 Config.sellShop = {
     enabled = true, -- Enable spot to sell the things mined?
-    coords = vec3(122.1, 6405.69, 31.36-0.9), -- Location of buyer
-    heading = 314.65, -- Heading of ped
+    coords = vector3(-251.3, 6209.43, 31.49), -- Location of buyer
+    heading = 313.36, -- Heading of ped
     ped = 'cs_joeminuteman' -- Ped name here
 }
 

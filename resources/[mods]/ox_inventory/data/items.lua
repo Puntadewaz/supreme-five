@@ -201,6 +201,18 @@ return {
 		allowArmed = true
 	},
 
+	['boombox'] = {
+		label = 'Boombox',
+		weight = 1000,
+		stack = true
+	},
+
+	['pickaxe'] = {
+		label = 'Pickaxe',
+		weight = 1000,
+		stack = false
+	},
+
 	['armour'] = {
 		label = 'Bulletproof Vest',
 		weight = 3000,

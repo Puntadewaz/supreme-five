@@ -88,10 +88,10 @@ function giveKeys(plate, vehicle)
 end
 
 function AddFuel(vehicle)
-    if GetResourceState('LegacyFuel') == 'started' then
-        exports["LegacyFuel"]:SetFuel(vehicle, 100)
-    elseif GetResourceState('ps-fuel') == 'started' then
-        exports["ps-fuel"]:SetFuel(vehicle, 100)
+    if GetResourceState('cdn-fuel') == 'started' then
+        exports["cdn-fuel"]:SetFuel(vehicle, 100)
+    elseif GetResourceState('cdn-fuel') == 'started' then
+        exports["cdn-fuel"]:SetFuel(vehicle, 100)
     else
         -- add your own keys here
     end

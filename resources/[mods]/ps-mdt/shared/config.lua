@@ -25,18 +25,18 @@ Config.BillVariation = true
 Config.QBBankingUse = false
 
 -- Set up your inventory to automatically retrieve images when a weapon is registered at a weapon shop or self-registered.
--- If you're utilizing qb-inventory's latest version from GitHub, no further modifications are necessary. 
+-- If you're utilizing ox_inventory's latest version from GitHub, no further modifications are necessary. 
 -- However, if you're using a different inventory system, please refer to the "Inventory Edit | Automatic Add Weapons with images" section in ps-mdt's README.
-Config.InventoryForWeaponsImages = "qb-inventory"
+Config.InventoryForWeaponsImages = "ox_inventory"
 
--- Only compatible with qb-inventory
+-- Only compatible with ox_inventory
 Config.RegisterWeaponsAutomatically = true
 
--- Set to true to register all weapons that are added via AddItem in qb-inventory
+-- Set to true to register all weapons that are added via AddItem in ox_inventory
 Config.RegisterCreatedWeapons = true
 
--- "LegacyFuel", "lj-fuel", "ps-fuel"
-Config.Fuel = "ps-fuel"
+-- "cdn-fuel", "cdn-fuel", "cdn-fuel"
+Config.Fuel = "cdn-fuel"
 
 -- Google Docs Link
 Config.sopLink = {

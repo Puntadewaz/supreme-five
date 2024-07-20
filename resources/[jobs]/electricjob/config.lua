@@ -20,7 +20,7 @@ Config.JobPay = 20000 --amount to pay
 
 Config.FixTime = 10000 --time in ms 10000 = 10 seconds
 
-Config.WaitForJobTime = 30000 --time in ms 30000 = 30 seconds
+Config.WaitForJobTime = 3000 --time in ms 30000 = 30 seconds
 
 Config.Strings = {
     jobName = 'Electrician Job', --job name for blip on map

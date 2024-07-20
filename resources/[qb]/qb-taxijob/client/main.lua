@@ -380,7 +380,7 @@ RegisterNetEvent('qb-taxi:client:TakeVehicle', function(data)
             QBCore.Functions.TriggerCallback('QBCore:Server:SpawnVehicle', function(netId)
                 local veh = NetToVeh(netId)
                 SetVehicleNumberPlateText(veh, 'TAXI' .. tostring(math.random(1000, 9999)))
-                exports['LegacyFuel']:SetFuel(veh, 100.0)
+                exports['cdn-fuel']:SetFuel(veh, 100.0)
                 closeMenuFull()
                 SetEntityHeading(veh, Config.CabSpawns[SpawnPoint].w)
                 TaskWarpPedIntoVehicle(PlayerPedId(), veh, -1)
@@ -662,7 +662,7 @@ end)
 -- setup qb-target
 function setupTarget()
     CreateThread(function()
-        exports['qb-target']:SpawnPed({
+        exports.ox_target:addModel({
             model = 'a_m_m_indian_01',
             coords = vector4(901.34, -170.06, 74.08, 228.81),
             minusOne = true,
