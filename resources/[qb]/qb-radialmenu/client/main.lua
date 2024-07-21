@@ -82,7 +82,7 @@ local function SetupVehicleMenu()
         title = 'Vehicle',
         icon = 'car',
         type = 'client',
-        event = 'vehcontrol:openExternal',
+        event = 'config:VehicleExtras',
         shouldClose = true,
     }
 

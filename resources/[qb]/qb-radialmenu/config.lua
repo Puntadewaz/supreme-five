@@ -1,7 +1,5 @@
 Config = {}
 
-
-
 Config.EnableExtraMenu = true
 
 Config.MenuItems = {
@@ -805,6 +803,35 @@ Config.MenuItems = {
     -- },
 }
 
+Config.VehicleSeats = {
+    id = 'vehicleseats',
+    title = 'Vehicle Seats',
+    icon = 'chair',
+    items = {} -- dynamically changed depending on vehicle, don't edit
+}
+
+Config.VehicleExtras = {
+    id = 'vehicleextras',
+    title = 'Vehicle Extras',
+    icon = 'plus',
+    items = {
+        {
+            id = 'lockdoor',
+            title = 'Lock / Unlock',
+            icon = 'unlock-keyhole',
+            type = 'client',
+            event = 'qb-vehiclekeys:server:setVehLockState',
+            shouldClose = false
+        }, {
+            id = 'givekey',
+            title = 'Give Key',
+            icon = 'key',
+            type = 'client',
+            event = 'qb-vehiclekeys:client:GiveKeys',
+            shouldClose = false
+        },
+    }
+}
 
 
 
@@ -1122,7 +1149,8 @@ Config.TrunkClasses = {
     [18] = {allowed = true, x = 0.0, y = -1.0, z = 0.25}, -- Emergency
     [19] = {allowed = true, x = 0.0, y = -1.0, z = 0.25}, -- Military
     [20] = {allowed = true, x = 0.0, y = -1.0, z = 0.25}, -- Commercial
-    [21] = {allowed = true, x = 0.0, y = -1.0, z = 0.25} -- Trains
+    [21] = {allowed = true, x = 0.0, y = -1.0, z = 0.25}, -- Trains
+    [22] = {allowed = true, x = 0.0, y = -1.0, z = 0.25} -- Limited
 }
 
 Config.ExtrasEnabled = true
