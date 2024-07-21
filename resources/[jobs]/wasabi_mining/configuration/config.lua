@@ -9,7 +9,7 @@ Config.oldESX = false -- Does not apply to qb users (If set to true, won't check
 
 Config.axe = {
     prop = `prop_tool_pickaxe`, --Default: `prop_tool_pickaxe`
-    breakChance = 20 -- When failing to mine rock, this is the percentage of a chance that your pickaxe will 'break'
+    breakChance = 30 -- When failing to mine rock, this is the percentage of a chance that your pickaxe will 'break'
 }
 
 Config.rocks = { -- Items obtained from mining

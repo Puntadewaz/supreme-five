@@ -64,7 +64,7 @@ if Config.PlayerOwnedGasStationsEnabled then -- This is so Player Owned Gas Stat
                 options = {
                     {
                         type = "client",
-                        label = "Discuss Gas Station",
+                        label = Lang:t("station_talk_to_ped"),
                         icon = "fas fa-building",
                         action = function()
                             TriggerEvent('cdn-fuel:stations:openmenu', CurrentLocation)

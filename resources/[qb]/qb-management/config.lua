@@ -19,6 +19,9 @@ Config.BossMenus = {
     cafe = {
         vector3(-578.19, -1066.59, 25.76),
     },
+    taxi = {
+        vector3(387.28, -1601.34, 29.29),
+    },
 }
 
 Config.GangMenus = {

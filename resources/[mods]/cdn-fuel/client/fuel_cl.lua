@@ -2593,7 +2593,7 @@ CreateThread(function()
 			[1] = {
 				name = 'cdn-fuel:options:1',
 				icon = "fas fa-gas-pump",
-				label = "Insert Nozzle",
+				label = tostring(Lang:t("input_insert_nozzle")),
 				canInteract = function()
 					if inGasStation and not refueling and holdingnozzle then
 						return true
@@ -2604,7 +2604,7 @@ CreateThread(function()
 			[2] = {
 				name = 'cdn-fuel:options:2',
 				icon = "fas fa-bolt",
-				label = "Insert Electric Nozzle",
+				label = tostring(Lang:t("insert_electric_nozzle")),
 				canInteract = function()
 					if Config.ElectricVehicleCharging == true then
 						if inGasStation and not refueling and IsHoldingElectricNozzle() then
@@ -2629,7 +2629,7 @@ CreateThread(function()
 				type = "client",
 				event = "cdn-fuel:client:grabnozzle",
 				icon = "fas fa-gas-pump",
-				label = "Grab Nozzle",
+				label = Lang:t("grab_nozzle"),
 				canInteract = function()
 					if PlayerInSpecialFuelZone then return false end
 					if not IsPedInAnyVehicle(PlayerPedId()) and not holdingnozzle and not HoldingSpecialNozzle and inGasStation == true and not PlayerInSpecialFuelZone then
@@ -2643,7 +2643,7 @@ CreateThread(function()
 				type = "client",
 				event = "cdn-fuel:client:purchasejerrycan",
 				icon = "fas fa-fire-flame-simple",
-				label = "Purchase Jerry Can",
+				label = Lang:t("buy_jerrycan"),
 				canInteract = function()
 					if not IsPedInAnyVehicle(PlayerPedId()) and not holdingnozzle and not HoldingSpecialNozzle and inGasStation == true then
 						return true
@@ -2656,7 +2656,7 @@ CreateThread(function()
 				type = "client",
 				event = "cdn-fuel:client:returnnozzle",
 				icon = "fas fa-hand",
-				label = "Return Nozzle",
+				label = Lang:t("return_nozzle"),
 				canInteract = function()
 					if holdingnozzle and not refueling then
 						return true
@@ -2669,7 +2669,7 @@ CreateThread(function()
 				type = "client",
 				event = "cdn-fuel:client:grabnozzle:special",
 				icon = "fas fa-gas-pump",
-				label = "Grab Special Nozzle",
+				label = Lang:t("grab_special_nozzle"),
 				canInteract = function()
 					if Config.FuelDebug then print("Is Player In Special Fuel Zone?: "..tostring(PlayerInSpecialFuelZone)) end
 					if not HoldingSpecialNozzle and not IsPedInAnyVehicle(PlayerPedId()) and PlayerInSpecialFuelZone then
@@ -2683,7 +2683,7 @@ CreateThread(function()
 				type = "client",
 				event = "cdn-fuel:client:returnnozzle:special",
 				icon = "fas fa-hand",
-				label = "Return Special Nozzle",
+				label = Lang:t("return_special_nozzle"),
 				canInteract = function()
 					if HoldingSpecialNozzle and not IsPedInAnyVehicle(PlayerPedId()) then
 						return true
@@ -2702,7 +2702,7 @@ CreateThread(function()
 						TriggerEvent('cdn-fuel:client:RefuelMenu')
 					end,
 					icon = "fas fa-gas-pump",
-					label = "Insert Nozzle",
+					label = Lang:t("input_insert_nozzle"),
 					canInteract = function()
 						if inGasStation and not refueling and holdingnozzle then
 							return true
@@ -2715,7 +2715,7 @@ CreateThread(function()
 						TriggerEvent('cdn-fuel:client:electric:RefuelMenu')
 					end,
 					icon = "fas fa-bolt",
-					label = "Insert Electric Nozzle",
+					label = Lang:t("insert_electric_nozzle"),
 					canInteract = function()
 						if Config.ElectricVehicleCharging == true then
 							if inGasStation and not refueling and IsHoldingElectricNozzle() then
@@ -2776,7 +2776,7 @@ CreateThread(function()
 					type = "client",
 					event = "cdn-fuel:client:grabnozzle:special",
 					icon = "fas fa-gas-pump",
-					label = "Grab Special Nozzle",
+					label = Lang:t("grab_special_nozzle"),
 					canInteract = function()
 						if Config.FuelDebug then print("Is Player In Special Fuel Zone?: "..tostring(PlayerInSpecialFuelZone)) end
 						if not HoldingSpecialNozzle and not IsPedInAnyVehicle(PlayerPedId()) and PlayerInSpecialFuelZone then

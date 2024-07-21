@@ -664,7 +664,7 @@ function setupTarget()
     CreateThread(function()
         exports.ox_target:addModel({
             model = 'a_m_m_indian_01',
-            coords = vector4(901.34, -170.06, 74.08, 228.81),
+            coords = vector4(917.59, -159.97, 74.91, 137.62),
             minusOne = true,
             freeze = true,
             invincible = true,
@@ -896,4 +896,116 @@ CreateThread(function()
             exports['qb-core']:HideText()
         end
     end)
+end)
+
+-- Custom Script for vehicle Taxi
+function TakeOutVehicle(vehicleInfo)
+    local coords = Config.Vehicle[currentGarage]
+    QBCore.Functions.TriggerCallback('QBCore:Server:SpawnVehicle', function(netId)
+        local veh = NetToVeh(netId)
+        SetVehicleNumberPlateText(veh, "TAXI " .. tostring(math.random(1000, 9999)))
+        SetEntityHeading(veh, coords.w)
+        exports['cdn-fuel']:SetFuel(veh, 100.0)
+        TaskWarpPedIntoVehicle(PlayerPedId(), veh, -1)
+        if Config.VehicleSettings[vehicleInfo] ~= nil then
+            QBCore.Shared.SetDefaultVehicleExtras(veh, Config.VehicleSettings[vehicleInfo].extras)
+        end
+        TriggerEvent('vehiclekeys:client:SetOwner', QBCore.Functions.GetPlate(veh))
+        SetVehicleEngineOn(veh, true, true)
+    end, vehicleInfo, coords, true)
+end
+
+local function getAuthorizedVehicles(grade)
+    local accessibleVehicles = {}
+    for availableGrade, vehicles in pairs(Config.AuthorizedVehicles) do
+        if grade >= availableGrade then
+            for vehicleName, vehicleLabel in pairs(vehicles) do
+                accessibleVehicles[vehicleName] = vehicleLabel
+            end
+        end
+    end
+    return accessibleVehicles
+end
+
+function MenuGarage()
+    local vehicleMenu = {
+        {
+            header = "Cab .co Vehicle",
+            isMenuHeader = true
+        }
+    }
+
+    local authorizedVehicles = getAuthorizedVehicles(QBCore.Functions.GetPlayerData().job.grade.level)
+    for veh, label in pairs(authorizedVehicles) do
+        vehicleMenu[#vehicleMenu + 1] = {
+            header = label,
+            txt = '',
+            params = {
+                event = 'taxi:client:TakeOutVehicle',
+                args = {
+                    vehicle = veh
+                }
+            }
+        }
+    end
+    vehicleMenu[#vehicleMenu + 1] = {
+        header = "Close",
+        txt = '',
+        params = {
+            event = 'qb-menu:client:closeMenu'
+        }
+
+    }
+    exports['qb-menu']:openMenu(vehicleMenu)
+end
+
+-- Events
+
+RegisterNetEvent('taxi:client:TakeOutVehicle', function(data)
+    local vehicle = data.vehicle
+    TakeOutVehicle(vehicle)
+end)
+
+local CheckVehicle = false
+local function TaxiVehicle(k)
+    CheckVehicle = true
+    CreateThread(function()
+        while CheckVehicle do
+            if IsControlJustPressed(0, 38) then
+                exports['qb-core']:KeyPressed(38)
+                CheckVehicle = false
+                local ped = PlayerPedId()
+                if IsPedInAnyVehicle(ped, false) then
+                    QBCore.Functions.DeleteVehicle(GetVehiclePedIsIn(ped))
+                else
+                    local currentVehicle = k
+                    MenuGarage(currentVehicle)
+                    currentGarage = currentVehicle
+                end
+            end
+            Wait(1)
+        end
+    end)
+end
+
+CreateThread(function()
+    for i = 1, #Config.Vehicle do
+        local v = Config.Vehicle[i]
+        local boxZone = BoxZone:Create(vector3(v.x, v.y, v.z), 5, 5, {
+            name = 'vehicle' .. i,
+            debugPoly = false,
+            heading = 70,
+            minZ = v.z - 2,
+            maxZ = v.z + 2,
+        })
+        boxZone:onPlayerInOut(function(isPointInside)
+            if isPointInside and PlayerJob.name == 'taxi' and onDuty then
+                exports['qb-core']:DrawText("[E] Taxi Garage", 'left')
+                TaxiVehicle(i)
+            else
+                CheckVehicle = false
+                exports['qb-core']:HideText()
+            end
+        end)
+    end
 end)

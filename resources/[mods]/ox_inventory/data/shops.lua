@@ -241,7 +241,7 @@ return {
 	},
 
 	MiningShop = {
-		name = 'Mining',
+		name = 'Mining Shop',
 		blip = {
 			id = 566, colour = 0, scale = 0.8
 		}, locations = {

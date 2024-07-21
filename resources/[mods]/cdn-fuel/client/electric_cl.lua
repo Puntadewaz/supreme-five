@@ -223,7 +223,7 @@ if Config.ElectricVehicleCharging then
                         title = Config.GasStations[FetchCurrentLocation()].label,
                         options = {
                             {
-                                title = "Return Special Nozzle",
+                                title = Lang:t("menu_header_cash"),
                                 description = Lang:t("menu_pay_with_cash") .. playercashamount,
                                 icon = "fas fa-usd",
                                 arrow = false, -- puts arrow to the right
@@ -231,7 +231,7 @@ if Config.ElectricVehicleCharging then
                                 args = 'cash',
                             },
                             {
-                                title = "Return Special Nozzle",
+                                title = Lang:t("menu_header_bank"),
                                 description = Lang:t("menu_pay_with_bank"),
                                 icon = "fas fa-credit-card",
                                 arrow = false, -- puts arrow to the right
@@ -239,7 +239,7 @@ if Config.ElectricVehicleCharging then
                                 args = 'bank',
                             },
                             {
-                                title = "Cancel",
+                                title = Lang:t("menu_header_close"),
                                 description = Lang:t("menu_refuel_cancel"),
                                 icon = "fas fa-times-circle",
                                 arrow = false, -- puts arrow to the right
@@ -739,7 +739,7 @@ if Config.ElectricVehicleCharging then
                 type = "client",
                 event = "cdn-fuel:client:grabelectricnozzle",
                 icon = "fas fa-bolt",
-                label = "Grab Electric Nozzle",
+                label = Lang:t("grab_electric_nozzle"),
                 canInteract = function()
                     if not IsHoldingElectricNozzle() and not IsPedInAnyVehicle(PlayerPedId()) then
                         return true
@@ -751,7 +751,7 @@ if Config.ElectricVehicleCharging then
                 type = "client",
                 event = "cdn-fuel:client:returnnozzle",
                 icon = "fas fa-hand",
-                label = "Return Nozzle",
+                label = Lang:t("return_nozzle"),
                 canInteract = function()
                     if IsHoldingElectricNozzle() and not refueling then
                         return true

@@ -131,4 +131,42 @@ return {
 		weight = 70000,
 		groups = {['mechanic'] = 0}
 	},
+
+	{
+		coords = vector3(372.14, -1597.36, 29.29),
+		target = {
+			loc = vector3(372.14, -1597.36, 29.29),
+			length = 0.6,
+			width = 1.8,
+			heading = 340,
+			minZ = 43.34,
+			maxZ = 44.74,
+			label = 'Open personal locker'
+		},
+		name = 'taxipersonlocker',
+		label = 'Personal Locker',
+		owner = true,
+		slots = 70,
+		weight = 70000,
+		groups = {['taxi'] = 0}
+	},
+
+	{
+		coords = vector3(367.3, -1599.0, 29.29),
+		target = {
+			loc = vector3(367.3, -1599.0, 29.29),
+			length = 0.6,
+			width = 1.8,
+			heading = 340,
+			minZ = 43.34,
+			maxZ = 44.74,
+			label = 'Kulkas Makanan'
+		},
+		name = 'taxipersonlocker',
+		label = 'Personal Locker',
+		owner = false,
+		slots = 100,
+		weight = 5000000,
+		groups = {['taxi'] = 0}
+	},
 }
