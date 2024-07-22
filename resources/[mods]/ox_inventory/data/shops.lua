@@ -254,20 +254,20 @@ return {
 		
 	},
 
-	-- BlackMarketArms = {
-	-- 	name = 'Black Market (Arms)',
-	-- 	inventory = {
-	-- 		{ name = 'WEAPON_DAGGER', price = 5000, metadata = { registered = false	}, currency = 'black_money' },
-	-- 		{ name = 'WEAPON_CERAMICPISTOL', price = 50000, metadata = { registered = false }, currency = 'black_money' },
-	-- 		{ name = 'at_suppressor_light', price = 50000, currency = 'black_money' },
-	-- 		{ name = 'ammo-rifle', price = 1000, currency = 'black_money' },
-	-- 		{ name = 'ammo-rifle2', price = 1000, currency = 'black_money' }
-	-- 	}, locations = {
-	-- 		vec3(309.09, -913.75, 56.46)
-	-- 	}, targets = {
+	BlackMarketArms = {
+		name = 'Black Market (Arms)',
+		inventory = {
+			{ name = 'WEAPON_DAGGER', price = 5000, metadata = { registered = false	}, currency = 'black_money' },
+			{ name = 'WEAPON_CERAMICPISTOL', price = 50000, metadata = { registered = false }, currency = 'black_money' },
+			{ name = 'at_suppressor_light', price = 50000, currency = 'black_money' },
+			{ name = 'ammo-rifle', price = 1000, currency = 'black_money' },
+			{ name = 'ammo-rifle2', price = 1000, currency = 'black_money' }
+		}, locations = {
+			vec3(309.09, -913.75, 56.46)
+		}, targets = {
 
-	-- 	}
-	-- },
+		}
+	},
 
 	VendingMachineDrinks = {
 		name = 'Vending Machine',
