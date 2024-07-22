@@ -15,7 +15,7 @@ Config.axe = {
 Config.rocks = { -- Items obtained from mining
     { item = 'emerald', label = 'Emerald', price = {19000, 22000}, difficulty = {'medium', 'medium', 'easy'} },
     { item = 'diamond', label = 'Diamond', price = {15000, 18000}, difficulty = {'medium', 'easy', 'easy'} },
-    { item = 'copper', label = 'Copper', price = {11000, 14000}, difficulty = {'medium', 'easy'} },
+    { item = 'copper', label = 'Copper', price = {11000, 14000}, difficulty = {'medium', 'medium'} },
     { item = 'iron', label = 'Iron', price = {7000, 10000}, difficulty = {'easy', 'easy'} },
     { item = 'steel', label = 'Steel', price = {4000, 6000}, difficulty = {'easy', 'easy'} },
 }

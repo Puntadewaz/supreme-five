@@ -19,6 +19,46 @@ return {
 				duration = 5000,
 				count = 1,
 			},
+			{
+				name = 'pistolammo9',
+				ingredients = {
+					copper = 5,
+					gunpowder = 10,
+					ammoclip = 1,
+				},
+				duration = 15000,
+				count = 1,
+			},
+			{
+				name = 'pistolammo38',
+				ingredients = {
+					copper = 15,
+					gunpowder = 20,
+					ammoclip = 1,
+				},
+				duration = 15000,
+				count = 1,
+			},
+			{
+				name = 'pistol9',
+				ingredients = {
+					copper = 30,
+					iron = 10,
+					rubber = 10,
+				},
+				duration = 30000,
+				count = 1,
+			},
+			{
+				name = 'pistol38',
+				ingredients = {
+					copper = 60,
+					iron = 20,
+					rubber = 20,
+				},
+				duration = 30000,
+				count = 1,
+			},
 		},
 		points = {
 			vector3(2308.12, 3949.6, 37.1),

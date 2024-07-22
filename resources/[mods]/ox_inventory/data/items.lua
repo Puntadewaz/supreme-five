@@ -2199,4 +2199,72 @@ return {
 			image = "veh_wheels.png",
 		}
 	},
+
+	["gunpowder"] = {
+		label = "Gun Powder",
+		weight = 2000,
+		stack = true,
+		close = true,
+		description = "Bubuk ammo untuk crafting peluru",
+		client = {
+			image = "ammo-beanbag.png",
+		}
+	},
+
+	["ammoclip"] = {
+		label = "Ammo Clip",
+		weight = 2000,
+		stack = true,
+		close = true,
+		description = "Ammo Clip",
+		client = {
+			image = "clip_attachment.png",
+		}
+	},
+
+	["pistolammo9"] = {
+		label = "Pistol Ammo .9",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Pistol Ammo .9",
+		client = {
+			image = "ammo-9.png",
+		}
+	},
+
+	["pistol9"] = {
+		label = "Pistol .9",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Pistol",
+		client = {
+			image = "WEAPON_PISTOL.png",
+		}
+	},
+
+	["pistolammo38"] = {
+		label = "Pistol Ammo Revolver",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "Pistol Ammo Revolver",
+		client = {
+			image = "ammo-38.png",
+		}
+	},
+
+	["pistol38"] = {
+		label = "Pistol Revolver",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Pistol Revolver",
+		client = {
+			image = "WEAPON_REVOLVER.png",
+		}
+	},
+
+	
 }

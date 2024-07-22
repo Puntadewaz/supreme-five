@@ -255,17 +255,17 @@ return {
 	},
 
 	BlackMarketArms = {
-		name = 'Black Market (Arms)',
+		name = 'Black Market',
 		inventory = {
-			{ name = 'WEAPON_DAGGER', price = 5000, metadata = { registered = false	}, currency = 'black_money' },
-			{ name = 'WEAPON_CERAMICPISTOL', price = 50000, metadata = { registered = false }, currency = 'black_money' },
-			{ name = 'at_suppressor_light', price = 50000, currency = 'black_money' },
-			{ name = 'ammo-rifle', price = 1000, currency = 'black_money' },
-			{ name = 'ammo-rifle2', price = 1000, currency = 'black_money' }
+			{ name = 'gunpowder', price = 1000, currency = 'black_money' },
+			{ name = 'ammoclip', price = 50000, currency = 'black_money' },
+			{ name = 'rubber', price = 1000, currency = 'black_money' },
+			{ name = 'copper', price = 20000, currency = 'black_money' },
+			{ name = 'iron', price = 20000, currency = 'black_money' },
 		}, locations = {
 			vec3(309.09, -913.75, 56.46)
 		}, targets = {
-
+			{ loc = vec3(309.09, -913.75, 56.46), length = 0.5, width = 3.0, heading = 96.98, minZ = 30.5, maxZ = 32.0, distance = 6 },
 		}
 	},
 
