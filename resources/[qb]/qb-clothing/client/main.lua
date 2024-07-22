@@ -414,28 +414,12 @@ if Config.UseTarget then
                 }
             end
 
-            -- exports['qb-target']:AddBoxZone(v.shopType .. k, v.coords, v.length, v.width, {
-            --     name = v.shopType .. k,
-            --     debugPoly = false,
-            --     minZ = v.coords.z-1,
-            --     maxZ = v.coords.z+1,
-            -- }, {
-            --     options = {
-            --         {
-            --             type = "client",
-            --             action = opts.action,
-            --             icon = opts.icon,
-            --             label = opts.label,
-            --         },
-            --     },
-            --     distance = 3
-            -- })
-            exports.interact:AddInteraction({
-                coords = vec3(v.coords),
-                distance = 5.0, -- optional
-                interactDst = 1.5, -- optional
-                id = 'shoptype_', -- needed for removing interactions
-                -- name = 'interactionName', -- optional
+            exports['qb-target']:AddBoxZone(v.shopType .. k, v.coords, v.length, v.width, {
+                name = v.shopType .. k,
+                debugPoly = false,
+                minZ = v.coords.z-1,
+                maxZ = v.coords.z+1,
+            }, {
                 options = {
                     {
                         type = "client",
@@ -444,7 +428,23 @@ if Config.UseTarget then
                         label = opts.label,
                     },
                 },
+                distance = 3
             })
+            -- exports.interact:AddInteraction({
+            --     coords = vec3(v.coords),
+            --     distance = 5.0, -- optional
+            --     interactDst = 1.5, -- optional
+            --     id = 'shoptype_', -- needed for removing interactions
+            --     -- name = 'interactionName', -- optional
+            --     options = {
+            --         {
+            --             type = "client",
+            --             action = opts.action,
+            --             icon = opts.icon,
+            --             label = opts.label,
+            --         },
+            --     },
+            -- })
         end
 
         for k, v in pairs(Config.ClothingRooms) do

@@ -229,6 +229,23 @@ RegisterNetEvent('qb-vehiclekeys:client:ToggleEngine', function()
     end
 end)
 
+RegisterNetEvent('qb-vehiclekeys:client:LockCar', function(id)
+    local targetVehicle = GetVehicle()
+    if targetVehicle then
+        local targetPlate = QBCore.Functions.GetPlate(targetVehicle)
+        if HasKeys(targetPlate) then
+            local vehLockStatus = GetVehicleDoorLockStatus(targetVehicle)
+            if vehLockStatus == 1 then
+                ToggleVehicleLocks(targetVehicle)
+            else
+                ToggleVehicleunLocks(targetVehicle)
+            end
+        else
+            QBCore.Functions.Notify(Lang:t('notify.ydhk'), 'error')
+        end
+    end
+end)
+
 RegisterNetEvent('qb-vehiclekeys:client:GiveKeys', function(id)
     local targetVehicle = GetVehicle()
     if targetVehicle then

@@ -189,6 +189,22 @@ Config.MenuItems = {
         }
     },
     -- [4] = {
+    --     id = 'givekey',
+    --     title = 'Give Key',
+    --     icon = 'key',
+    --     type = 'client',
+    --     event = 'qb-vehiclekeys:client:GiveKeys',
+    --     shouldClose = false
+    -- },
+    -- [5] = {
+    --     id = 'lockunlockcar',
+    --     title = 'Lock / Unlock Car',
+    --     icon = 'key',
+    --     type = 'client',
+    --     event = 'qb-vehiclekeys:client:LockCar',
+    --     shouldClose = false
+    -- },
+    -- [4] = {
     --     id = 'walkstyles',
     --     title = 'Walkstyle',
     --     icon = 'walking',
@@ -810,28 +826,28 @@ Config.VehicleSeats = {
     items = {} -- dynamically changed depending on vehicle, don't edit
 }
 
-Config.VehicleExtras = {
-    id = 'vehicleextras',
-    title = 'Vehicle Extras',
-    icon = 'plus',
-    items = {
-        {
-            id = 'lockdoor',
-            title = 'Lock / Unlock',
-            icon = 'unlock-keyhole',
-            type = 'client',
-            event = 'qb-vehiclekeys:server:setVehLockState',
-            shouldClose = false
-        }, {
-            id = 'givekey',
-            title = 'Give Key',
-            icon = 'key',
-            type = 'client',
-            event = 'qb-vehiclekeys:client:GiveKeys',
-            shouldClose = false
-        },
-    }
-}
+-- Config.VehicleExtras = {
+--     id = 'vehicleextras',
+--     title = 'Vehicle Extras',
+--     icon = 'plus',
+--     items = {
+--         {
+--             id = 'lockdoor',
+--             title = 'Lock / Unlock',
+--             icon = 'unlock-keyhole',
+--             type = 'client',
+--             event = 'qb-vehiclekeys:server:setVehLockState',
+--             shouldClose = false
+--         }, {
+--             id = 'givekey',
+--             title = 'Give Key',
+--             icon = 'key',
+--             type = 'client',
+--             event = 'qb-vehiclekeys:client:GiveKeys',
+--             shouldClose = false
+--         },
+--     }
+-- }
 
 
 

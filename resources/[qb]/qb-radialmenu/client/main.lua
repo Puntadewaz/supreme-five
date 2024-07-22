@@ -81,9 +81,24 @@ local function SetupVehicleMenu()
         id = 'control',
         title = 'Vehicle',
         icon = 'car',
-        type = 'client',
-        event = 'config:VehicleExtras',
-        shouldClose = true,
+        items = {
+            {
+                id = 'givekey',
+                title = 'Give Key',
+                icon = 'key',
+                type = 'client',
+                event = 'qb-vehiclekeys:client:GiveKeys',
+                shouldClose = false
+            },
+            {
+                id = 'lockunlockcar',
+                title = 'Lock / Unlock Car',
+                icon = 'key',
+                type = 'client',
+                event = 'qb-vehiclekeys:client:LockCar',
+                shouldClose = false
+            },
+        }
     }
 
     local ped = PlayerPedId()
