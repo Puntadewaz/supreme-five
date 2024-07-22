@@ -52,22 +52,35 @@ Config.SharedKeys = { -- Share keys amongst employees. Employees can lock/unlock
     ['police'] = { -- Job name
         requireOnduty = false,
         vehicles = {
-	    'police', -- Vehicle model
-	    'police2', -- Vehicle model
-	}
+            'police', -- Vehicle model
+            'police2', -- Vehicle model
+        }
     },
 
     ['mechanic'] = {
         requireOnduty = false,
         vehicles = {
             'towtruck',
-	}
+        }
     }
 }
 
 -- These vehicles cannot be jacked
 Config.ImmuneVehicles = {
-    'stockade'
+    'stockade',
+    '765lt',
+    'bmws19',
+    'bolide',
+    'chiron',
+    'bmwm8',
+    'huayrar',
+    'mclarenf1',
+    'ocni422spe',
+    'ocnlamtmc',
+    'R1Yamaha',
+    'yzfr6',
+    'CBR1000RRR'
+
 }
 
 -- These vehicles will never lock

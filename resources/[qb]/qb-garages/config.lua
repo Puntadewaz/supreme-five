@@ -3,7 +3,7 @@ Config.AutoRespawn = true          -- true == stores cars in garage on restart |
 Config.VisuallyDamageCars = true   -- true == damage car on spawn | false == no damage on spawn
 Config.SharedGarages = false       -- true == take any car from any garage | false == only take car from garage stored in
 Config.ClassSystem = false         -- true == restrict vehicles by class | false == any vehicle class in any garage
-Config.FuelResource = 'LegacyFuel' -- supports any that has a GetFuel() and SetFuel() export
+Config.FuelResource = 'cdn-fuel' -- supports any that has a GetFuel() and SetFuel() export
 Config.Warp = true                 -- true == warp player into vehicle | false == vehicle spawns without warping
 
 -- https://docs.fivem.net/natives/?_0x29439776AAA00A62
@@ -198,36 +198,36 @@ Config.Garages = {
         type = 'public',
         category = Config.VehicleClass['car']
     },
-    emsgarage = {
-        label = 'EMS Garage Parking',
-        takeVehicle = vector3(295.86, -607.49, 43.33),
-        spawnPoint = {
-            vector4(297.13, -604.93, 43.32, 55.31),
-            vector4(296.04, -607.27, 43.33, 56.61),
-            vector4(294.33, -610.87, 43.36, 67.09)
-        },
-        showBlip = true,
-        blipName = 'Public Parking',
-        blipNumber = 357,
-        blipColor = 3,
-        type = 'public',
-        category = Config.VehicleClass['car']
-    },
-    policegarage = {
-        label = 'Police Garage Parking',
-        takeVehicle = vector3(442.39, -1021.32, 28.57),
-        spawnPoint = {
-            vector4(439.66, -1018.51, 28.73, 93.59),
-            vector4(437.31, -1023.23, 28.7, 112.62),
-            vector4(447.61, -1021.0, 28.46, 84.16)
-        },
-        showBlip = true,
-        blipName = 'Public Parking',
-        blipNumber = 357,
-        blipColor = 3,
-        type = 'public',
-        category = Config.VehicleClass['car']
-    },
+    -- emsgarage = {
+    --     label = 'EMS Garage Parking',
+    --     takeVehicle = vector3(293.45, -611.8, 43.38),
+    --     spawnPoint = {
+    --         vector4(297.13, -604.93, 43.32, 55.31),
+    --         vector4(296.04, -607.27, 43.33, 56.61),
+    --         vector4(294.33, -610.87, 43.36, 67.09)
+    --     },
+    --     showBlip = true,
+    --     blipName = 'Public Parking',
+    --     blipNumber = 357,
+    --     blipColor = 3,
+    --     type = 'ems',
+    --     category = Config.VehicleClass['car']
+    -- },
+    -- policegarage = {
+    --     label = 'Police Garage Parking',
+    --     takeVehicle = vector3(442.39, -1021.32, 28.57),
+    --     spawnPoint = {
+    --         vector4(439.66, -1018.51, 28.73, 93.59),
+    --         vector4(437.31, -1023.23, 28.7, 112.62),
+    --         vector4(447.61, -1021.0, 28.46, 84.16)
+    --     },
+    --     showBlip = true,
+    --     blipName = 'Public Parking',
+    --     blipNumber = 357,
+    --     blipColor = 3,
+    --     type = 'police',
+    --     category = Config.VehicleClass['car']
+    -- },
     pillboxgarage = {
         label = 'Pillbox Garage Parking',
         takeVehicle = vector3(213.2, -796.05, 30.86),
@@ -240,6 +240,19 @@ Config.Garages = {
         },
         showBlip = true,
         blipName = 'Public Parking',
+        blipNumber = 357,
+        blipColor = 3,
+        type = 'public',
+        category = Config.VehicleClass['car']
+    },
+    homegarage = {
+        label = 'Home Garage Parking',
+        takeVehicle = vector3(-3213.03, 831.36, 8.93),
+        spawnPoint = {
+            vector4(-3204.15, 817.64, 8.93, 212.94)
+        },
+        showBlip = false,
+        blipName = 'Home Parking',
         blipNumber = 357,
         blipColor = 3,
         type = 'public',
@@ -331,21 +344,21 @@ Config.Garages = {
         job = 'cartel',
         jobType = 'cartel'
     },
-    police = {
-        label = 'Police',
-        takeVehicle = vector3(462.83, -1019.52, 28.1),
-        spawnPoint = {
-            vector4(446.16, -1025.79, 28.23, 6.59)
-        },
-        showBlip = false,
-        blipName = 'Police',
-        blipNumber = 357,
-        blipColor = 3,
-        type = 'job',
-        category = Config.VehicleClass['car'], --car, air, sea, rig
-        job = 'police',
-        jobType = 'leo'
-    },
+    -- police = {
+    --     label = 'Police',
+    --     takeVehicle = vector3(462.83, -1019.52, 28.1),
+    --     spawnPoint = {
+    --         vector4(446.16, -1025.79, 28.23, 6.59)
+    --     },
+    --     showBlip = false,
+    --     blipName = 'Police',
+    --     blipNumber = 357,
+    --     blipColor = 3,
+    --     type = 'job',
+    --     category = Config.VehicleClass['car'], --car, air, sea, rig
+    --     job = 'police',
+    --     jobType = 'police'
+    -- },
     -- intairport = {
     --     label = 'Airport Hangar',
     --     takeVehicle = vector3(-979.06, -2995.48, 13.95),

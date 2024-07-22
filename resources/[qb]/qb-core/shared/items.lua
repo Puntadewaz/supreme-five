@@ -321,6 +321,26 @@ QBShared.Items = {
     veh_tint                     = { name = 'veh_tint', label = 'Tints', weight = 1000, type = 'item', image = 'veh_tint.png', unique = false, useable = true, shouldClose = true, description = 'Install vehicle tint' },
     veh_plates                   = { name = 'veh_plates', label = 'Plates', weight = 1000, type = 'item', image = 'veh_plates.png', unique = false, useable = true, shouldClose = true, description = 'Install vehicle plates' },
 
+    -- Cafe
+    milk                         = { name = 'milk', label = 'Susu', weight = 500, type = 'item', image = 'jugofmilk.png', unique = false, useable = false, shouldClose = true, description = '' },
+    water                        = { name = 'water', label = 'Air', weight = 500, type = 'item', image = 'jugofwater.png', unique = false, useable = false, shouldClose = true, description = '' },
+    tea                        = { name = 'tea', label = 'Daun Teh', weight = 500, type = 'item', image = 'tealeaf.png', unique = false, useable = false, shouldClose = true, description = '' },
+    fish                        = { name = 'fish', label = 'Ikan', weight = 500, type = 'item', image = 'freshfish.png', unique = false, useable = false, shouldClose = true, description = '' },
+    chicken                        = { name = 'chicken', label = 'Ayam', weight = 500, type = 'item', image = 'chickebreast.png', unique = false, useable = false, shouldClose = true, description = '' },
+    salt                        = { name = 'salt', label = 'Garam', weight = 500, type = 'item', image = 'salt.png', unique = false, useable = false, shouldClose = true, description = '' },
+    sugar                        = { name = 'sugar', label = 'Gula', weight = 500, type = 'item', image = 'sugar.png', unique = false, useable = false, shouldClose = true, description = '' },
+    ketchup                        = { name = 'ketchup', label = 'Saus', weight = 500, type = 'item', image = 'saos.png', unique = false, useable = false, shouldClose = true, description = '' },
+    kecap                        = { name = 'kecap', label = 'Kecap', weight = 500, type = 'item', image = 'kecap.png', unique = false, useable = false, shouldClose = true, description = '' },
+    udang                        = { name = 'udang', label = 'Udang', weight = 500, type = 'item', image = 'udang.png', unique = false, useable = false, shouldClose = true, description = '' },
+    lemon                        = { name = 'lemon', label = 'Lemon', weight = 500, type = 'item', image = 'lemon.png', unique = false, useable = false, shouldClose = true, description = '' },
+    lemontea                        = { name = 'lemontea', label = 'Lemon Tea', weight = 500, type = 'item', image = 'lemontea.png', unique = false, useable = true, shouldClose = true, description = '' },
+    grilledchicken                        = { name = 'grilledchicken', label = 'Ayam Bakar', weight = 500, type = 'item', image = 'grilledchicken.png', unique = false, useable = true, shouldClose = true, description = '' },
+    grilledfish                        = { name = 'grilledfish', label = 'Ikan Bakar', weight = 500, type = 'item', image = 'grilledfish.png', unique = false, useable = true, shouldClose = true, description = '' },
+    seafoodsoup                        = { name = 'seafoodsoup', label = 'Sop Seafood', weight = 500, type = 'item', image = 'seafoodsoup.png', unique = false, useable = true, shouldClose = true, description = '' },
+    milktea                        = { name = 'milktea', label = 'Milk Tea', weight = 500, type = 'item', image = 'milktea.png', unique = false, useable = true, shouldClose = true, description = '' },
+    chickensoup                        = { name = 'chickensoup', label = 'Sop Ayam', weight = 500, type = 'item', image = 'chickensoup.png', unique = false, useable = true, shouldClose = true, description = '' },
+
+   
     -- Medication
     firstaid                     = { name = 'firstaid', label = 'First Aid', weight = 2500, type = 'item', image = 'firstaid.png', unique = false, useable = true, shouldClose = true, description = 'You can use this First Aid kit to get people back on their feet' },
     bandage                      = { name = 'bandage', label = 'Bandage', weight = 0, type = 'item', image = 'bandage.png', unique = false, useable = true, shouldClose = true, description = 'A bandage works every time' },

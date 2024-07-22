@@ -2,21 +2,21 @@ Config = {}
 
 Config.PawnLocation = {
     -- [1] = {
-    --     coords = vector3(412.34, 314.81, 103.13),
-    --     length = 1.5,
-    --     width = 1.8,
-    --     heading = 207.0,
-    --     debugPoly = false,
-    --     minZ = 100.97,
-    --     maxZ = 105.42,
-    --     distance = 3.0
-    -- },
-}
+    --         coords = vector3(412.34, 314.81, 103.13),
+    --         length = 1.5,
+    --         width = 1.8,
+    --         heading = 207.0,
+    --         debugPoly = false,
+    --         minZ = 100.97,
+    --         maxZ = 105.42,
+    --         distance = 3.0
+    --     },
+    }
 
 Config.BankMoney = false -- Set to true if you want the money to go into the players bank
 Config.UseTimes = false -- Set to false if you want the pawnshop open 24/7
-Config.TimeOpen = 00 -- Opening Time
-Config.TimeClosed = 00 -- Closing Time
+Config.TimeOpen = 7 -- Opening Time
+Config.TimeClosed = 17 -- Closing Time
 Config.SendMeltingEmail = true
 
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'

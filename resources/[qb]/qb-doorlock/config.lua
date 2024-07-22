@@ -1,7 +1,7 @@
 Config = {}
 
 Config.CommandPermission = 'god' -- permission level for creating new doors
-Config.AdminAccess = true -- Enable admins to unlock any door
+Config.AdminAccess = false -- Enable admins to unlock any door
 Config.AdminPermission = 'god' -- The permission needed to get AdminAccess if it is enabled
 Config.Warnings = false -- if true it will show warnings in the console when certain requirements aren't met
 Config.FallbackDistance = 3.0 -- Distance to fall back on when it is not set

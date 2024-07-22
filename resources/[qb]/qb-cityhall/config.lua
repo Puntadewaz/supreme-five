@@ -3,9 +3,9 @@ Config = Config or {}
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
 
 Config.AvailableJobs = {                                     -- Only used when not using qb-jobs.
-    ['trucker'] = { ['label'] = 'Trucker', ['isManaged'] = false },
-    ['taxi'] = { ['label'] = 'Taxi', ['isManaged'] = false },
-    -- ['tow'] = { ['label'] = 'Tow Truck', ['isManaged'] = false },
+    -- ['trucker'] = { ['label'] = 'Trucker', ['isManaged'] = false },
+    -- ['taxi'] = { ['label'] = 'Taxi', ['isManaged'] = true },
+    ['tow'] = { ['label'] = 'Tow Truck', ['isManaged'] = false },
     -- ['reporter'] = { ['label'] = 'News Reporter', ['isManaged'] = false },
     ['garbage'] = { ['label'] = 'Garbage Collector', ['isManaged'] = false },
     ['bus'] = { ['label'] = 'Bus Driver', ['isManaged'] = false },
@@ -43,7 +43,8 @@ Config.Cityhalls = {
 }
 
 Config.DrivingSchools = {
-    -- { -- Driving School 1
+    -- Driving School 1
+    -- { 
     --     coords = vec3(240.3, -1379.89, 33.74),
     --     showBlip = true,
     --     blipData = {

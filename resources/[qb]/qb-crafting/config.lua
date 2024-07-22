@@ -14,47 +14,47 @@ Config = {
                     { item = 'plastic',    amount = 32 }
                 }
             },
-            -- {
-            --     item = 'screwdriverset',
-            --     xpRequired = 0,
-            --     xpGain = 2,
-            --     requiredItems = {
-            --         { item = 'metalscrap', amount = 30 },
-            --         { item = 'plastic',    amount = 42 }
-            --     }
-            -- },
-            -- {
-            --     item = 'electronickit',
-            --     xpRequired = 0,
-            --     xpGain = 3,
-            --     requiredItems = {
-            --         { item = 'metalscrap', amount = 30 },
-            --         { item = 'plastic',    amount = 45 },
-            --         { item = 'aluminum',   amount = 28 }
-            --     }
-            -- },
-            -- {
-            --     item = 'radioscanner',
-            --     xpRequired = 0,
-            --     xpGain = 4,
-            --     requiredItems = {
-            --         { item = 'electronickit', amount = 2 },
-            --         { item = 'plastic',       amount = 52 },
-            --         { item = 'steel',         amount = 40 }
-            --     }
-            -- },
-            -- {
-            --     item = 'gatecrack',
-            --     xpRequired = 110,
-            --     xpGain = 5,
-            --     requiredItems = {
-            --         { item = 'metalscrap',    amount = 10 },
-            --         { item = 'plastic',       amount = 50 },
-            --         { item = 'aluminum',      amount = 30 },
-            --         { item = 'iron',          amount = 17 },
-            --         { item = 'electronickit', amount = 2 }
-            --     }
-            -- },
+            {
+                item = 'screwdriverset',
+                xpRequired = 0,
+                xpGain = 2,
+                requiredItems = {
+                    { item = 'metalscrap', amount = 30 },
+                    { item = 'plastic',    amount = 42 }
+                }
+            },
+            {
+                item = 'electronickit',
+                xpRequired = 0,
+                xpGain = 3,
+                requiredItems = {
+                    { item = 'metalscrap', amount = 30 },
+                    { item = 'plastic',    amount = 45 },
+                    { item = 'aluminum',   amount = 28 }
+                }
+            },
+            {
+                item = 'radioscanner',
+                xpRequired = 0,
+                xpGain = 4,
+                requiredItems = {
+                    { item = 'electronickit', amount = 2 },
+                    { item = 'plastic',       amount = 52 },
+                    { item = 'steel',         amount = 40 }
+                }
+            },
+            {
+                item = 'gatecrack',
+                xpRequired = 110,
+                xpGain = 5,
+                requiredItems = {
+                    { item = 'metalscrap',    amount = 10 },
+                    { item = 'plastic',       amount = 50 },
+                    { item = 'aluminum',      amount = 30 },
+                    { item = 'iron',          amount = 17 },
+                    { item = 'electronickit', amount = 2 }
+                }
+            },
             {
                 item = 'handcuffs',
                 xpRequired = 160,
@@ -85,24 +85,24 @@ Config = {
                     { item = 'copper',     amount = 26 }
                 }
             },
-            -- {
-            --     item = 'ironoxide',
-            --     xpRequired = 300,
-            --     xpGain = 9,
-            --     requiredItems = {
-            --         { item = 'iron',  amount = 60 },
-            --         { item = 'glass', amount = 30 }
-            --     }
-            -- },
-            -- {
-            --     item = 'aluminumoxide',
-            --     xpRequired = 300,
-            --     xpGain = 10,
-            --     requiredItems = {
-            --         { item = 'aluminum', amount = 60 },
-            --         { item = 'glass',    amount = 30 }
-            --     }
-            -- },
+            {
+                item = 'ironoxide',
+                xpRequired = 300,
+                xpGain = 9,
+                requiredItems = {
+                    { item = 'iron',  amount = 60 },
+                    { item = 'glass', amount = 30 }
+                }
+            },
+            {
+                item = 'aluminumoxide',
+                xpRequired = 300,
+                xpGain = 10,
+                requiredItems = {
+                    { item = 'aluminum', amount = 60 },
+                    { item = 'glass',    amount = 30 }
+                }
+            },
             {
                 item = 'armor',
                 xpRequired = 350,
@@ -114,17 +114,17 @@ Config = {
                     { item = 'aluminum', amount = 22 }
                 }
             },
-            -- {
-            --     item = 'drill',
-            --     xpRequired = 1750,
-            --     xpGain = 12,
-            --     requiredItems = {
-            --         { item = 'iron',             amount = 50 },
-            --         { item = 'steel',            amount = 50 },
-            --         { item = 'screwdriverset',   amount = 3 },
-            --         { item = 'advancedlockpick', amount = 2 }
-            --     }
-            -- },
+            {
+                item = 'drill',
+                xpRequired = 1750,
+                xpGain = 12,
+                requiredItems = {
+                    { item = 'iron',             amount = 50 },
+                    { item = 'steel',            amount = 50 },
+                    { item = 'screwdriverset',   amount = 3 },
+                    { item = 'advancedlockpick', amount = 2 }
+                }
+            },
         }
     },
     attachment_bench = {

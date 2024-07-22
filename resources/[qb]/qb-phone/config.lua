@@ -1,6 +1,9 @@
 Config = Config or {}
 Config.BillingCommissions = { -- This is a percentage (0.10) == 10%
-    mechanic = 0.10
+    mechanic = 0.10,
+    cafe = 0.10,
+    police = 0.10,
+    ambulance = 0.10,
 }
 Config.Linux = false      -- True if linux
 Config.TweetDuration = 12 -- How many hours to load tweets (12 will load the past 12 hours of tweets)
@@ -94,26 +97,6 @@ Config.PhoneApplications = {
         slot = 8,
         Alerts = 0,
     },
-    ['crypto'] = {
-        app = 'crypto',
-        color = '#004682',
-        icon = 'fas fa-coins',
-        tooltipText = 'Crypto',
-        job = false,
-        blockedjobs = {},
-        slot = 9,
-        Alerts = 0,
-    },
-    ['racing'] = {
-        app = 'racing',
-        color = '#353b48',
-        icon = 'fas fa-flag-checkered',
-        tooltipText = 'Racing',
-        job = false,
-        blockedjobs = {},
-        slot = 10,
-        Alerts = 0,
-    },
     ['houses'] = {
         app = 'houses',
         color = '#27ae60',
@@ -122,17 +105,6 @@ Config.PhoneApplications = {
         job = false,
         blockedjobs = {},
         slot = 11,
-        Alerts = 0,
-    },
-    ['lawyers'] = {
-        app = 'lawyers',
-        color = '#26d4ce',
-        icon = 'fas fa-briefcase',
-        tooltipText = 'Services',
-        tooltipPos = 'bottom',
-        job = false,
-        blockedjobs = {},
-        slot = 12,
         Alerts = 0,
     },
     ['gallery'] = {
@@ -165,6 +137,37 @@ Config.PhoneApplications = {
         job = 'police',
         blockedjobs = {},
         slot = 15,
+        Alerts = 0,
+    },
+    -- ['crypto'] = {
+    --     app = 'crypto',
+    --     color = '#004682',
+    --     icon = 'fas fa-coins',
+    --     tooltipText = 'Crypto',
+    --     job = false,
+    --     blockedjobs = {},
+    --     slot = 9,
+    --     Alerts = 0,
+    -- },
+    -- ['racing'] = {
+    --     app = 'racing',
+    --     color = '#353b48',
+    --     icon = 'fas fa-flag-checkered',
+    --     tooltipText = 'Racing',
+    --     job = false,
+    --     blockedjobs = {},
+    --     slot = 10,
+    --     Alerts = 0,
+    -- },
+    ['lawyers'] = {
+        app = 'lawyers',
+        color = '#26d4ce',
+        icon = 'fas fa-briefcase',
+        tooltipText = 'Services',
+        tooltipPos = 'bottom',
+        job = false,
+        blockedjobs = {},
+        slot = 12,
         Alerts = 0,
     },
 }

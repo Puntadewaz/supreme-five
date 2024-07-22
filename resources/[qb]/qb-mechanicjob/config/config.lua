@@ -1,6 +1,6 @@
 Config = {}
 Config.RequireJob = true                       -- do you need a mech job to use parts?
-Config.FuelResource = 'LegacyFuel'             -- supports any that has a GetFuel() and SetFuel() export
+Config.FuelResource = 'cdn-fuel'             -- supports any that has a GetFuel() and SetFuel() export
 
 Config.PaintTime = 5                           -- how long it takes to paint a vehicle in seconds
 Config.ColorFavorites = false                  -- add your own colors to the favorites menu (see bottom of const.lua)
@@ -12,7 +12,7 @@ Config.UseDistance = true                      -- enable/disable saving vehicle 
 Config.UseDistanceDamage = true                -- damage vehicle engine health based on vehicle distance
 Config.UseWearableParts = true                 -- enable/disable wearable parts
 Config.WearablePartsChance = 1                 -- chance of wearable parts being damaged while driving if enabled
-Config.WearablePartsDamage = math.random(1, 2) -- how much wearable parts are damaged when damaged if enabled
+Config.WearablePartsDamage = 1                 -- how much wearable parts are damaged when damaged if enabled
 Config.DamageThreshold = 25                    -- how worn a part needs to be or below to apply an effect if enabled
 Config.WarningThreshold = 50                   -- how worn a part needs to be to show a warning color in toolbox if enabled
 
@@ -31,22 +31,22 @@ Config.WearableParts = { -- unused if Config.UseWearableParts is false (feel fre
 }
 
 Config.Shops = {
-    mechanic = { -- City location
-        managed = true,
-        shopLabel = 'LS Customs',
-        showBlip = true,
-        blipSprite = 72,
-        blipColor = 46,
-        blipCoords = vector3(-346.02, -130.68, 39.02),
-        duty = vector3(-348.18, -134.55, 39.59),
-        stash = vector3(-346.02, -130.68, 39.02),
-        paint = vector3(-324.11, -147.11, 39.10),
-        vehicles = {
-            withdraw = vector3(-369.30, -104.75, 38.38),
-            spawn = vector4(-369.65, -107.8, 38.65, 70.52),
-            list = { 'flatbed', 'towtruck', 'minivan', 'blista' }
-        },
-    },
+    -- mechanic = { -- City location
+    --     managed = true,
+    --     shopLabel = 'LS Customs',
+    --     showBlip = true,
+    --     blipSprite = 72,
+    --     blipColor = 46,
+    --     blipCoords = vector3(-346.02, -130.68, 39.02),
+    --     duty = vector3(-348.18, -134.55, 39.59),
+    --     stash = vector3(-346.02, -130.68, 39.02),
+    --     paint = vector3(-324.11, -147.11, 39.10),
+    --     vehicles = {
+    --         withdraw = vector3(-369.30, -104.75, 38.38),
+    --         spawn = vector4(-369.65, -107.8, 38.65, 70.52),
+    --         list = { 'flatbed', 'towtruck', 'minivan', 'blista' }
+    --     },
+    -- },
     -- mechanic2 = { -- Harmony Location
     --     managed = true,
     --     shopLabel = 'LS Customs',
@@ -79,22 +79,22 @@ Config.Shops = {
     --         list = { 'flatbed', 'towtruck', 'minivan', 'blista' }
     --     },
     -- },
-    -- bennys = { -- Default Bennys Location
-    --     managed = true,
-    --     shopLabel = 'Benny\'s Motorworks',
-    --     showBlip = true,
-    --     blipSprite = 72,
-    --     blipColor = 46,
-    --     blipCoords = vector3(-211.73, -1325.28, 30.89),
-    --     duty = vector3(-202.92, -1313.74, 31.70),
-    --     stash = vector3(-199.58, -1314.65, 31.08),
-    --     paint = vector3(-202.42, -1322.16, 31.29),
-    --     vehicles = {
-    --         withdraw = vector3(0, 0, 0),
-    --         spawn = vector4(-370.51, -107.88, 38.35, 72.56),
-    --         list = { 'flatbed', 'towtruck', 'minivan', 'blista' }
-    --     },
-    -- },
+    mechanic = { -- Default Bennys Location
+        managed = true,
+        shopLabel = 'Mechanic',
+        showBlip = true,
+        blipSprite = 72,
+        blipColor = 46,
+        blipCoords = vector3(-211.73, -1325.28, 30.89),
+        duty = vector3(-215.99, -1335.15, 34.89),
+        stash = vector3(-199.58, -1314.65, 31.08),
+        paint = vector3(-195.35, -1325.7, 31.13),
+        vehicles = {
+            withdraw = vector3(-184.96, -1289.88, 31.3),
+            spawn = vector4(-184.96, -1289.88, 31.3, 179.94),
+            list = { 'flatbed', 'towtruck', 'minivan', 'blista' }
+        },
+    },
     -- beeker = { -- Paleto Location
     --     managed = true,
     --     shopLabel = 'Beeker\'s Garage',
