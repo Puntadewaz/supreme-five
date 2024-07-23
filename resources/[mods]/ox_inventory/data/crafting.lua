@@ -59,6 +59,16 @@ return {
 				duration = 30000,
 				count = 1,
 			},
+			{
+				name = 'drill',
+				ingredients = {
+					copper = 0,
+					iron = 0,
+					aluminum = 0,
+				},
+				duration = 90000,
+				count = 1,
+			},
 		},
 		points = {
 			vector3(2308.12, 3949.6, 37.1),
@@ -67,8 +77,8 @@ return {
 		},
 		zones = {
 			-- {
-			-- 	coords = vec3(-1146.2, -2002.05, 13.2),
-			-- 	size = vec3(3.8, 1.05, 0.15),
+			-- 	coords = vector3(2308.12, 3949.6, 37.1),
+			-- 	size = vector3(2308.12, 3949.6, 37.1),
 			-- 	distance = 1.5,
 			-- 	rotation = 315.0,
 			-- },
@@ -79,7 +89,7 @@ return {
 			-- 	rotation = 70.0,
 			-- },
 		},
-		blip = { id = 566, colour = 31, scale = 0.8 },
+		-- blip = { id = 566, colour = 31, scale = 0.8 },
 	},
 	{
 		items = {

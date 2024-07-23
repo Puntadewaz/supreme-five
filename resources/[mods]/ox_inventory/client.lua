@@ -1878,3 +1878,24 @@ lib.callback.register('ox_inventory:getVehicleData', function(netid)
 		return GetEntityModel(entity), GetVehicleClass(entity)
 	end
 end)
+
+
+
+RegisterNetEvent('ox_inventory:requiredItems', function(items, bool)
+    local itemTable = {}
+    if bool then
+        for i, k in pairs(items) do
+            itemTable[i] = {
+                item = k.name,
+                label = Items[k.name]['label'],
+                image = k.image,
+            }
+        end
+    end
+
+    SendNUIMessage({
+        action = 'requiredItem',
+        items = itemTable,
+        toggle = bool
+    })
+end)

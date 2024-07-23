@@ -48,12 +48,16 @@ end
 --- @param items table | nil
 --- @param show boolean
 --- @return nil
+local items = {
+    [0] = { name = 'electronickit', image = 'electronickit.png' },
+    [1] = { name = 'trojan_usb', image = 'usb_device.png' },
+}
 function Config.ShowRequiredItems(items, show)
-    TriggerEvent('qb-inventory:client:requiredItems', items, show)
+    TriggerEvent('ox_inventory:requiredItems', items, show)
 end
 
 Config.MinimumPaletoPolice = 0
 Config.MinimumPacificPolice = 0
 Config.MinimumFleecaPolice = 0
 Config.MinimumThermitePolice = 0
-Config.OutlawCooldown = 5 -- The amount of minutes it takes for the cops to be able to be called again after they were called
+Config.OutlawCooldown = 0 -- The amount of minutes it takes for the cops to be able to be called again after they were called

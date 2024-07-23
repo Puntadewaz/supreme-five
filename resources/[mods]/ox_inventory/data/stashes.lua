@@ -95,9 +95,9 @@ return {
 	},
 
 	{
-		coords = vector3(-199.58, -1314.65, 31.08),
+		coords = vector3(-197.22, -1315.08, 31.09),
 		target = {
-			loc = vector3(-199.58, -1314.65, 31.08),
+			loc = vector3(-197.22, -1315.08, 31.09),
 			length = 0.6,
 			width = 1.8,
 			heading = 340,

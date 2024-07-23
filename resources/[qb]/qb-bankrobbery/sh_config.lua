@@ -13,6 +13,12 @@ Config = Config or {}
 --- @param items table | array | string
 --- @param amount number | nil
 --- @return boolean
+
+local items = {
+    ['electronickit'] = 1, 
+    ['trojan_usb'] = 1, 
+}
+
 function Config.HasItem(items, amount)
     return QBCore.Functions.HasItem(items, amount)
 end

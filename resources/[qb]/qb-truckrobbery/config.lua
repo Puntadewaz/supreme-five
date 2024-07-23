@@ -12,11 +12,11 @@ Config.VehicleSpawn = { -- below the coordinates for random vehicle responses
 Config.DriverWeap = `WEAPON_MICROSMG` -- Weapon for truck driver to spawn with
 Config.NavWeap = `WEAPON_MICROSMG` -- Weapon for navigator to spawn with
 Config.TimeToBlow = 30 -- bomb detonation time after planting, in seconds
-Config.ActivePolice = 2 -- needed policemen to activate the mission
+Config.ActivePolice = 0 -- needed policemen to activate the mission
 Config.Payout = {
-    Min = 250, -- Min reward payout
-    Max = 450 -- Max reward payout
+    Min = 250000, -- Min reward payout
+    Max = 450000 -- Max reward payout
 }
-Config.ActivationCost = 500 -- how much is the activation of the mission (clean from the bank)
+Config.ActivationCost = 50000 -- how much is the activation of the mission (clean from the bank)
 Config.Currency = "$"
 Config.ResetTimer = 600 -- cooldown for mission in seconds

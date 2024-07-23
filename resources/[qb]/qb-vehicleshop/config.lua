@@ -1,7 +1,7 @@
 Config = {}
 Config.UsingTarget = GetConvar('UseTarget', 'false') == 'true'
-Config.Commission = 0.10                              -- Percent that goes to sales person from a full car sale 10%
-Config.FinanceCommission = 0.05                       -- Percent that goes to sales person from a finance sale 5%
+Config.Commission = 0.05                              -- Percent that goes to sales person from a full car sale 5%
+Config.FinanceCommission = 0.20                       -- Percent that goes to sales person from a finance sale 20%
 Config.PaymentWarning = 30                            -- time in minutes that player has to make payment before repo
 Config.PaymentInterval = 168                           -- time in hours between payment being due
 Config.MinimumDown = 30                               -- minimum percentage allowed down
@@ -12,7 +12,7 @@ Config.SortAlphabetically = true                      -- will sort make, categor
 Config.HideCategorySelectForOne = true                -- will hide the category selection menu if a shop only sells one category of vehicle or a make has only one category
 Config.Shops = {
     ['pdm'] = {
-        ['Type'] = 'free-use', -- no player interaction is required to purchase a car
+        ['Type'] = 'managed', -- no player interaction is required to purchase a car
         ['Zone'] = {
             ['Shape'] = {      --polygon that surrounds the shop
                 vector2(-56.727394104004, -1086.2325439453),
@@ -31,7 +31,7 @@ Config.Shops = {
             ['maxZ'] = 28.0,                                         -- max height of the shop zone
             ['size'] = 2.75                                          -- size of the vehicles zones
         },
-        ['Job'] = 'none',                                            -- Name of job or none
+        ['Job'] = 'cardealer',                                            -- Name of job or none
         ['ShopLabel'] = 'Premium Deluxe Motorsport',                 -- Blip name
         ['showBlip'] = true,                                         -- true or false
         ['blipSprite'] = 326,                                        -- Blip sprite

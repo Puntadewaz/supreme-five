@@ -76,10 +76,10 @@ return {
 		blip = {
 			id = 110, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'ammo-9', price = 5, },
-			{ name = 'WEAPON_KNIFE', price = 200 },
-			{ name = 'WEAPON_BAT', price = 100 },
-			{ name = 'WEAPON_PISTOL', price = 1000, metadata = { registered = true }, license = 'weapon' }
+			{ name = 'pistolammo9', price = 1000, },
+			{ name = 'WEAPON_KNIFE', price = 20000 },
+			{ name = 'WEAPON_BAT', price = 10000 },
+			{ name = 'WEAPON_PISTOL', price = 200000, metadata = { registered = true }, license = 'weapon' }
 		}, locations = {
 			vec3(-662.180, -934.961, 21.829),
 			vec3(810.25, -2157.60, 29.62),
@@ -235,7 +235,7 @@ return {
 		blip = {
 			id = 836, colour = 26, scale = 0.8
 		}, locations = {
-			vector3(-581.73, -1062.59, 22.35)
+			vector3(-588.79, -1062.85, 33.87)
 		}, 
 		
 	},
@@ -248,6 +248,16 @@ return {
 			vector3(2707.42, 2776.76, 37.88)
 		}, inventory = {
 			{ name = 'pickaxe',              price = 5000 },
+			{ name = 'drill',              price = 50000 },
+			{ name = 'laptop',              price = 50000 },
+			{ name = 'lockpick',              price = 50000 },
+			{ name = 'advancedlockpick',              price = 50000 },
+			{ name = 'electronickit',              price = 50000 },
+			{ name = 'gatecrack',              price = 50000 },
+			{ name = 'thermite',              price = 50000 },
+			{ name = 'trojan_usb',              price = 50000 },
+			{ name = 'screwdriverset',              price = 50000 },
+			{ name = 'lighter',              price = 50000 },
 		}, targets = {
 			{ loc = vector3(2707.42, 2776.76, 37.88), length = 0.5, width = 3.0, heading = 96.98, minZ = 30.5, maxZ = 32.0, distance = 6 },
 		},
