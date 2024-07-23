@@ -494,6 +494,11 @@ local Vehicles = {
     { model = 'manchez3',        name = 'Manchez Scout Classic',         brand = 'Maibatsu',        price = 15000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'powersurge',      name = 'Powersurge',                    brand = 'Western',         price = 7000,    category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'pizzaboy',        name = 'Pizza Boy',                     brand = 'Pegassi',         price = 50000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
+    { model = 'PCX160',        name = 'PCX 160',                     brand = 'HONDA',         price = 10000000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
+    { model = 'aeroxark',        name = 'AEROX 155',                     brand = 'YAMAHA',         price = 11500000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
+    { model = 'allnewnmax',        name = 'NMAX 155',                     brand = 'YAMAHA',         price = 12500000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
+    { model = 'mt125',        name = 'MT 150',                     brand = 'YAMAHA',         price = 16000000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
+    { model = 'adv1502023',        name = 'ADV 150',                     brand = 'HONDA',         price = 12500000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     --- Off-Road (9)
     { model = 'bfinjection',     name = 'Bf Injection',                  brand = 'Annis',           price = 9000,    category = 'offroad',        type = 'automobile', shop = 'pdm' },
     { model = 'bifta',           name = 'Bifta',                         brand = 'Annis',           price = 15500,   category = 'offroad',        type = 'automobile', shop = 'pdm' },
