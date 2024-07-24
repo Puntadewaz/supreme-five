@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShopVehicleDataArray>
+	<Vehicles>
+	<Item>
+		<lockHash>CU_VEH_corollacross20</lockHash>
+		<modelNameHash>corollacross20</modelNameHash>
+		<cost value="100"/>
+		<textLabel>corollacross20</textLabel>
+		<textLabel></textLabel>
+	</Item>
+	</Vehicles>
+</ShopVehicleDataArray>
