@@ -409,6 +409,7 @@ local Vehicles = {
     { model = 'swift2021',          name = 'Swift',                        brand = 'Suzuki',            price = 20000000,  category = 'super',          type = 'automobile', shop = 'pdm' },
     { model = 'xp210',          name = 'GR Yaris',                        brand = 'Toyota',            price = 22000000,  category = 'super',          type = 'automobile', shop = 'pdm' },
     { model = 'corollacross20',          name = 'Corolla Cross',                        brand = 'Toyota',            price = 22000000,  category = 'super',          type = 'automobile', shop = 'pdm' },
+    { model = 'elantrang',          name = 'Elantra',                        brand = 'Hyundai',            price = 25000000,  category = 'super',          type = 'automobile', shop = 'pdm' },
     --- Limited (12)
     { model = '765lt',           name = '765',                   brand = 'McLaren',         price = 2845000,  category = 'limited',         type = 'automobile', shop = 'none' },
     { model = 'razerx3',         name = 'Razer X 3',                     brand = 'Razer',           price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
