@@ -410,6 +410,8 @@ local Vehicles = {
     { model = 'xp210',          name = 'GR Yaris',                        brand = 'Toyota',            price = 22000000,  category = 'super',          type = 'automobile', shop = 'pdm' },
     { model = 'corollacross20',          name = 'Corolla Cross',                        brand = 'Toyota',            price = 22000000,  category = 'super',          type = 'automobile', shop = 'pdm' },
     { model = 'elantrang',          name = 'Elantra',                        brand = 'Hyundai',            price = 25000000,  category = 'super',          type = 'automobile', shop = 'pdm' },
+    { model = 'sonata20',          name = 'Sonata',                        brand = 'Hyundai',            price = 25000000,  category = 'super',          type = 'automobile', shop = 'pdm' },
+    { model = 'sportage',          name = 'Sportage',                        brand = 'KIA',            price = 22000000,  category = 'super',          type = 'automobile', shop = 'pdm' },
     --- Limited (12)
     { model = '765lt',           name = '765',                   brand = 'McLaren',         price = 2845000,  category = 'limited',         type = 'automobile', shop = 'none' },
     { model = 'razerx3',         name = 'Razer X 3',                     brand = 'Razer',           price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
