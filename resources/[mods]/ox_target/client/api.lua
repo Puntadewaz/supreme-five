@@ -59,6 +59,15 @@ function api.addBoxZone(data)
     return lib.zones.box(data).id
 end
 
+-- function api.addBoxZoneQB(name, center, length, width, options, targetoptions)
+-- 	local centerType = type(center)
+-- 	center = (centerType == 'table' or centerType == 'vector4') and vec3(center.x, center.y, center.z) or center
+-- 	Zones[name] = BoxZone:Create(center, length, width, options)
+-- 	targetoptions.distance = targetoptions.distance or Config.MaxDistance
+-- 	Zones[name].targetoptions = targetoptions
+-- 	return Zones[name]
+-- end
+
 ---@param data OxTargetSphereZone | table
 ---@return number
 function api.addSphereZone(data)

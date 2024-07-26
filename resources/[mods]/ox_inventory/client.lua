@@ -1899,3 +1899,12 @@ RegisterNetEvent('ox_inventory:requiredItems', function(items, bool)
         toggle = bool
     })
 end)
+
+RegisterNetEvent('ox_inventory:client:ItemBox', function(itemData, type, amount)
+    SendNUIMessage({
+        action = 'itemBox',
+        item = itemData,
+        type = type,
+        amount = amount
+    })
+end)

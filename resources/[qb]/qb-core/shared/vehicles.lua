@@ -436,7 +436,7 @@ local Vehicles = {
     { model = 'mclarenf1',      name = 'mclarenf1',            brand = 'mclaren',          price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
     { model = 'fdnyambo',      name = 'EMS',            brand = 'AMBULU',          price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
     { model = 'wraith',      name = 'RR WRAITH',            brand = 'RR',          price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
-    { model = 'R1Yamaha',        name = 'Yamaha R1',                     brand = 'Yamaha',         price = 50000,   category = 'limited',    type = 'bike',       shop = 'none' },
+    { model = 'r1',        name = 'Yamaha R1',                     brand = 'Yamaha',         price = 50000,   category = 'limited',    type = 'bike',       shop = 'none' },
     { model = 'yzfr6',        name = 'Yamaha R6',                     brand = 'Yamaha',         price = 50000,   category = 'limited',    type = 'bike',       shop = 'luxury' },
     { model = 'CBR1000RRR',        name = 'CBR FIREBLADE',                     brand = 'HONDA',         price = 50000,   category = 'limited',    type = 'bike',       shop = 'none' },
     { model = 'cayman16',        name = 'Cayman',                     brand = 'porsche',         price = 50000,   category = 'limited',    type = 'car',       shop = 'none' },

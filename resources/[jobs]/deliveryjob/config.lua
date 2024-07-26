@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Notify = 'ox' -- 'qb' or 'ox' or 'none'
+Config.Notify = 'qb' -- 'qb' or 'ox' or 'none'
 Config.Target = 'ox' -- 'qb' or 'ox' or 'interact' [https://github.com/darktrovx/interact]
 Config.InterctView = 7.5 -- Only used if Config.Target == 'interact' | Does not affect 'qb' or 'ox'
 Config.InteractDist = 2.5 -- Only used if Config.Target == 'interact' | Does not affect 'qb' or 'ox'

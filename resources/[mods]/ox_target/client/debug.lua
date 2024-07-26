@@ -28,6 +28,7 @@ ox_target:addBoxZone({
     }
 })
 
+
 ox_target:addSphereZone({
     coords = vec3(440.5363, -1015.666, 28.85637),
     radius = 3,

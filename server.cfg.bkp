@@ -16,19 +16,21 @@
 # endpoint_add_udp "127.0.0.1:30120"
 endpoint_add_tcp "0.0.0.0:30120"
 endpoint_add_udp "0.0.0.0:30120"
-sv_maxclients 8
+sv_maxclients 10
 set steam_webApiKey "279AAB8140E8ECDA4506A569F3616294"
-sets tags "default, deployer, qbcore, qb-core, Indonesia, Kehidupan, Studio"
+sets tags "default, deployer, qbcore, qb-core, Indonesia, Kehidupan, Abadi"
 
 ## You MAY edit the following:
-sv_licenseKey "cfxk_1HtIY9wKRMUK7gAvvfhnq_2i3hom"
-sv_hostname "Kehidupan Studio"
-sets sv_projectName "Kehidupan Studio"
-sets sv_projectDesc "Dunia lain dari kehidupan nyata, tempat cari teman dan jodoh."
+sv_licenseKey "cfxk_1nTZLKLO2lNwu1qgf2v9x_2lXolt"
+sv_forceIndirectListing false
+sv_listingIpOverride "104.234.180.52"
+sv_hostname "EterLife"
+sets sv_projectName "EterLife"
+sets sv_projectDesc "Hidup abadi untuk cari teman dan jodoh."
 sets locale "id-ID"
 load_server_icon myLogo.png
 set sv_enforceGameBuild 2944
-set mysql_connection_string "mysql://root@localhost/qbcoreframework_907beb?charset=utf8mb4"
+set mysql_connection_string "mysql://u56726_gVbgUmTf5h@104.234.180.242/s56726_qbcore?charset=utf8mb4"
 
 # Voice config
 setr voice_useNativeAudio false
@@ -42,7 +44,7 @@ setr voice_syncData 1
 setr qb_locale "en"
 
 # QBCore UseTarget
-setr UseTarget false
+setr UseTarget true
 
 # These resources will start by default.
 ensure mapmanager
@@ -56,20 +58,28 @@ ensure baseevents
 # QBCore & Extra stuff
 ensure qb-core
 exec mods.cfg
-# exec vehicle.cfg
+exec vehicle.cfg
+exec building.cfg
+exec jobs.cfg
+
 ensure [qb]
-ensure [standalone]
-ensure [voice]
-ensure [defaultmaps]
+
+# Set Inventory Ox Libs
+setr inventory:framework "qb"
 
 # Set Illenium Appearance Locale
 setr illenium-appearance:locale "en"
 
+ensure [standalone]
+ensure [voice]
+ensure [defaultmaps]
+
 ## Permissions ##
 add_ace group.admin command allow # allow all commands
 # add_principal identifier.fivem:14187806 group.admin #Jesterday
-add_principal identifier.fivem:14187806 group.god #Jesterday
-add_principal identifier.fivem:14189200 group.god #Jesterday
+add_principal identifier.fivem:14187806 qbcore.admin #Jesterday
+add_principal identifier.fivem:14189200 qbcore.admin #Yadhi
+add_principal identifier.fivem:14229522 qbcore.admin
 
 # Resources
 add_ace resource.qb-core command allow # Allow qb-core to execute commands

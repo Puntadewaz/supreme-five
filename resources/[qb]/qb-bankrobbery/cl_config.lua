@@ -1,6 +1,6 @@
 Config = Config or {}
 
-Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
+Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use ox_target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
 
 -- This is the handler for the cop count, you can change this to anything you want as this is by default the qb-policejob event
 RegisterNetEvent('police:SetCopCount', function(amount)
@@ -42,7 +42,8 @@ end
 --- Format for `items`:
 --- ```lua
 --- {
----     [itemIndexNumber] = { name = 'itemName', image = 'itemImage' }
+---     [0] = { name = 'electronickit', image = 'electronickit.png' },
+---     [1] = { name = 'trojan_usb', image = 'usb_device.png' },
 --- }
 --- ```
 --- @param items table | nil
@@ -51,6 +52,11 @@ end
 local items = {
     [0] = { name = 'electronickit', image = 'electronickit.png' },
     [1] = { name = 'trojan_usb', image = 'usb_device.png' },
+    [2] = { name = 'thermite', image = 'thermite.png' },
+    [3] = { name = 'lighter', image = 'lighter.png' },
+    [4] = { name = 'laptop', image = 'laptop.png' },
+    [5] = { name = 'lockpick', image = 'lockpick.png' },
+    [6] = { name = 'advancelockpick', image = 'advancelockpick.png' },
 }
 function Config.ShowRequiredItems(items, show)
     TriggerEvent('ox_inventory:requiredItems', items, show)
@@ -60,4 +66,4 @@ Config.MinimumPaletoPolice = 0
 Config.MinimumPacificPolice = 0
 Config.MinimumFleecaPolice = 0
 Config.MinimumThermitePolice = 0
-Config.OutlawCooldown = 0 -- The amount of minutes it takes for the cops to be able to be called again after they were called
+Config.OutlawCooldown = 5 -- The amount of minutes it takes for the cops to be able to be called again after they were called

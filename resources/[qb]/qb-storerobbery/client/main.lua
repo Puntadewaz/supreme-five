@@ -351,19 +351,19 @@ RegisterNUICallback('fail', function(_, cb)
     if usingAdvanced then
         if math.random(1, 100) < 20 then
             TriggerServerEvent('qb-storerobbery:server:removeAdvancedLockpick')
-            TriggerEvent('qb-inventory:client:ItemBox', QBCore.Shared.Items['advancedlockpick'], 'remove')
+            TriggerEvent('ox_inventory:client:ItemBox', QBCore.Shared.Items['advancedlockpick'], 'remove')
         end
     else
         if math.random(1, 100) < 40 then
             TriggerServerEvent('qb-storerobbery:server:removeLockpick')
-            TriggerEvent('qb-inventory:client:ItemBox', QBCore.Shared.Items['lockpick'], 'remove')
+            TriggerEvent('ox_inventory:client:ItemBox', QBCore.Shared.Items['lockpick'], 'remove')
         end
     end
-    if (not QBCore.Functions.IsWearingGloves() and math.random(1, 100) <= 25) then
-        local pos = GetEntityCoords(PlayerPedId())
-        TriggerServerEvent('evidence:server:CreateFingerDrop', pos)
-        QBCore.Functions.Notify(Lang:t('error.you_broke_the_lock_pick'))
-    end
+    -- if (not QBCore.Functions.IsWearingGloves() and math.random(1, 100) <= 25) then
+    --     local pos = GetEntityCoords(PlayerPedId())
+    --     TriggerServerEvent('evidence:server:CreateFingerDrop', pos)
+    --     QBCore.Functions.Notify(Lang:t('error.you_broke_the_lock_pick'))
+    -- end
     lockpick(false)
     cb('ok')
 end)
