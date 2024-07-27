@@ -3,7 +3,7 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 
 Config.Locations = {                -- Edit the various interaction points for players or create new ones
     ['duty'] = {
-        vector3(-586.43, -1050.09, 21.53),
+        vector3(-593.99, -1052.64, 22.34),
     },
     ['vehicle'] = {
         vector4(-607.94, -1059.36, 21.79, 86.17),

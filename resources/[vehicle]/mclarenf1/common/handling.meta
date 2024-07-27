@@ -17,7 +17,7 @@
     <fInitialDriveMaxFlatVel value="330.000000"/>
     <fBrakeForce value="2.000000"/>
     <fBrakeBiasFront value="0.600000"/>
-    <fHandBrakeForce value="0.900000"/>
+    <fHandBrakeForce value="1.900000"/>
     <fSteeringLock value="27.110001"/>
     <fTractionCurveMax value="2.650000"/>
     <fTractionCurveMin value="2.480000"/>

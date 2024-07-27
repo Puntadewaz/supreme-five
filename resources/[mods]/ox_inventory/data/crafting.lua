@@ -105,6 +105,9 @@ return {
 				},
 				duration = 5000,
 				count = 20,
+				client = {
+					anim = { dict = 'MaleScenario@PROP_HUMAN_BBQ', clip = 'PROP_HUMAN_BBQ' },
+				}
 			},
 			{
 				name = 'grilledfish',

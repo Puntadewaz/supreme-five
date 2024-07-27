@@ -422,16 +422,16 @@ QBClothing.Open = function (data) {
     $(".clothing-menu-roomOutfits-container").html("");
     $(".clothing-menu-myOutfits-container").html("");
     $.each(data.menus, function (i, menu) {
+        $('div[data-type="face"]').css("display", "none");
+        $('div[data-type="face2"]').css("display", "none");
+        $('div[data-type="facemix"]').css("display", "none");
+        $('div[data-type="model"]').css("display", "none");
         if (menu.selected) {
             $(".clothing-menu-new").append(`'<div class="clothing-menu ${menu.menu} selected" data-category="${menu.menu}">${menu.menu == 'myOutfits' ? '<i class="fa fa-male" aria-hidden="true"></i>' : ''}${menu.menu == 'clothing' ? '<i class="fa fa-tshirt" aria-hidden="true"></i>' : ''}${menu.menu == 'character' ? '<i class="fa fa-male" aria-hidden="true"></i>' : ''}${menu.menu == 'accessoires' ? '<i class="fa fa-headphones" aria-hidden="true"></i>' : ''}${menu.menu == 'roomOutfits' ? '<i class="fa fa-universal-access" aria-hidden="true"></i>' : ''}</div>`)
             $(".clothing-menu-" + menu.menu + "-container").css({ "display": "block" });
 
             if (menu.label == "Clothing") {
                 $("#faceoption").css("display", "none");
-                $('div[data-type="face"]').css("display", "none");
-                $('div[data-type="face2"]').css("display", "none");
-                $('div[data-type="facemix"]').css("display", "none");
-                $('div[data-type="model"]').css("display", "none");
             } else {
                 $("#faceoption").css("display", "block");
             }
