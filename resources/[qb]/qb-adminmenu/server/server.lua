@@ -247,7 +247,7 @@ RegisterServerEvent('qb-admin:giveWeapon', function(weapon)
     local src = source
     if QBCore.Functions.HasPermission(src, 'admin') or IsPlayerAceAllowed(src, 'command') then
         local Player = QBCore.Functions.GetPlayer(src)
-        exports.ox_inventory:AddItem(src, weapon, 1, false, false, 'qb-admin:giveWeapon')
+        exports['qb-inventory']:AddItem(src, weapon, 1, false, false, 'qb-admin:giveWeapon')
     else
         BanPlayer(src)
     end

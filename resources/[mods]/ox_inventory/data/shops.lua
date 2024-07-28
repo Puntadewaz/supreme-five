@@ -233,11 +233,10 @@ return {
 	CafeShop = {
 		name = 'Cafe',
 		blip = {
-			id = 836, colour = 26, scale = 0.8
+			id = 489, colour = 26, scale = 0.8
 		}, locations = {
 			vector3(-588.79, -1062.85, 33.87)
 		}, 
-		
 	},
 
 	MiningShop = {
