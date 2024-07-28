@@ -6,7 +6,7 @@ local hasDonePreloading = {}
 local function GiveStarterItems(source)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
-    for _, v in pairs(QBCore.Shared.StarterItems) do
+    for _, v, i in pairs(QBCore.Shared.StarterItems) do
         local info = {}
         if v.item == "id_card" then
             info.citizenid = Player.PlayerData.citizenid
@@ -19,9 +19,9 @@ local function GiveStarterItems(source)
             info.firstname = Player.PlayerData.charinfo.firstname
             info.lastname = Player.PlayerData.charinfo.lastname
             info.birthdate = Player.PlayerData.charinfo.birthdate
-            info.type = "Class C Driver License"
+            info.type = "SIM C"
         end
-        exports['qb-inventory']:AddItem(src, v.item, v.amount, false, info, 'qb-multicharacter:GiveStarterItems')
+        local success, response = exports.ox_inventory:AddItem(src, v.item, v.amount, info, i)
     end
 end
 
@@ -133,6 +133,7 @@ RegisterNetEvent('qb-multicharacter:server:createCharacter', function(data)
             loadHouseData(src)
             TriggerClientEvent("qb-multicharacter:client:closeNUIdefault", src)
             GiveStarterItems(src)
+            -- TriggerEvent("qb-vehicleshop:server:freeVehicle")
         end
     end
 end)

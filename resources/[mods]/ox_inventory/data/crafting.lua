@@ -106,7 +106,7 @@ return {
 				duration = 5000,
 				count = 20,
 				client = {
-					anim = { dict = 'MaleScenario@PROP_HUMAN_BBQ', clip = 'PROP_HUMAN_BBQ' },
+					anim = { dict = 'MaleScenario', clip = 'PROP_HUMAN_BBQ' },
 				}
 			},
 			{
@@ -163,14 +163,14 @@ return {
 			},
 		},
 		points = {
-			vector3(-590.44, -1056.47, 22.36),
+			vector3(-2211.93, -387.85, 13.32),
 		},
 		groups = {
 			['cafe'] = 0
 		},
 		zones = {
 			{
-				coords = vector3(-590.44, -1056.47, 22.36),
+				coords = vector3(-2211.93, -387.85, 13.32),
 				size = vec3(3.8, 1.05, 0.15),
 				distance = 1.5,
 				rotation = 315.0,

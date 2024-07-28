@@ -29,6 +29,20 @@ Config.Garages = {
         type = 'public', -- public, gang, job, depot
         category = Config.VehicleClass['car']
     },
+    airportgarage = {
+        label = 'Airport Parking',
+        takeVehicle = vector3(-978.07, -2702.71, 13.87),
+        spawnPoint = {
+            vector4(-979.9, -2710.03, 13.85, 351.99),
+            vector4(-986.2, -2708.48, 13.83, 340.87)
+        },
+        showBlip = true,
+        blipName = 'Public Parking',
+        blipNumber = 357,
+        blipColor = 3,
+        type = 'public', -- public, gang, job, depot
+        category = Config.VehicleClass['car']
+    },
     casinogarage = {
         label = 'Casino Parking',
         takeVehicle = vector3(883.96, -4.71, 78.76),

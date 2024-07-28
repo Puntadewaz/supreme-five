@@ -189,6 +189,7 @@ end)
 
 -- Buy public vehicle outright
 RegisterNetEvent('qb-vehicleshop:server:buyShowroomVehicle', function(vehicle)
+    print(vehicle)
     local src = source
     vehicle = vehicle.buyVehicle
     local pData = QBCore.Functions.GetPlayer(src)
@@ -492,4 +493,30 @@ QBCore.Commands.Add('transfervehicle', Lang:t('general.command_transfervehicle')
     else
         TriggerClientEvent('QBCore:Notify', src, Lang:t('error.buyertoopoor'), 'error')
     end
+end)
+
+-- Free Vehicle
+RegisterNetEvent('qb-vehicleshop:server:freeVehicle', function()
+    local vehicle = '19Raptor'
+    local src = source
+    -- vehicle = vehicle.buyVehicle
+    local pData = QBCore.Functions.GetPlayer(src)
+    local cid = pData.PlayerData.citizenid
+    -- local cash = pData.PlayerData.money['cash']
+    -- local bank = pData.PlayerData.money['bank']
+    -- local vehiclePrice = QBCore.Shared.Vehicles[vehicle]['price']
+    local plate = GeneratePlate()
+    MySQL.insert('INSERT INTO player_vehicles (license, citizenid, vehicle, hash, mods, plate, garage, state) VALUES (?, ?, ?, ?, ?, ?, ?, ?)', {
+        pData.PlayerData.license,
+        cid,
+        vehicle,
+        GetHashKey(vehicle),
+        '{}',
+        plate,
+        'airportgarage',
+        0
+    })
+
+    TriggerClientEvent('QBCore:Notify', src, Lang:t('success.purchased'), 'success')
+    TriggerClientEvent('qb-vehicleshop:client:getFreeVehicle', src, vehicle, plate)
 end)

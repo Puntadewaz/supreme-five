@@ -145,11 +145,11 @@ return {
 		blip = {
 			id = 403, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'firstaid', price = 100 },
-			{ name = 'bandage', price = 100 },
-			{ name = 'painkillers', price = 100 },
+			{ name = 'firstaid', price = 0 },
+			{ name = 'bandage', price = 0 },
+			{ name = 'painkillers', price = 0 },
 		}, locations = {
-			vector3(310.46, -597.53, 43.29)
+			vector3(1140.11, -1563.61, 35.38)
 		}, targets = {
 
 		}
@@ -235,7 +235,7 @@ return {
 		blip = {
 			id = 489, colour = 26, scale = 0.8
 		}, locations = {
-			vector3(-588.79, -1062.85, 33.87)
+			vector3(-2188.06, -399.89, 19.9)
 		}, 
 	},
 

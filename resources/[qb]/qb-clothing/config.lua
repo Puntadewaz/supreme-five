@@ -540,7 +540,7 @@ Config.ClothingRooms = {
     [1] = {requiredJob = 'police', isGang = false, coords = vector3(454.43, -988.85, 29.00), width = 2, length = 2, cameraLocation = vector4(454.42, -990.52, 30.69, 358.48)},
     [2] = {requiredJob = 'ambulance', isGang = false, coords = vector3(298.99, -597.13, 43.28), width = 2, length = 2, cameraLocation = vector4(298.99, -597.13, 43.28, 290.25)}, -- Right double door in Hospital Map that is on QBCore GitHub
     [3] = {requiredJob = 'taxi', isGang = false, coords = vector3(381.34, -1608.61, 29.29), width = 2, length = 2, cameraLocation = vector4(379.97, -1608.77, 29.29, 225.86)},
-    [4] = {requiredJob = 'cafe', isGang = false, coords = vector3(-586.58, -1050.02, 22.34), width = 2, length = 2, cameraLocation = vector4(-588.94, -1050.47, 22.34, 274.17)},
+    [4] = {requiredJob = 'cafe', isGang = false, coords = vector3(-2194.02, -401.64, 16.79), width = 2, length = 2, cameraLocation = vector4(-2192.73, -402.68, 16.79, 230.66)},
     [5] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-210.58, -1341.99, 34.89), width = 2, length = 2, cameraLocation = vector4(-210.89, -1340.28, 34.89, 3.48)},
 }
 

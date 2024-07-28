@@ -38,9 +38,9 @@ return {
 	},
 
 	{
-		coords = vector3(-590.36, -1067.36, 21.45),
+		coords = vector3(-2210.05, -385.72, 13.32),
 		target = {
-			loc = vector3(-590.36, -1067.36, 21.45),
+			loc = vector3(-2210.05, -385.72, 13.32),
 			length = 0.6,
 			width = 1.8,
 			heading = 340,
@@ -57,9 +57,9 @@ return {
 	},
 
 	{
-		coords = vector3(-590.43, -1058.66, 21.52),
+		coords = vector3(-2210.08, -384.99, 13.32),
 		target = {
-			loc = vector3(-590.43, -1058.66, 21.52),
+			loc = vector3(-2210.08, -384.99, 13.32),
 			length = 0.6,
 			width = 1.8,
 			heading = 340,
@@ -76,9 +76,9 @@ return {
 	},
 
 	{
-		coords = vector3(-597.39, -1049.43, 22.34),
+		coords = vector3(-2209.7, -388.43, 13.32),
 		target = {
-			loc = vector3(-597.39, -1049.43, 22.34),
+			loc = vector3(-2209.7, -388.43, 13.32),
 			length = 0.6,
 			width = 1.8,
 			heading = 340,

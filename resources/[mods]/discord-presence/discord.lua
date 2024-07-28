@@ -10,7 +10,7 @@ Citizen.CreateThread(function()
         
         SetDiscordAppId(appId)
 
-        SetRichPresence("[".. playerId .."]".. playerName)
+        SetRichPresence(playerName)
 
         SetDiscordRichPresenceAsset(bigPic)
         SetDiscordRichPresenceAssetText("EterLife")

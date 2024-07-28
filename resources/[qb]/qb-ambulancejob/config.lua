@@ -37,39 +37,39 @@ Config.AlertShowInfo = 2            -- How many injuries a player must have befo
 
 Config.Locations = {                -- Edit the various interaction points for players or create new ones
     ['checking'] = {
-        vector3(308.19, -595.35, 43.29),
+        -- vector3(308.19, -595.35, 43.29),
         -- vector3(-254.54, 6331.78, 32.43), -- paleto
     },
     ['duty'] = {
-        vector3(309.94, -602.91, 43.29),
+        vector3(1135.34, -1540.61, 35.38),
         -- vector3(-254.88, 6324.5, 32.58), -- paleto
     },
     ['vehicle'] = {
-        vector4(295.23, -607.55, 43.33, 69.13),
+        vector4(1123.4, -1516.82, 34.69, 351.43),
         -- vector4(-234.28, 6329.16, 32.15, 222.5), -- paleto
     },
     ['helicopter'] = {
-        vector4(351.58, -587.45, 74.16, 160.5),
+        vector4(1186.73, -1562.43, 39.4, 269.33),
         -- vector4(-475.43, 5988.353, 31.716, 31.34), -- paleto
     },
     ['roof'] = {
-        vector4(338.5, -583.85, 74.16, 245.5),
+        -- vector4(338.5, -583.85, 74.16, 245.5),
     },
     ['main'] = {
-        vector3(298.74, -599.33, 43.29),
+        vector3(1143.01, -1536.62, 35.38),
     },
     ['stash'] = {
     --     vector3(309.78, -596.6, 43.29),
     },
     ['beds'] = {
-        { coords = vector4(353.1, -584.6, 43.11, 152.08),    taken = false, model = 1631638868 },
-        { coords = vector4(356.79, -585.86, 43.11, 152.08),  taken = false, model = 1631638868 },
-        { coords = vector4(354.12, -593.12, 43.1, 336.32),   taken = false, model = 2117668672 },
-        { coords = vector4(350.79, -591.8, 43.1, 336.32),    taken = false, model = 2117668672 },
-        { coords = vector4(346.99, -590.48, 43.1, 336.32),   taken = false, model = 2117668672 },
-        { coords = vector4(360.32, -587.19, 43.02, 152.08),  taken = false, model = -1091386327 },
-        { coords = vector4(349.82, -583.33, 43.02, 152.08),  taken = false, model = -1091386327 },
-        { coords = vector4(326.98, -576.17, 43.02, 152.08),  taken = false, model = -1091386327 },
+        { coords = vector4(1120.29, -1538.55, 34.97, 274.85),    taken = false, model = 1631638868 },
+        { coords = vector4(1123.33, -1538.46, 34.97, 270.35),  taken = false, model = 1631638868 },
+        { coords = vector4(1126.25, -1538.44, 34.97, 267.66),   taken = false, model = 2117668672 },
+        { coords = vector4(1125.71, -1546.96, 34.97, 273.43),    taken = false, model = 2117668672 },
+        { coords = vector4(1122.62, -1547.04, 34.97, 270.58),   taken = false, model = 2117668672 },
+        { coords = vector4(1119.47, -1547.12, 34.97, 274.88),  taken = false, model = -1091386327 },
+        -- { coords = vector4(349.82, -583.33, 43.02, 152.08),  taken = false, model = -1091386327 },
+        -- { coords = vector4(326.98, -576.17, 43.02, 152.08),  taken = false, model = -1091386327 },
         --- paleto
         -- { coords = vector4(-252.43, 6312.25, 32.34, 313.48), taken = false, model = 2117668672 },
         -- { coords = vector4(-247.04, 6317.95, 32.34, 134.64), taken = false, model = 2117668672 },
@@ -84,16 +84,16 @@ Config.Locations = {                -- Edit the various interaction points for p
     ['hospital'] = {
         {
             ['name'] = Lang:t('info.pb_hospital'),
-            ['location'] = vector3(308.36, -595.25, 43.28),
+            ['location'] = vector3(1143.08, -1536.58, 35.38),
             ['beds'] = {
-                { coords = vector4(353.1, -584.6, 43.11, 152.08),   taken = false, model = 1631638868 },
-                { coords = vector4(356.79, -585.86, 43.11, 152.08), taken = false, model = 1631638868 },
-                { coords = vector4(354.12, -593.12, 43.1, 336.32),  taken = false, model = 2117668672 },
-                { coords = vector4(350.79, -591.8, 43.1, 336.32),   taken = false, model = 2117668672 },
-                { coords = vector4(346.99, -590.48, 43.1, 336.32),  taken = false, model = 2117668672 },
-                { coords = vector4(360.32, -587.19, 43.02, 152.08), taken = false, model = -1091386327 },
-                { coords = vector4(349.82, -583.33, 43.02, 152.08), taken = false, model = -1091386327 },
-                { coords = vector4(326.98, -576.17, 43.02, 152.08), taken = false, model = -1091386327 },
+                { coords = vector4(1120.29, -1538.55, 34.97, 274.85),   taken = false, model = 1631638868 },
+                { coords = vector4(1123.33, -1538.46, 34.97, 270.35), taken = false, model = 1631638868 },
+                { coords = vector4(1126.25, -1538.44, 34.97, 267.66),  taken = false, model = 2117668672 },
+                { coords = vector4(1125.71, -1546.96, 34.97, 273.43),   taken = false, model = 2117668672 },
+                { coords = vector4(1122.62, -1547.04, 34.97, 270.58),  taken = false, model = 2117668672 },
+                { coords = vector4(1119.47, -1547.12, 34.97, 274.88), taken = false, model = -1091386327 },
+                -- { coords = vector4(349.82, -583.33, 43.02, 152.08), taken = false, model = -1091386327 },
+                -- { coords = vector4(326.98, -576.17, 43.02, 152.08), taken = false, model = -1091386327 },
             },
         },
         -- {
@@ -107,7 +107,7 @@ Config.Locations = {                -- Edit the various interaction points for p
         -- },
     },
     ['stations'] = {
-        { label = Lang:t('info.pb_hospital'), coords = vector3(304.27, -600.33, 43.28) }
+        { label = Lang:t('info.pb_hospital'), coords = vector3(1140.09, -1539.48, 35.38) }
     }
 }
 
