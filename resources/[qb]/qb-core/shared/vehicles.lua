@@ -764,6 +764,7 @@ local Vehicles = {
     { model = 'polamggtr',          name = 'HSR police 1',                   brand = 'Mercy',           price = 100000,  category = 'service',        type = 'automobile', shop = 'none' },
     --- Luxury
     { model = 'ZX10R',          name = 'ZX10R',                   brand = 'Kawasaki',           price = 100000,  category = 'Luxury',        type = 'bike', shop = 'luxury' },
+    { model = 'cb500f23',          name = 'CB 500 F',                   brand = 'Honda',           price = 100000,  category = 'Luxury',        type = 'bike', shop = 'luxury' },
     --- EMS (1)
     { model = 'ambulance',       name = 'Ambulance',                     brand = 'Brute',           price = 0,  category = 'ems',      type = 'automobile', shop = 'none' },
     { model = 'blazer2',         name = 'Blazer Lifeguard',              brand = 'Nagasaki',        price = 0,    category = 'ems',        type = 'automobile', shop = 'none' },
