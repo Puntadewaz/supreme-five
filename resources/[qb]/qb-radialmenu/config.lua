@@ -196,6 +196,14 @@ Config.MenuItems = {
         event = 'g-billing:client:engageChooseBillViewMenu',
         shouldClose = true
     },
+    [5] = {
+        id = 'document',
+        title = 'Document',
+        icon = 'file',
+        type = 'client',
+        event = 'k5_documents:useItem',
+        shouldClose = true
+    },
 }
 
 Config.VehicleSeats = {

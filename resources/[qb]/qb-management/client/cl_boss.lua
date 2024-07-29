@@ -64,22 +64,30 @@ RegisterNetEvent('qb-bossmenu:client:OpenMenu', function()
             }
         },
         {
-            header = Lang:t('body.storage'),
-            txt = Lang:t('body.storaged'),
-            icon = 'fa-solid fa-box-open',
+            header = 'Company Money',
+            txt = 'Manage Company Money',
+            icon = 'fa-solid fa-money-bill',
             params = {
-                isServer = true,
-                event = 'qb-bossmenu:server:stash',
+                event = 'qb-bossmenu:client:HireMenu',
             }
         },
-        {
-            header = Lang:t('body.outfits'),
-            txt = Lang:t('body.outfitsd'),
-            icon = 'fa-solid fa-shirt',
-            params = {
-                event = 'qb-bossmenu:client:Wardrobe',
-            }
-        }
+        -- {
+        --     header = Lang:t('body.storage'),
+        --     txt = Lang:t('body.storaged'),
+        --     icon = 'fa-solid fa-box-open',
+        --     params = {
+        --         isServer = true,
+        --         event = 'qb-bossmenu:server:stash',
+        --     }
+        -- },
+        -- {
+        --     header = Lang:t('body.outfits'),
+        --     txt = Lang:t('body.outfitsd'),
+        --     icon = 'fa-solid fa-shirt',
+        --     params = {
+        --         event = 'qb-bossmenu:client:Wardrobe',
+        --     }
+        -- }
     }
 
     for _, v in pairs(DynamicMenuItems) do

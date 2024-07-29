@@ -1342,6 +1342,17 @@ return {
 		}
 	},
 
+	["patientcard"] = {
+		label = "Patient Card",
+		weight = 0,
+		stack = false,
+		close = false,
+		description = "A card containing all your medical information to identify yourself in hospital",
+		client = {
+			image = "patient_card.png",
+		}
+	},
+
 	["thermalscope_attachment"] = {
 		label = "Thermal Scope",
 		weight = 1000,

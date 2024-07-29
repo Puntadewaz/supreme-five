@@ -38,18 +38,37 @@ return {
 	},
 
 	{
-		coords = vector3(-2210.05, -385.72, 13.32),
+		coords = vector3(1147.11, -1557.85, 35.38),
 		target = {
-			loc = vector3(-2210.05, -385.72, 13.32),
+			loc = vector3(1147.11, -1557.85, 35.38),
 			length = 0.6,
 			width = 1.8,
 			heading = 340,
 			minZ = 43.34,
 			maxZ = 44.74,
-			label = 'Freezer'
+			label = 'Boss locker'
 		},
-		name = 'freezer',
-		label = 'Freezer',
+		name = 'emsbosslocker',
+		label = 'Boss Locker',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+		groups = {['ambulance'] = 4}
+	},
+
+	{
+		coords = vector3(-2213.41, -388.81, 13.32),
+		target = {
+			loc = vector3(-2213.41, -388.81, 13.32),
+			length = 0.6,
+			width = 1.8,
+			heading = 340,
+			minZ = 43.34,
+			maxZ = 44.74,
+			label = 'Locker Barang'
+		},
+		name = 'lockerbarang',
+		label = 'Locker Barang',
 		owner = false,
 		slots = 100,
 		weight = 5000000,
@@ -95,6 +114,25 @@ return {
 	},
 
 	{
+		coords = vector3(-2191.5, -398.53, 16.79),
+		target = {
+			loc = vector3(-2191.5, -398.53, 16.79),
+			length = 0.6,
+			width = 1.8,
+			heading = 340,
+			minZ = 43.34,
+			maxZ = 44.74,
+			label = 'Boss locker'
+		},
+		name = 'cafebosslocker',
+		label = 'Boss Locker',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+		groups = {['cafe'] = 4}
+	},
+
+	{
 		coords = vector3(-197.22, -1315.08, 31.09),
 		target = {
 			loc = vector3(-197.22, -1315.08, 31.09),
@@ -130,6 +168,25 @@ return {
 		slots = 70,
 		weight = 70000,
 		groups = {['mechanic'] = 0}
+	},
+
+	{
+		coords = vector3(-204.36, -1334.81, 34.89),
+		target = {
+			loc = vector3(-204.36, -1334.81, 34.89),
+			length = 0.6,
+			width = 1.8,
+			heading = 340,
+			minZ = 43.34,
+			maxZ = 44.74,
+			label = 'Boss locker'
+		},
+		name = 'mechanicbosslocker',
+		label = 'Boss Locker',
+		owner = false,
+		slots = 70,
+		weight = 70000,
+		groups = {['mechanic'] = 4}
 	},
 
 	{
