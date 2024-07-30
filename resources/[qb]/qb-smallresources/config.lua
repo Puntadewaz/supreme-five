@@ -51,22 +51,22 @@ Config.AIResponse = {
 -- To Set This Up visit https://forum.cfx.re/t/how-to-updated-discord-rich-presence-custom-image/157686
 Config.Discord = {
     isEnabled = true,                                     -- If set to true, then discord rich presence will be enabled
-    applicationId = '00000000000000000',                   -- The discord application id
-    iconLarge = '../../myLogo.png',                               -- The name of the large icon
-    iconLargeHoverText = 'This is a Large icon with text', -- The hover text of the large icon
-    iconSmall = '../../myLogo.png',                         -- The name of the small icon
-    iconSmallHoverText = 'This is a Small icon with text', -- The hover text of the small icon
+    applicationId = '1266454423786229802',                   -- The discord application id
+    iconLarge = 'big',                               -- The name of the large icon
+    iconLargeHoverText = 'ETERLIFE', -- The hover text of the large icon
+    iconSmall = '',                         -- The name of the small icon
+    iconSmallHoverText = '', -- The hover text of the small icon
     updateRate = 60000,                                    -- How often the player count should be updated
     showPlayerCount = true,                                -- If set to true the player count will be displayed in the rich presence
-    maxPlayers = 48,                                       -- Maximum amount of players
+    maxPlayers = 10,                                       -- Maximum amount of players
     buttons = {
         {
             text = 'Join Discord',
-            url = 'https://discord.gg/FdxeWT47R3'
+            url = 'https://discord.gg/Rsq5sc3HPq'
         },
         {
             text = 'Connect',
-            url = 'fivem://connect/26.205.79.253:30120'
+            url = 'fivem://connect/104.234.180.52:20009'
         }
     }
 }

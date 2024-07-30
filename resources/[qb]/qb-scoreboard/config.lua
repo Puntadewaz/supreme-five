@@ -1,7 +1,7 @@
 Config = Config or {}
 
 -- Open scoreboard key
-Config.OpenKey = 'HOME' -- https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+Config.OpenKey = 'F5' -- https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
 
 Config.Toggle = true    -- If this is false the scoreboard stays open only when you hold the OpenKey button, if this is true the scoreboard will be openned and closed with the OpenKey button
 

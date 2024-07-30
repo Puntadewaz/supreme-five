@@ -132,10 +132,67 @@ return {
 		groups = {['cafe'] = 4}
 	},
 
+	-- {
+	-- 	coords = vector3(-197.22, -1315.08, 31.09),
+	-- 	target = {
+	-- 		loc = vector3(-197.22, -1315.08, 31.09),
+	-- 		length = 0.6,
+	-- 		width = 1.8,
+	-- 		heading = 340,
+	-- 		minZ = 43.34,
+	-- 		maxZ = 44.74,
+	-- 		label = 'Bangku Peralatan'
+	-- 	},
+	-- 	name = 'toolkitbench',
+	-- 	label = 'Bangku Peralatan',
+	-- 	owner = false,
+	-- 	slots = 100,
+	-- 	weight = 5000000,
+	-- 	groups = {['mechanic'] = 0}
+	-- },
+
+	-- {
+	-- 	coords = vector3(-201.38, -1315.02, 31.09),
+	-- 	target = {
+	-- 		loc = vector3(-201.38, -1315.02, 31.09),
+	-- 		length = 0.6,
+	-- 		width = 1.8,
+	-- 		heading = 340,
+	-- 		minZ = 43.34,
+	-- 		maxZ = 44.74,
+	-- 		label = 'Open personal locker'
+	-- 	},
+	-- 	name = 'mechanicpersonlocker',
+	-- 	label = 'Personal Locker',
+	-- 	owner = true,
+	-- 	slots = 70,
+	-- 	weight = 70000,
+	-- 	groups = {['mechanic'] = 0}
+	-- },
+
+	-- {
+	-- 	coords = vector3(-204.36, -1334.81, 34.89),
+	-- 	target = {
+	-- 		loc = vector3(-204.36, -1334.81, 34.89),
+	-- 		length = 0.6,
+	-- 		width = 1.8,
+	-- 		heading = 340,
+	-- 		minZ = 43.34,
+	-- 		maxZ = 44.74,
+	-- 		label = 'Boss locker'
+	-- 	},
+	-- 	name = 'mechanicbosslocker',
+	-- 	label = 'Boss Locker',
+	-- 	owner = false,
+	-- 	slots = 70,
+	-- 	weight = 70000,
+	-- 	groups = {['mechanic'] = 4}
+	-- },
+
 	{
-		coords = vector3(-197.22, -1315.08, 31.09),
+		coords = vector3(-205.43, -1330.15, 30.91),
 		target = {
-			loc = vector3(-197.22, -1315.08, 31.09),
+			loc = vector3(-205.43, -1330.15, 30.91),
 			length = 0.6,
 			width = 1.8,
 			heading = 340,
@@ -152,9 +209,9 @@ return {
 	},
 
 	{
-		coords = vector3(-201.38, -1315.02, 31.09),
+		coords = vector3(-214.5, -1336.04, 30.89),
 		target = {
-			loc = vector3(-201.38, -1315.02, 31.09),
+			loc = vector3(-214.5, -1336.04, 30.89),
 			length = 0.6,
 			width = 1.8,
 			heading = 340,
@@ -171,9 +228,9 @@ return {
 	},
 
 	{
-		coords = vector3(-204.36, -1334.81, 34.89),
+		coords = vector3(-195.36, -1336.3, 30.89),
 		target = {
-			loc = vector3(-204.36, -1334.81, 34.89),
+			loc = vector3(-195.36, -1336.3, 30.89),
 			length = 0.6,
 			width = 1.8,
 			heading = 340,

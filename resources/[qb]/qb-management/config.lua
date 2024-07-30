@@ -13,8 +13,11 @@ Config.BossMenus = {
     cardealer = {
         vector3(-32.48, -1115.46, 26.42),
     },
+    -- mechanic = {
+    --     vector3(-205.14, -1334.91, 34.33),
+    -- },
     mechanic = {
-        vector3(-205.14, -1334.91, 34.33),
+        vector3(-195.94, -1337.4, 30.47),
     },
     cafe = {
         vector3(-2191.13, -400.29, 16.7),
