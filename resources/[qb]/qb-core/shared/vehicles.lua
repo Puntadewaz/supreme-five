@@ -433,6 +433,18 @@ local Vehicles = {
     { model = 'CBR1000RRR',        name = 'CBR FIREBLADE',                     brand = 'HONDA',         price = 50000,   category = 'limited',    type = 'bike',       shop = 'none' },
     { model = 'cayman16',        name = 'Cayman',                     brand = 'porsche',         price = 50000,   category = 'limited',    type = 'car',       shop = 'none' },
     { model = 'nh2r',        name = 'H2R',                     brand = 'Kawasaki',         price = 50000,   category = 'limited',    type = 'bike',       shop = 'luxury' },
+    { model = 'bmwm4',        name = 'M4',                     brand = 'BMW',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'gr86',        name = '86',                     brand = 'Toyota',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'FK8',        name = 'Civic FK8',                     brand = 'Honda',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'nsxrb',        name = 'NSX Rocket Bunny',                     brand = 'Honda',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'stingray',        name = 'Stingray',                     brand = 'Corvette',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'goldwing',        name = 'Goldwing',                     brand = 'Honda',         price = 50000,   category = 'limited',    type = 'bike',       shop = 'luxury' },
+    { model = 'diavel',        name = 'Diavel',                     brand = 'Ducati',         price = 50000,   category = 'limited',    type = 'bike',       shop = 'luxury' },
+    { model = 'mx5326',        name = 'Miata',                     brand = 'Mazda',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'mvso',        name = 'Brutale',                     brand = 'MV AGUSTA',         price = 50000,   category = 'limited',    type = 'bike',       shop = 'luxury' },
+    { model = 'lp700r',        name = 'Aventador',                     brand = 'Lamborghini',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'lp610',        name = 'Huracan',                     brand = 'Lamborghini',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'xg632019',        name = 'G63',                     brand = 'Mercy',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
     --- Electric
     { model = 'ocni422spe',      name = 'BMWi4',            brand = 'BMW',          price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
     { model = 'ocnlamtmc',      name = 'Terzo',            brand = 'Lamborghini',          price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
@@ -451,6 +463,11 @@ local Vehicles = {
     { model = 'sportage',          name = 'Sportage',                        brand = 'KIA',            price = 22000000,  category = 'PDM ONLY',          type = 'automobile', shop = 'pdm' },
     { model = '24crvhybrid',          name = 'CR-V',                        brand = 'Honda',            price = 25000000,  category = 'PDM ONLY',          type = 'automobile', shop = 'pdm' },
     { model = 'deluxo',          name = 'Deluxo',                        brand = 'Imponte',         price = 55000,   category = 'PDM ONLY', type = 'automobile', shop = 'pdm' },
+    { model = 'atwin2023',          name = 'Africa Twin',                        brand = 'Honda',         price = 55000,   category = 'PDM ONLY', type = 'bike', shop = 'pdm' },
+    { model = 'hrv2024',          name = 'HRV',                        brand = 'Honda',         price = 22000000,   category = 'PDM ONLY', type = 'automobile', shop = 'pdm' },
+    { model = '25pronbrt',        name = 'ZX25R',                     brand = 'Kawasaki',         price = 15500000,   category = 'PDM ONLY',    type = 'bike',       shop = 'pdm' },
+
+
     --- Motorcycles (8)
     { model = 'akuma',           name = 'Akuma',                         brand = 'Dinka',           price = 55000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
     { model = 'avarus',          name = 'Avarus',                        brand = 'LCC',             price = 20000,   category = 'motorcycles',    type = 'bike',       shop = 'pdm' },
