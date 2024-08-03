@@ -465,7 +465,7 @@ local Vehicles = {
     { model = 'deluxo',          name = 'Deluxo',                        brand = 'Imponte',         price = 55000,   category = 'PDM ONLY', type = 'automobile', shop = 'pdm' },
     { model = 'atwin2023',          name = 'Africa Twin',                        brand = 'Honda',         price = 55000,   category = 'PDM ONLY', type = 'bike', shop = 'pdm' },
     { model = 'hrv2024',          name = 'HRV',                        brand = 'Honda',         price = 22000000,   category = 'PDM ONLY', type = 'automobile', shop = 'pdm' },
-    { model = '25pronbrt',        name = 'ZX25R',                     brand = 'Kawasaki',         price = 15500000,   category = 'PDM ONLY',    type = 'bike',       shop = 'pdm' },
+    { model = '25r',        name = 'ZX25R',                     brand = 'Kawasaki',         price = 15500000,   category = 'PDM ONLY',    type = 'bike',       shop = 'pdm' },
 
 
     --- Motorcycles (8)
