@@ -450,6 +450,10 @@ local Vehicles = {
     { model = 'z419',        name = 'Z4',                     brand = 'BMW',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
     { model = 'rapide',        name = 'Rapide',                     brand = 'Aston Martin',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
     { model = 'fd',        name = 'RX7',                     brand = 'Mazda',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'oycgt20',        name = 'Ford GT',                     brand = 'FORD',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'f812',        name = 'Ferrari 812',                     brand = 'Ferrari',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'oycm3',        name = 'M3',                     brand = 'BMW',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+
     --- Electric
     { model = 'ocni422spe',      name = 'BMWi4',            brand = 'BMW',          price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
     { model = 'ocnlamtmc',      name = 'Terzo',            brand = 'Lamborghini',          price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
