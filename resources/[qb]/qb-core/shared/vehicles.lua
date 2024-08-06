@@ -446,6 +446,10 @@ local Vehicles = {
     { model = 'lp610',        name = 'Huracan',                     brand = 'Lamborghini',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
     { model = 'xg632019',        name = 'G63',                     brand = 'Mercy',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
     { model = 'roma22',        name = 'Roma',                     brand = 'Ferrari',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'g5502019',        name = 'G Class',                     brand = 'Mercy',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'bmwz4',        name = 'Z4',                     brand = 'BMW',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'rapide',        name = 'Rapide',                     brand = 'Aston Martin',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
+    { model = 'fd',        name = 'RX7',                     brand = 'Mazda',         price = 50000,   category = 'limited',    type = 'automobile',       shop = 'luxury' },
     --- Electric
     { model = 'ocni422spe',      name = 'BMWi4',            brand = 'BMW',          price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
     { model = 'ocnlamtmc',      name = 'Terzo',            brand = 'Lamborghini',          price = 2845000,  category = 'limited',          type = 'automobile', shop = 'none' },
