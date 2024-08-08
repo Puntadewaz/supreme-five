@@ -21,5 +21,6 @@ vcf_files = {
     "hwaycar10.xml",
     "tflatbed4.xml",
     "policeold1.xml",
-    "policeold2.xml"
+    "policeold2.xml",
+    "policegt350r"
 }
