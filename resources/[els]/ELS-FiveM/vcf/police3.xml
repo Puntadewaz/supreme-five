@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- ELS VEHICLE CONFIGURATION FILE -->
-<vcfroot Description="Sample VCF" Author="Luxart" >
+<vcfroot Description="Police3" Author="Masterschwag" >
 	<!-- INTERFACE -->
 	<INTERFACE>
 		<LstgActivationType>manual</LstgActivationType>
@@ -19,9 +19,9 @@
 		<Extra07 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="-0.40" OffsetY="-0.80" OffsetZ="0.40" />
 		<Extra08 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.00" OffsetY="-0.80" OffsetZ="0.40" />
 		<Extra09 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.40" OffsetY="-0.80" OffsetZ="0.40" />
-		<Extra10 IsElsControlled="false" />
-		<Extra11 IsElsControlled="false" />
-		<Extra12 IsElsControlled="false" />
+		<Extra10 IsElsControlled="true" />
+		<Extra11 IsElsControlled="true" />
+		<Extra12 IsElsControlled="true" />
 	</EOVERRIDE>
 	<!-- MISC -->
 	<MISC>
@@ -40,7 +40,7 @@
 	<!-- AUX CORONAS -->
 	<ACORONAS>
 		<Headlights DfltPattern="1" ColorL="white" ColorR="white" />
-		<TailLights DfltPattern="0" ColorL="red" ColorR="red" />
+		<TailLights DfltPattern="1" ColorL="red" ColorR="red" />
 		<IndicatorsF DfltPattern="0" ColorL="white" ColorR="white" />
 		<IndicatorsB DfltPattern="0" ColorL="red" ColorR="red" />
 		<ReverseLights DfltPattern="0" ColorL="white" ColorR="white" />
@@ -78,10 +78,10 @@
 		</ScanPatternCustomPool>
 	</WRNL>
 	<!-- PRML -->
-	<PRML LightingFormat="DRO2" ExtrasActiveAtLstg2="2and3" >
+	<PRML LightingFormat="leds" ExtrasActiveAtLstg2="1and4" >
 		<PresetPatterns>
-			<Lstg2 Enabled="true" Pattern="80" />
-			<Lstg3 Enabled="true" Pattern="80" />
+			<Lstg2 Enabled="false" Pattern="0" />
+			<Lstg3 Enabled="false" Pattern="0" />
 		</PresetPatterns>
 		<ForcedPatterns>
 			<MainHorn Enabled="false" Pattern="0" />
@@ -99,11 +99,11 @@
 		</ScanPatternCustomPool>
 	</PRML>
 	<!-- SECL -->
-	<SECL LightingFormat="leds" DisableAtLstg3="true" >
+	<SECL LightingFormat="leds" DisableAtLstg3="false" >
 		<PresetPatterns>
-			<Lstg1 Enabled="true" Pattern="0" />
-			<Lstg2 Enabled="true" Pattern="0" />
-			<Lstg3 Enabled="true" Pattern="0" />
+			<Lstg1 Enabled="false" Pattern="0" />
+			<Lstg2 Enabled="false" Pattern="0" />
+			<Lstg3 Enabled="false" Pattern="0" />
 		</PresetPatterns>
 		<ForcedPatterns>
 			<MainHorn Enabled="false" Pattern="0" />
