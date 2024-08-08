@@ -22,5 +22,5 @@ vcf_files = {
     "tflatbed4.xml",
     "policeold1.xml",
     "policeold2.xml",
-    "policegt350r"
+    "policegt350r.xml"
 }
